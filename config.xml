@@ -1,0 +1,14 @@
+<CONFIG>
+	<SECTION NAME="MAIN">
+		<OPTION NAME="CHANNELS_FILE" VALUE="channels.xml" DESCR="path to channels xml file" />
+		<OPTION NAME="PLUGINS_DIR" VALUE="plugins" DESCR="path to plugins directory" />
+	</SECTION>
+	<SECTION NAME="WP">
+		<OPTION NAME="DAYS" VALUE="1" DESCR="number of days to import schedule for" />
+	</SECTION>
+	<SECTION NAME="xmltv">
+		<OPTION NAME="OUTPUT_FILE" VALUE="xmltv.xml" DESCR="XMLTV outpu file name" />
+		<OPTION NAME="HEADER_ENCODING" VALUE="ISO-8859-2" DESCR="XMLTV output file header encoding" />
+		<OPTION NAME="TIMEZONE" VALUE="+0100" DESCR="GMT offset for timezone" />
+	</SECTION>
+</CONFIG>

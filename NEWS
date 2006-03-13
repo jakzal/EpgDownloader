@@ -1,0 +1,3 @@
+13-03-2006
+EpgDownloader was completely rewritten! It is now plugin based and for now on only two plugins are availeble (for good start).
+WP plugin now works completely different. It could be slower but it's now less dependent for website changes.

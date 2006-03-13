@@ -1,0 +1,44 @@
+0.6.4 (13-03-2006)
+- complete rebuild, application was rewritten, it is now more elastic and no more VDR dependent
+- WP import plugin (it could be slower but more stable and less tv.wp.pl website changes dependent)
+- xmltv export plugin
+
+0.5.3 (08-01-2006)
+- actualised channels.parser list for TVMovie parser (thanks to Joachim Rosegnal for notice that tvmovie.de changed channels list) - added NICK, Das Vierte channels and removed NBC, MTV2, TVMunchen, tv.nrw channels
+
+0.5.2 (03-01-2006)
+- actualised channels.parser list for WP parser
+
+0.5.1 (02-01-2006)
+- improved xmltv output (changed channel id, start and stop date)
+
+0.5.0 (01-01-2006)
+- removed support for o3.volny.cz (site doesn't exists)
+- added support for xmltv output (first approach)
+
+0.4.4 (30-07-2005)
+
+- fixed getUnixDate behaviour at the end of the month
+- getUnixDate and getDateString methods moved from controllers to Misc class
+
+0.4.3 (18-07-2005)
+
+- downloads schedule from www.tvmovie.de
+
+0.4.2 (10-07-2005)
+
+- downloads schedule from o3.volny.cz (TV OCKO)
+
+0.4.1 (09-07-2005)
+
+- fixed InteriaController url
+
+0.4 (09-07-2005)
+
+- downloads schedule from tv.interia.pl
+- fixed string trimming in GenericParser
+
+0.3 (21-06-2005)
+
+- downloads schedule from tv.wp.pl
+- exports schedule to epg.data
