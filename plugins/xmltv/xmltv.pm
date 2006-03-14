@@ -57,7 +57,7 @@ sub save {
 	my $timezone = $self->{'plugin_config'}->get('TIMEZONE');
 	my $time = time2str("%Y%m%d%H%M%S",time)." ".$timezone;
 	
-	Misc::pluginMessage(PLUGIN_NAME,"Saving schedule.");
+	Misc::pluginMessage(PLUGIN_NAME,"Saving schedule to $fileName");
 
 	open(FILE, "> $fileName")
 		or Misc::pluginMessage(

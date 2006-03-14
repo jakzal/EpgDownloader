@@ -1,48 +1,6 @@
 <CHANNELS>
-	<IMPORT NAME="WP" CHANNEL="Ale Kino!" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=85">
-		<EXPORT NAME="xmltv" CHANNEL="ALE KINO!" />
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="ssss">
-		<EXPORT NAME="xmltv" CHANNEL="TVP 1" />
-	</IMPORT>
-
-	<IMPORT NAME="WP" CHANNEL="Premiere: Krimi & Co" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=207">
-		<EXPORT NAME="xmltv" CHANNEL="Premiere: Krimi & Co" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TVP 2">
-		<EXPORT NAME="xmltv" CHANNEL="TVP2" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="HBO">
-		<EXPORT NAME="xmltv" CHANNEL="HBO" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="HBO 2">
-		<EXPORT NAME="xmltv" CHANNEL="HBO 2" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Kino Polska">
-		<EXPORT NAME="xmltv" CHANNEL="Kino Polska" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Ale Kino">
-		<EXPORT NAME="xmltv" CHANNEL="Ale Kino" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="CANAL+">
-		<EXPORT NAME="xmltv" CHANNEL="Canal+" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="CANAL+ Film">
-		<EXPORT NAME="xmltv" CHANNEL="Canal+ Film" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="RTL (polski)">
-		<EXPORT NAME="xmltv" CHANNEL="RTL (polski)" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Tele Zuri *">
-		<EXPORT NAME="xmltv" CHANNEL="Tele Zuri *" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="CANAL + (franc.)">
-		<EXPORT NAME="xmltv" CHANNEL="CANAL + (franc.)" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="ÈT 1 (polski)">
-		<EXPORT NAME="xmltv" CHANNEL="ÈT 1 (polski)" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="PRE: Fox Kids">
-		<EXPORT NAME="xmltv" CHANNEL="PRE: Fox Kids" />
+		<EXPORT NAME="xmltv" CHANNEL="Jedynka" />
+		<EXPORT NAME="vdr" CHANNEL="TVP 1" />
 	</IMPORT>
 </CHANNELS>

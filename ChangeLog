@@ -1,3 +1,6 @@
+0.6.5 (14-03-2006-?)
+- VDR export plugin
+
 0.6.4 (13-03-2006)
 - complete rebuild, application was rewritten, it is now more elastic and no more VDR dependent
 - WP import plugin (it could be slower but more stable and less tv.wp.pl website changes dependent)

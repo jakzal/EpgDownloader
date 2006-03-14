@@ -11,4 +11,9 @@
 		<OPTION NAME="HEADER_ENCODING" VALUE="ISO-8859-2" DESCR="XMLTV output file header encoding" />
 		<OPTION NAME="TIMEZONE" VALUE="+0100" DESCR="GMT offset for timezone" />
 	</SECTION>
+	<SECTION NAME="vdr">
+		<OPTION NAME="CHANNELS_CONF" VALUE="/video/channels.conf" DESCR="Video Disk Recorder channels configuration file" />
+		<OPTION NAME="OUTPUT_FILE" VALUE="epg.data" DESCR="Video Disk Recorder epg.data output file" />
+		<OPTION NAME="START_EPISODE_ID" VALUE="1" />
+	</SECTION>
 </CONFIG>

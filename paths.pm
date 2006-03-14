@@ -2,6 +2,7 @@
 #If you expierienced problems with plugin includes, just remove everything except th elast line with "1;"
 
 use plugins::WP::WP;
+use plugins::vdr::vdr;
 use plugins::xmltv::xmltv;
 
 1;
