@@ -69,13 +69,16 @@ sub save {
 	print FILE "<?xml version=\"1.0\" encoding=\"".$self->{'plugin_config'}->get('HEADER_ENCODING')."\"?>\n";
 	print FILE "<tv date=\"".$time."\" generator-info-name=\"".GENERATOR_INFO_NAME."\" generator-info-url=\"".GENERATOR_INFO_URL."\">\n";
 
-
+	my $channelCount=0;
 	foreach my $channel (keys(%{$events})) {
 		my $channelEvents = $events->{$channel};
 		next if $#{$channelEvents} == -1;
 		
+		$channelCount++;
+		my $channelId = $channelCount."_".$channel;
+		
 		#save channel node
-		print FILE "\t<channel id=\"".$channel."\">\n";
+		print FILE "\t<channel id=\"".$channelId."\">\n";
 		print FILE "\t\t<display-name>".$channel."</display-name>\n";
 		print FILE "\t</channel>\n";
 		
@@ -90,7 +93,7 @@ sub save {
 			$description =~ s/&/&amp;/;
 			
 			#save channel's event node
-			print FILE "\t<programme channel=\"".$channel."\" start=\"".$start."\" stop=\"".$stop."\">\n";
+			print FILE "\t<programme channel=\"".$channelId."\" start=\"".$start."\" stop=\"".$stop."\">\n";
 			print FILE "\t\t<title>".$title."</title>\n";
 			print FILE "\t\t<desc>".$description."\n\t\t</desc>\n";
 			print FILE "\t</programme>\n";
