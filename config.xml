@@ -4,7 +4,7 @@
 		<OPTION NAME="PLUGINS_DIR" VALUE="plugins" DESCR="path to plugins directory" />
 	</SECTION>
 	<SECTION NAME="WP">
-		<OPTION NAME="DAYS" VALUE="1" DESCR="number of days to import schedule for" />
+		<OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import schedule for" />
 	</SECTION>
 	<SECTION NAME="xmltv">
 		<OPTION NAME="OUTPUT_FILE" VALUE="xmltv.xml" DESCR="XMLTV outpu file name" />

@@ -1,6 +1,152 @@
 <CHANNELS>
-	<IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="ssss">
-		<EXPORT NAME="xmltv" CHANNEL="Jedynka" />
-		<EXPORT NAME="vdr" CHANNEL="TVP 1" />
+	<IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
+		<EXPORT NAME="xmltv" CHANNEL="CANAL+" />
+		<EXPORT NAME="vdr" CHANNEL="CANAL+;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">
+		<EXPORT NAME="xmltv" CHANNEL="CANAL+ FILM" />
+		<EXPORT NAME="vdr" CHANNEL="CANAL+ FILM;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=1">
+		<EXPORT NAME="xmltv" CHANNEL="TVP 1" />
+		<EXPORT NAME="vdr" CHANNEL="TVP 1;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=17">
+		<EXPORT NAME="xmltv" CHANNEL="TVN" />
+		<EXPORT NAME="vdr" CHANNEL="TVN;TVN Grupa ITI" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVP 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=2">
+		<EXPORT NAME="xmltv" CHANNEL="TVP 2" />
+		<EXPORT NAME="vdr" CHANNEL="TVP 2;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TV Polonia" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=3">
+		<EXPORT NAME="xmltv" CHANNEL="TV Polonia" />
+		<EXPORT NAME="vdr" CHANNEL="TV POLONIA" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TV Kultura" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=368">
+		<EXPORT NAME="xmltv" CHANNEL="TVP Kultura" />
+		<EXPORT NAME="vdr" CHANNEL="TVP Kultura;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TV 4" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=18">
+		<EXPORT NAME="vdr" CHANNEL="TV 4;CYFRA +" />
+		<EXPORT NAME="xmltv" CHANNEL="TV 4" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVN 7" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=238">
+		<EXPORT NAME="xmltv" CHANNEL="TVN 7" />
+		<EXPORT NAME="vdr" CHANNEL="TVN Siedem;TVN" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVN 24" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=151">
+		<EXPORT NAME="xmltv" CHANNEL="TVN 24" />
+		<EXPORT NAME="vdr" CHANNEL="TVN 24;TVN Grupa ITI" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="HBO" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=14">
+		<EXPORT NAME="xmltv" CHANNEL="HBO" />
+		<EXPORT NAME="vdr" CHANNEL="HBO;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="HBO 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=201">
+		<EXPORT NAME="xmltv" CHANNEL="HB0 2" />
+		<EXPORT NAME="vdr" CHANNEL="HBO2;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Extreme Sports" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=79">
+		<EXPORT NAME="xmltv" CHANNEL="Extreme Sports" />
+		<EXPORT NAME="vdr" CHANNEL="EXTREME SPORTS;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVN Turbo" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=265">
+		<EXPORT NAME="xmltv" CHANNEL="TVN Turbo" />
+		<EXPORT NAME="vdr" CHANNEL="TVN TURBO;TVN GRUPA ITI" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVN Style" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=375">
+		<EXPORT NAME="xmltv" CHANNEL="TVN Style" />
+		<EXPORT NAME="vdr" CHANNEL="TVN Style;TVN Grupa ITI" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Reality TV" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=84">
+		<EXPORT NAME="xmltv" CHANNEL="Reality TV" />
+		<EXPORT NAME="vdr" CHANNEL="REALITY TV;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Ale Kino!" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=85">
+		<EXPORT NAME="xmltv" CHANNEL="Ale Kino!" />
+		<EXPORT NAME="vdr" CHANNEL="ALE KINO!;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Kino Polska" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=205">
+		<EXPORT NAME="xmltv" CHANNEL="Kino Polska" />
+		<EXPORT NAME="vdr" CHANNEL="KINO POLSKA;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Polonia 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=8">
+		<EXPORT NAME="xmltv" CHANNEL="Polonia 1" />
+		<EXPORT NAME="vdr" CHANNEL="Polonia 1" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TV Puls" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=235">
+		<EXPORT NAME="xmltv" CHANNEL="TV Puls" />
+		<EXPORT NAME="vdr" CHANNEL="TV Puls" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="VIVA Polska" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=92">
+		<EXPORT NAME="xmltv" CHANNEL="Viva Polska" />
+		<EXPORT NAME="vdr" CHANNEL="VIVA polska;Deutsche Telekom AG" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="AXN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=174">
+		<EXPORT NAME="xmltv" CHANNEL="AXN" />
+		<EXPORT NAME="vdr" CHANNEL="AXN;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Discovery" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=67">
+		<EXPORT NAME="xmltv" CHANNEL="Discovery" />
+		<EXPORT NAME="vdr" CHANNEL="DISCOVERY;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Discovery Science" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=356">
+		<EXPORT NAME="xmltv" CHANNEL="Discovery Science" />
+		<EXPORT NAME="vdr" CHANNEL="SCIENCE;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Discovery Travel & Living" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=196">
+		<EXPORT NAME="xmltv" CHANNEL="Discovery Travel" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Discovery Civilisation" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=186">
+		<EXPORT NAME="xmltv" CHANNEL="Discovery Civilisation" />
+		<EXPORT NAME="vdr" CHANNEL="CIVILISATION;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="National Geographic" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=360">
+		<EXPORT NAME="xmltv" CHANNEL="National Geographic" />
+		<EXPORT NAME="vdr" CHANNEL="NATIONAL GEO;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Animal Planet" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=355">
+		<EXPORT NAME="xmltv" CHANNEL="Animal Planet" />
+		<EXPORT NAME="vdr" CHANNEL="ANIMAL PLANET;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Travel" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=261">
+		<EXPORT NAME="xmltv" CHANNEL="Travel" />
+		<EXPORT NAME="vdr" CHANNEL="TRAVEL;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Europa Europa" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=267">
+		<EXPORT NAME="xmltv" CHANNEL="Europa Europa" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Hallmark" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=75">
+		<EXPORT NAME="xmltv" CHANNEL="Hallmark" />
+		<EXPORT NAME="vdr" CHANNEL="HALLMARK;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Tele 5" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=16">
+		<EXPORT NAME="xmltv" CHANNEL="Tele 5" />
+		<EXPORT NAME="vdr" CHANNEL="Tele5;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Club" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=71">
+		<EXPORT NAME="xmltv" CHANNEL="Club" />
+		<EXPORT NAME="vdr" CHANNEL="CLUB;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Fox Kids" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=74">
+		<EXPORT NAME="xmltv" CHANNEL="Fox Kids" />
+		<EXPORT NAME="vdr" CHANNEL="JETIX;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Cartoon Network" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=361">
+		<EXPORT NAME="xmltv" CHANNEL="Cartoon Network" />
+		<EXPORT NAME="vdr" CHANNEL="Cartoon Network" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="ZigZap" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=217">
+		<EXPORT NAME="xmltv" CHANNEL="Zig Zap" />
+		<EXPORT NAME="vdr" CHANNEL="ZigZap;CYFRA +" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Planete" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=15">
+		<EXPORT NAME="vdr" CHANNEL="PLANETE;CYFRA +" />
+		<EXPORT NAME="xmltv" CHANNEL="Planete" />
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="BBC Prime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=93">
+		<EXPORT NAME="xmltv" CHANNEL="BBC Prime" />
+		<EXPORT NAME="vdr" CHANNEL="BBC PRIME;CYFRA +" />
 	</IMPORT>
 </CHANNELS>

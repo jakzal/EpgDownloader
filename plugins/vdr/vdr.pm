@@ -1,7 +1,6 @@
 package vdr;
 use constant PLUGIN_NAME => vdr;
 use plugins::vdr::include::ConfigVdr;
-use Date::Format;
 use strict;
 
 =pod
@@ -79,8 +78,8 @@ sub save {
 			my $event = $events->{$channel}->[$i];
 			my $title = $event->get('title');
 			my $description = $event->get('description');
-			my $start = time2str("%Y%m%d%H%M00",$event->get('start'));
-			my $stop = time2str("%Y%m%d%H%M00",$event->get('stop'));
+			my $start = $event->get('start');
+			my $stop = $event->get('stop');
 			
 			$title =~ s/\n/ /g;
 			$description =~ s/\n/ /g;
@@ -113,6 +112,11 @@ sub getChannelString {
 	close(CHANNELS_FILE);
 
 	my $channelString = "";
+
+	#special treatment for '+', '(', ')'
+	$channel =~ s/\+/\\\+/g;
+	$channel =~ s/\(/\\\(/g;
+	$channel =~ s/\)/\\\)/g;
 	
 	if($content =~ s/(.*?)($channel)(.*?)\n(.*)/$2$3/smi) {
 		my @row = split( /:/, $content );
