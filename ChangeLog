@@ -1,5 +1,6 @@
 0.6.5 (14-03-2006)
 - VDR export plugin
+- fixed WP plugin behaviour when no tv schedule is available
 
 0.6.4 (13-03-2006)
 - complete rebuild, application was rewritten, it is now more elastic and no more VDR dependent
