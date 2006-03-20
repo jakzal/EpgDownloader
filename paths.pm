@@ -4,5 +4,6 @@
 use plugins::WP::WP;
 use plugins::vdr::vdr;
 use plugins::xmltv::xmltv;
+use plugins::TvMovieDe::TvMovieDe;
 
 1;

@@ -4,7 +4,10 @@
 		<OPTION NAME="PLUGINS_DIR" VALUE="plugins" DESCR="path to plugins directory" />
 	</SECTION>
 	<SECTION NAME="WP">
-		<OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import schedule for" />
+		<OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import WP schedule for" />
+	</SECTION>
+	<SECTION NAME="TvMovieDe">
+		<OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import TvMovieDe schedule for" />
 	</SECTION>
 	<SECTION NAME="xmltv">
 		<OPTION NAME="OUTPUT_FILE" VALUE="xmltv.xml" DESCR="XMLTV outpu file name" />
@@ -15,6 +18,6 @@
 	<SECTION NAME="vdr">
 		<OPTION NAME="CHANNELS_CONF" VALUE="/video/channels.conf" DESCR="Video Disk Recorder channels configuration file" />
 		<OPTION NAME="OUTPUT_FILE" VALUE="epg.data" DESCR="Video Disk Recorder epg.data output file" />
-		<OPTION NAME="START_EPISODE_ID" VALUE="1" />
+		<OPTION NAME="START_EPISODE_ID" VALUE="1" "epg.data start episode id. Usefull when you want to append data to this file."/>
 	</SECTION>
 </CONFIG>

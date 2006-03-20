@@ -89,14 +89,16 @@ sub save {
 			my $description = $event->get('description');
 			my $start = time2str("%Y%m%d%H%M00",$event->get('start'))." ".$timezone;
 			my $stop = time2str("%Y%m%d%H%M00",$event->get('stop'))." ".$timezone;
+			my $category = $event->get('category');
 			
-			$title =~ s/&/&amp;/;
-			$description =~ s/&/&amp;/;
+			$title =~ s/&/&amp;/g;
+			$description =~ s/&/&amp;/g;
 			
 			#save channel's event node
 			print FILE "\t<programme channel=\"".$channelId."\" start=\"".$start."\" stop=\"".$stop."\">\n";
 			print FILE "\t\t<title>".$title."</title>\n";
 			print FILE "\t\t<desc>".$description."\n\t\t</desc>\n";
+			print FILE "\t\t<category>".$category."</category>\n" if $category !~ /^$/;
 			print FILE "\t</programme>\n";
 		}
 	}

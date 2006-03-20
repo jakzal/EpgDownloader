@@ -1,116 +1,39 @@
 <CHANNELS>
+
 	<IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
 		<EXPORT NAME="xmltv" CHANNEL="CANAL+" />
 	</IMPORT>
+
 	<IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">
 		<EXPORT NAME="xmltv" CHANNEL="CANAL+ FILM" />
 	</IMPORT>
+
 	<IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=1">
 		<EXPORT NAME="xmltv" CHANNEL="TVP 1" />
 	</IMPORT>
+
 	<IMPORT NAME="WP" CHANNEL="TVN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=17">
 		<EXPORT NAME="xmltv" CHANNEL="TVN" />
 	</IMPORT>
+
 	<IMPORT NAME="WP" CHANNEL="TVP 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=2">
 		<EXPORT NAME="xmltv" CHANNEL="TVP 2" />
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TV Polonia" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=3">
-		<EXPORT NAME="xmltv" CHANNEL="TV Polonia" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TV Kultura" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=368">
-		<EXPORT NAME="xmltv" CHANNEL="TVP Kultura" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TV 4" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=18">
-		<EXPORT NAME="xmltv" CHANNEL="TV 4" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TVN 7" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=238">
-		<EXPORT NAME="xmltv" CHANNEL="TVN 7" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TVN 24" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=151">
-		<EXPORT NAME="xmltv" CHANNEL="TVN 24" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="HBO" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=14">
-		<EXPORT NAME="xmltv" CHANNEL="HBO" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="HBO 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=201">
-		<EXPORT NAME="xmltv" CHANNEL="HB0 2" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Extreme Sports" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=79">
-		<EXPORT NAME="xmltv" CHANNEL="Extreme Sports" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TVN Turbo" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=265">
-		<EXPORT NAME="xmltv" CHANNEL="TVN Turbo" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TVN Style" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=375">
-		<EXPORT NAME="xmltv" CHANNEL="TVN Style" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Reality TV" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=84">
-		<EXPORT NAME="xmltv" CHANNEL="Reality TV" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Ale Kino!" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=85">
-		<EXPORT NAME="xmltv" CHANNEL="Ale Kino!" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Kino Polska" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=205">
-		<EXPORT NAME="xmltv" CHANNEL="Kino Polska" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Polonia 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=8">
-		<EXPORT NAME="xmltv" CHANNEL="Polonia 1" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TV Puls" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=235">
-		<EXPORT NAME="xmltv" CHANNEL="TV Puls" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="VIVA Polska" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=92">
-		<EXPORT NAME="xmltv" CHANNEL="Viva Polska" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="AXN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=174">
-		<EXPORT NAME="xmltv" CHANNEL="AXN" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Discovery" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=67">
-		<EXPORT NAME="xmltv" CHANNEL="Discovery" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Discovery Science" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=356">
-		<EXPORT NAME="xmltv" CHANNEL="Discovery Science" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Discovery Travel & Living" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=196">
-		<EXPORT NAME="xmltv" CHANNEL="Discovery Travel" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Discovery Civilisation" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=186">
-		<EXPORT NAME="xmltv" CHANNEL="Discovery Civilisation" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="National Geographic" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=360">
-		<EXPORT NAME="xmltv" CHANNEL="National Geographic" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Animal Planet" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=355">
-		<EXPORT NAME="xmltv" CHANNEL="Animal Planet" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Travel" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=261">
-		<EXPORT NAME="xmltv" CHANNEL="Travel" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Europa Europa" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=267">
-		<EXPORT NAME="xmltv" CHANNEL="Europa Europa" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Hallmark" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=75">
-		<EXPORT NAME="xmltv" CHANNEL="Hallmark" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Tele 5" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=16">
-		<EXPORT NAME="xmltv" CHANNEL="Tele 5" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Club" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=71">
-		<EXPORT NAME="xmltv" CHANNEL="Club" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Fox Kids" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=74">
-		<EXPORT NAME="xmltv" CHANNEL="Fox Kids" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Cartoon Network" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=361">
-		<EXPORT NAME="xmltv" CHANNEL="Cartoon Network" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="ZigZap" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=217">
-		<EXPORT NAME="xmltv" CHANNEL="Zig Zap" />
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Planete" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=15">
-		<EXPORT NAME="xmltv" CHANNEL="Planete" />
-	</IMPORT>
+
 	<IMPORT NAME="WP" CHANNEL="BBC Prime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=93">
 		<EXPORT NAME="xmltv" CHANNEL="BBC Prime" />
 	</IMPORT>
+
+	<IMPORT NAME="TvMovieDe" CHANNEL="KI.KA" DESCR="36">
+		<EXPORT NAME="xmltv" CHANNEL="KiKa" />
+	</IMPORT>
+
+	<IMPORT NAME="TvMovieDe" CHANNEL="NICK" DESCR="37">
+		<EXPORT NAME="xmltv" CHANNEL="Nick" />
+	</IMPORT>
+
+	<IMPORT NAME="TvMovieDe" CHANNEL="MTV" DESCR="38">
+		<EXPORT NAME="xmltv" CHANNEL="MTV" />
+	</IMPORT>
+
 </CHANNELS>
