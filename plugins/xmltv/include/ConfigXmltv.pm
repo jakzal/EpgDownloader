@@ -42,7 +42,8 @@ sub defaults {
 	return {
 		'OUTPUT_FILE'		=> 'xmltv.xml',
 		'HEADER_ENCODING'	=> 'ISO-8859-1',
-		'TIMEZONE'		=> '+0100'
+		'TIMEZONE'		=> '+0100',
+		'UNIQUE_CHANNEL_PREFIX'	=> '1'
 	};
 }
 

@@ -75,7 +75,8 @@ sub save {
 		next if $#{$channelEvents} == -1;
 		
 		$channelCount++;
-		my $channelId = $channelCount."_".$channel;
+		my $channelId = $channel;
+		$channelId = $channelCount."_".$channelId if $self->{'plugin_config'}->get('UNIQUE_CHANNEL_PREFIX') eq "1";
 		
 		#save channel node
 		print FILE "\t<channel id=\"".$channelId."\">\n";

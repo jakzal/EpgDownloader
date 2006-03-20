@@ -1,7 +1,7 @@
 0.6.5 (14-03-2006)
 - VDR export plugin
 - fixed WP plugin behaviour when no tv schedule is available
-- adden UNIQUE_CHANNEL_PREFIX option to xmltv plugin which decides if add unique channel prefix to channel ids in xmltv file
+- adden UNIQUE_CHANNEL_PREFIX option to xmltv plugin which decides if add unique channel prefix to channel ids in xmltv file (thanks to Jan Hagemajer for request and mythtv consultations)
 
 0.6.4 (13-03-2006)
 - complete rebuild, application was rewritten, it is now more elastic and no more VDR dependent

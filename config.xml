@@ -10,6 +10,7 @@
 		<OPTION NAME="OUTPUT_FILE" VALUE="xmltv.xml" DESCR="XMLTV outpu file name" />
 		<OPTION NAME="HEADER_ENCODING" VALUE="ISO-8859-2" DESCR="XMLTV output file header encoding" />
 		<OPTION NAME="TIMEZONE" VALUE="+0100" DESCR="GMT offset for timezone" />
+		<OPTION NAME="UNIQUE_CHANNEL_PREFIX" VALUE="1" DESCR="Set to 1 adds unique preffix to channel ids" />
 	</SECTION>
 	<SECTION NAME="vdr">
 		<OPTION NAME="CHANNELS_CONF" VALUE="/video/channels.conf" DESCR="Video Disk Recorder channels configuration file" />
