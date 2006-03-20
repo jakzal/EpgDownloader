@@ -1,7 +1,0 @@
-13-03-2006
-EpgDownloader was completely rewritten! It is now plugin based and for now on only two plugins are availeble (for good start).
-WP plugin now works completely different. It could be slower but it's now less dependent for website changes.
-14-03-2006
-Added new VDR plugin with export support
-21-03-2005
-Added TvMovieDe import plugin
