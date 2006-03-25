@@ -1,3 +1,16 @@
+0.6
 - xmltv import plugin
 - VDR import plugin
 - Interia import plugin
+- script for automagic channels.xml file generation
+
+0.7
+- add more import plugins (first make a list of websites from which import is possible)
+
+1.0
+- first stable release with full funcionality and few plugins
+- full documantation and howtos
+
+Ideas for consideration:
+- data cache
+- output encoding
