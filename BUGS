@@ -1,4 +1,2 @@
 1. Application crashes if one of plugins was deleted.
 Solution: Clear the plugins path file paths.pm, by putting there "1;"
-
-2.Xml config and channel files doesn't respect comments.

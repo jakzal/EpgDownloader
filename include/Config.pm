@@ -60,6 +60,9 @@ sub new {
 	$content =~ s/(\s){2,}/ /smg;
 	$content =~ s/(\s<)/</smg;
 
+	#remove comments
+	$content =~ s/<!--(.*?)\-\-\>//smg;
+	
 	#special treatment for '+'
 	$content =~ s/\+/\\+/smg;
 

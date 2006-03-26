@@ -62,6 +62,9 @@ sub new {
 	$content =~ s/(\s){2,}/ /smg;
 	$content =~ s/(\s<)/</smg;
 
+	#remove comments
+	$content =~ s/<!--(.*?)\-\-\>//smg;
+	
 	my $availablePlugins = " ".join(" ", @{$plugins})." ";
 	my $importPluginsTree = {};
 	my $exportPluginsTree = {};
