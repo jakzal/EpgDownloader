@@ -1,23 +1,30 @@
 <CONFIG>
+
 	<SECTION NAME="MAIN">
 		<OPTION NAME="CHANNELS_FILE" VALUE="channels.xml" DESCR="path to channels xml file" />
 		<OPTION NAME="PLUGINS_DIR" VALUE="plugins" DESCR="path to plugins directory" />
 	</SECTION>
+
 	<SECTION NAME="WP">
 		<OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import WP schedule for" />
 	</SECTION>
+
 	<SECTION NAME="TvMovieDe">
 		<OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import TvMovieDe schedule for" />
 	</SECTION>
+
 	<SECTION NAME="xmltv">
-		<OPTION NAME="OUTPUT_FILE" VALUE="xmltv.xml" DESCR="XMLTV outpu file name" />
+		<OPTION NAME="OUTPUT_FILE" VALUE="xmltv.xml" DESCR="XMLTV output file name" />
+		<OPTION NAME="INPUT_FILE" VALUE="xmltv_in.xml" DESCR="XMLTV input file name" />
 		<OPTION NAME="HEADER_ENCODING" VALUE="ISO-8859-2" DESCR="XMLTV output file header encoding" />
 		<OPTION NAME="TIMEZONE" VALUE="+0100" DESCR="GMT offset for timezone" />
 		<OPTION NAME="UNIQUE_CHANNEL_PREFIX" VALUE="1" DESCR="Set to 1 adds unique preffix to channel ids" />
 	</SECTION>
+
 	<SECTION NAME="vdr">
 		<OPTION NAME="CHANNELS_CONF" VALUE="/video/channels.conf" DESCR="Video Disk Recorder channels configuration file" />
 		<OPTION NAME="OUTPUT_FILE" VALUE="epg.data" DESCR="Video Disk Recorder epg.data output file" />
 		<OPTION NAME="START_EPISODE_ID" VALUE="1" "epg.data start episode id. Usefull when you want to append data to this file."/>
 	</SECTION>
+
 </CONFIG>

@@ -3,6 +3,7 @@ use constant PLUGIN_NAME => xmltv;
 use constant GENERATOR_INFO_NAME => EpgDownloader;
 use constant GENERATOR_INFO_URL => "http://epgdownloader.sourceforge.net";
 use Date::Format;
+use Date::Parse;
 use plugins::xmltv::include::ConfigXmltv;
 use strict;
 
@@ -14,7 +15,7 @@ xmltv - EpgDownloader plugin
 
 =head1 DESCRIPTION
 
-This plugin can save tv schedule in xmltv format. In future also import should be implemented.
+This plugin can save tv schedule in xmltv format. It is able to read it as well.
 
 =head1 COPYRIGHT
 
@@ -45,6 +46,77 @@ sub get {
 	my $name = shift;
 	
 	my $events = [];
+	my $fileName = $self->{'plugin_config'}->get('INPUT_FILE');
+	
+	Misc::pluginMessage(PLUGIN_NAME,"Getting schedule for ".$name," ");
+
+	open( FILE, "<$fileName" ) 
+		or Misc::pluginMessage(
+			PLUGIN_NAME,
+			"Cant't open '$fileName' file: $!")
+		&& return $events;
+	
+	my $prevLimiter = $/;
+	$/ = undef;
+	my $content = <FILE>;
+	$/ = $prevLimiter;
+	close( FILE );
+	
+	#parse file content
+	$content =~ s/(.*?)<tv(.*?)>(.*?)<\/tv>(.*)/$3/smi;
+	$content =~ s/(\s){2,}/ /smg;
+	$content =~ s/(\s<)/</smg;
+
+	#remove comments
+	$content =~ s/<!--(.*?)\-\-\>//smg;
+	
+	#special treatment for '+', '(', ')'
+	$name =~ s/\+/\\\+/g;
+	$name =~ s/\(/\\\(/g;
+	$name =~ s/\)/\\\)/g;
+
+	my $foundDays = {};
+	
+	while($content =~ s/<programme channel="$name" start="(.*?)" stop="(.*?)"(.*?)>(.*?)<\/programme>(.*)/$5/smi) {
+		my $start = $1;
+		my $stop = $2;
+		my $data = $4;
+		
+		$start =~ s/([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})(\s)(.*)/$1-$2-$3 $4:$5/;
+		my $startTimeZone = $6;
+		my $day = $3;
+		$stop =~ s/([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})(\s)(.*)/$1-$2-$3 $4:$5/;
+		my $stopTimeZone = $6;
+		
+		my $title = "";
+		$title = $2 if $data =~ /<title(.*?)>(.*?)<\/title>/smi;
+		my $description = "";
+		$description = $2 if $data =~ /<desc(.*?)>(.*?)<\/desc>/smi;
+		my $category = "";
+		$category = $2 if $data =~ /<category(.*?)>(.*?)<\/category>/smi;
+		
+		$title =~ s/&amp;/&/g;
+		$description =~ s/&amp;/&/g;
+		
+		#create event
+		my $event = Event->new();
+		$event->set('start',str2time($start,$startTimeZone));
+		$event->set('stop',str2time($stop,$stopTimeZone));
+		$event->set('title',$title);
+		$event->set('description',$description);
+		$event->set('category',$category);
+		
+		#put event to the events array
+		push @{$events}, $event;
+		
+		if(!exists($foundDays->{$day})) {
+			$foundDays->{$day} = 1;
+			Misc::pluginMessage("","#"," ");
+		}
+	}
+	
+	Misc::pluginMessage("","");
+	
 	return $events;
 }
 

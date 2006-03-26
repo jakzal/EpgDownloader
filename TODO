@@ -1,5 +1,4 @@
 0.6
-- xmltv import plugin
 - VDR import plugin
 - Interia import plugin
 - script for automagic channels.xml file generation
@@ -14,3 +13,4 @@
 Ideas for consideration:
 - data cache
 - output encoding
+- work a little to improve performance
