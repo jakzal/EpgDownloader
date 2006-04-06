@@ -23,7 +23,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>.
 
-Date: march 2006
+Date: march, april 2006
 
 =cut
 
@@ -162,12 +162,15 @@ sub save {
 			my $event = $events->{$channel}->[$i];
 			my $title = $event->get('title');
 			my $description = $event->get('description');
+			my $description2 = $event->get('description2');
 			my $start = time2str("%Y%m%d%H%M00",$event->get('start'))." ".$timezone;
 			my $stop = time2str("%Y%m%d%H%M00",$event->get('stop'))." ".$timezone;
 			my $category = $event->get('category');
 			
 			$title =~ s/&/&amp;/g;
 			$description =~ s/&/&amp;/g;
+			$description2 =~ s/&/&amp;/g;
+			$description = "\n".$description2 if $description2 !~ /^$/;
 			
 			#save channel's event node
 			print FILE "\t<programme channel=\"".$channelId."\" start=\"".$start."\" stop=\"".$stop."\">\n";

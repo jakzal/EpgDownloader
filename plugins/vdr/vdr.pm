@@ -11,7 +11,7 @@ vdr - EpgDownloader plugin
 
 =head1 DESCRIPTION
 
-This plugin can save tv schedule in epg.data format of Video Disk Recorder. In future also import should be implemented.
+This plugin can save tv schedule in epg.data format of Video Disk Recorder. 
 
 =head1 COPYRIGHT
 
