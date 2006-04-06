@@ -24,6 +24,7 @@
 	<SECTION NAME="vdr">
 		<OPTION NAME="CHANNELS_CONF" VALUE="/video/channels.conf" DESCR="Video Disk Recorder channels configuration file" />
 		<OPTION NAME="OUTPUT_FILE" VALUE="epg.data" DESCR="Video Disk Recorder epg.data output file" />
+		<OPTION NAME="INPUT_FILE" VALUE="/video/epg.data" DESCR="Video Disk Recorder epg.data input file" />
 		<OPTION NAME="START_EPISODE_ID" VALUE="1" DESCR="epg.data start episode id. Usefull when you want to append data to this file."/>
 	</SECTION>
 

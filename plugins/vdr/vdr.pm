@@ -19,7 +19,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>.
 
-Date: march 2006
+Date: march, april 2006
 
 =cut
 
@@ -36,13 +36,70 @@ sub new {
 	return $self;
 }
 
-#gets single channel name and returns events list
+#gets channel names list and returns events list
 sub get {
 	my $self = shift;
-	my $name = shift;
+	my $channels = shift;
 	
-	my $events = [];
-	return $events;
+	my $fileName = $self->{'plugin_config'}->get('INPUT_FILE');
+	
+	open(FILE, "<$fileName")
+			or Misc::pluginMessage(
+				PLUGIN_NAME,
+				"Cant't open '$fileName' file: $!")
+			&& return $channels;
+	
+	my $read = 0;
+	my $name = "";
+	my $channelInfo = "";
+	my $events;
+	my $event;
+	while(<FILE>) {
+		my $line = $_;
+		
+		if($line =~ /^C (.*?) (.*?)(\;.*|\s)$/) {
+			if(exists($channels->{$2})) {
+				my $chInfo = $1;
+				$name = $2;
+				
+				$channelInfo = $self->getChannelString($name)."\n";
+				$channelInfo =~ s/^(.*?)\s(.*)\n$/$1/;
+				next if $channelInfo ne $chInfo;
+				
+				Misc::pluginMessage(PLUGIN_NAME,"Getting schedule for ".$name," ");
+				
+				$events = $channels->{$name};
+				
+				$event = Event->new();
+				
+				$read = 1;
+				
+				next;
+			} else {
+				$read = 0;
+			}
+		} elsif($read == 1) {
+			if($line =~ /^E (.*?) (.*?) (.*?) (.*)/) {
+				$event->set('start', $2);
+				$event->set('stop', $2+$3);
+			} elsif($line =~ /^T (.*)\n$/) {
+				$event->set('title', $1);
+			} elsif($line =~ /^D (.*)\n$/) {
+				$event->set('description', $1);
+			} elsif($line =~ /^S (.*)\n$/) {
+				$event->set('description2', $1);
+			} elsif($line =~ /^e/) {
+				push @{$events}, $event;
+			} elsif($line =~ /^c/) {
+				$read = 0;
+				Misc::pluginMessage("","");
+			}
+		}
+	}
+	
+	close(FILE);
+	
+	return $channels;
 }
 
 #gets channels list with each one's events and exports it
@@ -78,6 +135,7 @@ sub save {
 			my $event = $events->{$channel}->[$i];
 			my $title = $event->get('title');
 			my $description = $event->get('description');
+			my $description2 = $event->get('description2');
 			my $start = $event->get('start');
 			my $stop = $event->get('stop');
 			
@@ -86,7 +144,8 @@ sub save {
 			
 			print FILE "E ".$episodeId++." ".$start." ".($stop-$start)." 0\n";
 			print FILE "T ".$title."\n";
-			print FILE "D ".$description."\n";
+			print FILE "D ".$description."\n" if $description !~ /^$/;;
+			print FILE "S ".$description2."\n" if $description2 !~ /^$/;
 			print FILE "e\n";
 
 		}
@@ -118,7 +177,7 @@ sub getChannelString {
 	$channel =~ s/\(/\\\(/g;
 	$channel =~ s/\)/\\\)/g;
 	
-	if($content =~ s/(.*?)($channel)(.*?)\n(.*)/$2$3/smi) {
+	if($content =~ s/(.*?)^($channel)(.*?)\n(.*)/$2$3/smi) {
 		my @row = split( /:/, $content );
 		$channelString = $row[3]."-".$row[10]."-".$row[11]."-".$row[9]." ".$row[0];
 	}

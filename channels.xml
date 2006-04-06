@@ -2,6 +2,7 @@
 
 	<IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
 		<EXPORT NAME="xmltv" CHANNEL="CANAL+" />
+		<EXPORT NAME="vdr" CHANNEL="CANAL+;CYFRA +" />
 	</IMPORT>
 
 	<IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">

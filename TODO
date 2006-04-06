@@ -15,4 +15,3 @@ Ideas for consideration:
 - data cache
 - output encoding
 - work a little to improve performance
-- modify get method of input plugins to get all needed channels instead of one

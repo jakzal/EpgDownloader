@@ -42,6 +42,7 @@ sub defaults {
 	return {
 		'CHANNELS_CONF'		=> '/video/channels.conf',
 		'OUTPUT_FILE'		=> 'epg.data',
+		'INPUT_FILE'		=> '/video/epg.data',
 		'START_EPISODE_ID'	=> '1'
 	};
 }

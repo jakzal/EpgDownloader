@@ -2,4 +2,5 @@
 Solution: Clear the plugins path file paths.pm, by putting there "1;"
 
 2. TvMovieDe plugin stopped work because of website mechanism changes.
-Solution: Plugin must be rewritten.
+
+3. WP plugin ommits the following day when running after midnight.
