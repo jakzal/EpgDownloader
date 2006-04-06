@@ -23,7 +23,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>.
 
-Date: march 2006
+Date: march, april 2006
 
 =cut
 

@@ -23,7 +23,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>.
 
-Date: march 2006
+Date: march, april 2006
 
 =cut
 
@@ -77,11 +77,10 @@ sub get {
 			my $dateString = time2str("%Y-%m-%d",time+(60*60*24*($i-1)));
 			my $dateUnix = str2time($dateString);
 			my $date_url = "";
-	
+			
 			$browser->get($base_uri."&T[date]=".$dateString."&T[time]=0") if $i>1;
 		
 			my $content = $browser->content();
-			
 			if($content !~ s/(.*)<table(.*?)>(.*?)Program na(.*?)<\/table>(.*)/$4/sm) {
 				Misc::pluginMessage("","");
 				Misc::pluginMessage(
