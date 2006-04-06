@@ -84,7 +84,7 @@ sub new {
 		
 		$importPluginsTree->{$importName} = {} if !exists($importPluginsTree->{$importName});
 		
-		$importPluginsTree->{$importName}->{$importChannel} = {} if !exists($importPluginsTree->{$importName}->{$importChannel});
+		$importPluginsTree->{$importName}->{$importChannel} = [] if !exists($importPluginsTree->{$importName}->{$importChannel});
 		
 		#special treatment for '+'
 		$exportContent =~ s/\+/\\+/smg;
@@ -124,10 +124,11 @@ sub convert {
 	foreach my $importPluginName (keys(%{$self->{'import'}})) {
 		my $importPlugin = $importPluginName->new($self->{'config'});
 		
-		foreach my $importChannelName (keys(%{$self->{'import'}->{$importPluginName}})) {
-			$self->{'import'}->{$importPluginName}->{$importChannelName} = $importPlugin->get($importChannelName);
-
-		}
+		$self->{'import'}->{$importPluginName} = $importPlugin->get($self->{'import'}->{$importPluginName});
+		
+# 		foreach my $importChannelName (keys(%{$self->{'import'}->{$importPluginName}})) {
+# 			$self->{'import'}->{$importPluginName}->{$importChannelName} = $importPlugin->get($importChannelName);
+# 		}
 	}
 	
 	#export

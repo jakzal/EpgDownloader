@@ -40,84 +40,87 @@ sub new {
 	return $self;
 }
 
-#gets single channel name and returns events list
+#gets channel names list and returns events list
 sub get {
 	my $self = shift;
-	my $name = shift;
+	my $channels = shift;
 	
-	my $events = [];
 	my $fileName = $self->{'plugin_config'}->get('INPUT_FILE');
 	
-	Misc::pluginMessage(PLUGIN_NAME,"Getting schedule for ".$name," ");
+	foreach my $name (keys(%{$channels})) {
+		Misc::pluginMessage(PLUGIN_NAME,"Getting schedule for ".$name," ");
 
-	open( FILE, "<$fileName" ) 
-		or Misc::pluginMessage(
-			PLUGIN_NAME,
-			"Cant't open '$fileName' file: $!")
-		&& return $events;
+		my $events = $channels->{$name};
 	
-	my $prevLimiter = $/;
-	$/ = undef;
-	my $content = <FILE>;
-	$/ = $prevLimiter;
-	close( FILE );
+		open( FILE, "<$fileName" ) 
+			or Misc::pluginMessage(
+				PLUGIN_NAME,
+				"Cant't open '$fileName' file: $!")
+			&& return $channels;
 	
-	#parse file content
-	$content =~ s/(.*?)<tv(.*?)>(.*?)<\/tv>(.*)/$3/smi;
-	$content =~ s/(\s){2,}/ /smg;
-	$content =~ s/(\s<)/</smg;
+		my $prevLimiter = $/;
+		$/ = undef;
+		my $content = <FILE>;
+		$/ = $prevLimiter;
+		close( FILE );
+		
+		#parse file content
+		$content =~ s/(.*?)<tv(.*?)>(.*?)<\/tv>(.*)/$3/smi;
+		$content =~ s/(\s){2,}/ /smg;
+		$content =~ s/(\s<)/</smg;
 
-	#remove comments
-	$content =~ s/<!--(.*?)\-\-\>//smg;
+		#remove comments
+		$content =~ s/<!--(.*?)\-\-\>//smg;
 	
-	#special treatment for '+', '(', ')'
-	$name =~ s/\+/\\\+/g;
-	$name =~ s/\(/\\\(/g;
-	$name =~ s/\)/\\\)/g;
+		#special treatment for '+', '(', ')'
+		$name =~ s/\+/\\\+/g;
+		$name =~ s/\(/\\\(/g;
+		$name =~ s/\)/\\\)/g;
 
-	my $foundDays = {};
+		my $foundDays = {};
 	
-	while($content =~ s/<programme channel="$name" start="(.*?)" stop="(.*?)"(.*?)>(.*?)<\/programme>(.*)/$5/smi) {
-		my $start = $1;
-		my $stop = $2;
-		my $data = $4;
+		while($content =~ s/<programme channel="$name" start="(.*?)" stop="(.*?)"(.*?)>(.*?)<\/programme>(.*)/$5/smi) {
+			my $start = $1;
+			my $stop = $2;
+			my $data = $4;
 		
-		$start =~ s/([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})(\s)(.*)/$1-$2-$3 $4:$5/;
-		my $startTimeZone = $6;
-		my $day = $3;
-		$stop =~ s/([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})(\s)(.*)/$1-$2-$3 $4:$5/;
-		my $stopTimeZone = $6;
+			$start =~ s/([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})(\s)(.*)/$1-$2-$3 $4:$5/;
+			my $startTimeZone = $6;
+			my $day = $3;
+			$stop =~ s/([0-9]{4})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})(\s)(.*)/$1-$2-$3 $4:$5/;
+			my $stopTimeZone = $6;
 		
-		my $title = "";
-		$title = $2 if $data =~ /<title(.*?)>(.*?)<\/title>/smi;
-		my $description = "";
-		$description = $2 if $data =~ /<desc(.*?)>(.*?)<\/desc>/smi;
-		my $category = "";
-		$category = $2 if $data =~ /<category(.*?)>(.*?)<\/category>/smi;
+			my $title = "";
+			$title = $2 if $data =~ /<title(.*?)>(.*?)<\/title>/smi;
+			my $description = "";
+			$description = $2 if $data =~ /<desc(.*?)>(.*?)<\/desc>/smi;
+			my $category = "";
+			$category = $2 if $data =~ /<category(.*?)>(.*?)<\/category>/smi;
 		
-		$title =~ s/&amp;/&/g;
-		$description =~ s/&amp;/&/g;
+			$title =~ s/&amp;/&/g;
+			$description =~ s/&amp;/&/g;
 		
-		#create event
-		my $event = Event->new();
-		$event->set('start',str2time($start,$startTimeZone));
-		$event->set('stop',str2time($stop,$stopTimeZone));
-		$event->set('title',$title);
-		$event->set('description',$description);
-		$event->set('category',$category);
+			#create event
+			my $event = Event->new();
+			$event->set('start',str2time($start,$startTimeZone));
+			$event->set('stop',str2time($stop,$stopTimeZone));
+			$event->set('title',$title);
+			$event->set('description',$description);
+			$event->set('category',$category);
 		
-		#put event to the events array
-		push @{$events}, $event;
+			#put event to the events array
+			push @{$events}, $event;
 		
-		if(!exists($foundDays->{$day})) {
-			$foundDays->{$day} = 1;
-			Misc::pluginMessage("","#"," ");
+			if(!exists($foundDays->{$day})) {
+				$foundDays->{$day} = 1;
+				Misc::pluginMessage("","#"," ");
+			}
 		}
+	
+		Misc::pluginMessage("","");
 	}
 	
-	Misc::pluginMessage("","");
-	
-	return $events;
+	return $channels;
 }
 
 #gets channels list with each one's events and exports it
