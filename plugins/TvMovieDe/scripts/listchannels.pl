@@ -3,7 +3,7 @@
 #config
 use constant OUTPUT_FILE => "../channels.xml";
 use constant PLUGIN_NAME => TvMovieDe;
-use constant LIST_URL => "http://www.tvmovie.de/finder?finder=listing&html=/refresh/technik/tv-programm/listingfinder.htm";
+use constant LIST_URL => "http://tvmovie.de/TV_nach_Sendern.22.0.html";
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
 
 #include
@@ -43,7 +43,7 @@ $browser->get(LIST_URL);
 
 my $content = $browser->content();
 
-if($content !~ s/(.*)<select name="sender">(.*?)<\/select>(.*)/$2/sm) {
+if($content !~ s/(.*)<select name="senderid\[\]"(.*?)>(.*?)<\/select>(.*)/$3/sm) {
 	print "Unable to find channels list.\n";
 	exit;
 }
@@ -52,9 +52,11 @@ open(FILE,">".OUTPUT_FILE);
 
 print FILE "<CHANNELS>\n";
 
-while($content =~ s/(.*?)<option value="(.*?)">(.*?)\n(.*)/$4/sm) {
+while($content =~ s/(.*?)<option value="(.*?)">(.*?)<\/option>(.*)/$4/sm) {
 	my $url = $2;
 	my $channel = $3;
+	
+	next if $url =~ /^$/;
 	
 	print FILE "\t<IMPORT NAME=\"".PLUGIN_NAME."\" CHANNEL=\"".$channel."\" DESCR=\"".$url."\">\n";
 	print FILE "\t</IMPORT>\n";
