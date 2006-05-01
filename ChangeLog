@@ -4,6 +4,8 @@
 - Changed import plugins mechanizm. Now get method gets full channels list not just one. Now some plugins may be optimised for speed.
 - added vdr import
 - added short description to xmltv import and vdr export
+- fixed TvMovieDe import plugin
+- fixed TvMovieDe channels list generation (listchannels.pl)
 
 0.6.5 (21-03-2006)
 - added TvMoveDe import plugin
