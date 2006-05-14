@@ -12,7 +12,7 @@ ConfigTvMovieDe - represents the TvMovieDe plugin configuration
 =head1 SYNOPSIS
 
  use include::ConfigTvMovieDe;
- $config = ConifgTvMovieDe->new('fileName.xml');
+ $config = ConfigTvMovieDe->new('fileName.xml');
 
 =head1 DESCRIPTION
 

@@ -141,6 +141,7 @@ sub save {
 			
 			$title =~ s/\n/ /g;
 			$description =~ s/\n/ /g;
+			$description2 =~ s/\n/ /g;
 			
 			print FILE "E ".$episodeId++." ".$start." ".($stop-$start)." 0\n";
 			print FILE "T ".$title."\n";

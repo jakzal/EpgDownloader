@@ -12,7 +12,7 @@ ConfigWP - represents the WP plugin configuration
 =head1 SYNOPSIS
 
  use include::ConfigWP;
- $config = ConifgWP->new('fileName.xml');
+ $config = ConfigWP->new('fileName.xml');
 
 =head1 DESCRIPTION
 
@@ -40,7 +40,8 @@ sub new {
 
 sub defaults {
 	return {
-		'DAYS'		=> '1'
+		'DAYS'			=> '1',
+		'FULL_DESCRIPTION' 	=> '0'
 	};
 }
 

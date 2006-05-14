@@ -1,8 +1,26 @@
 <CHANNELS>
+	<IMPORT NAME="EuroTV" CHANNEL="BBC1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbc1">
+		<EXPORT NAME="xmltv" CHANNEL="BBC 1" />
+	</IMPORT>
+
+	<IMPORT NAME="EuroTV" CHANNEL="AB 3" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slab3">
+		<EXPORT NAME="xmltv" CHANNEL="AB 3" />
+	</IMPORT>
+
+	<IMPORT NAME="MiGuiaTV" CHANNEL="ETB2" DESCR="http://www.miguiatv.com/programacion/etb2.html">
+		<EXPORT NAME="xmltv" CHANNEL="etb2" />
+	</IMPORT>
+	
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal33" DESCR="http://www.miguiatv.com/programacion/canal33.html">
+		<EXPORT NAME="xmltv" CHANNEL="canal33" />
+	</IMPORT>
+
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+" DESCR="http://www.miguiatv.com/programacion/canal-plus.html">
+		<EXPORT NAME="xmltv" CHANNEL="Canal+" />
+	</IMPORT>
 
 	<IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
 		<EXPORT NAME="xmltv" CHANNEL="CANAL+" />
-		<EXPORT NAME="vdr" CHANNEL="CANAL+;CYFRA +" />
 	</IMPORT>
 
 	<IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">
@@ -35,6 +53,10 @@
 
 	<IMPORT NAME="TvMovieDe" CHANNEL="MTV" DESCR="38">
 		<EXPORT NAME="xmltv" CHANNEL="MTV" />
+	</IMPORT>
+
+	<IMPORT NAME="Interia" CHANNEL="MTV Deutsch (Deut.)" DESCR="http://tv.interia.pl/program?ids=84&stacje_full=1">
+		<EXPORT NAME="xmltv" CHANNEL="MTV Deutsch" />
 	</IMPORT>
 
 </CHANNELS>

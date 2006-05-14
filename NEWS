@@ -1,0 +1,13 @@
+- WP plugin is now able to import full episode's description. 
+  To use it set FULL_DESCRIPTION option to '1'. 
+  Notice that script must send individual request for every episode 
+  to get its description. That's why it's VERY slow.
+
+- New Interia plugin allows to import tv-schedule from tv.interia website.
+  It has similar capabilitis to WP plugin but additionally it sets episode's 
+  category (which could be usefull with xmltv export).
+
+- New MiGuiaTV plugin allows to import tv-schedule from www.miguiatv.com website.
+
+- New EuroTV plugin allows to import tv-schedule from www.eurotv.com website
+

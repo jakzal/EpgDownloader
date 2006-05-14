@@ -1,9 +1,9 @@
 0.6
-- Interia import plugin
 - script for automagic channels.xml file generation
+- prepare sample channels.xml file
 
 0.7
-- add more import plugins (first make a list of websites from which import is possible)
+- work a little to improve performance
 
 1.0
 - first stable release with full funcionality and few plugins
@@ -12,4 +12,3 @@
 Ideas for consideration:
 - data cache
 - output encoding
-- work a little to improve performance

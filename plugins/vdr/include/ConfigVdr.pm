@@ -12,7 +12,7 @@ ConfigVdr - represents the vdr plugin configuration
 =head1 SYNOPSIS
 
  use include::ConfigVdr;
- $config = ConifgVdr->new('fileName.xml');
+ $config = ConfigVdr->new('fileName.xml');
 
 =head1 DESCRIPTION
 

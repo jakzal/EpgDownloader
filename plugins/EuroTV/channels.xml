@@ -1,0 +1,330 @@
+<CHANNELS>
+	<IMPORT NAME="EuroTV" CHANNEL="13 ème rue" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sl13r">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="AB 3" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slab3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="AB 4" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slab4">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="AB Channel 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slabch1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="AB Moteurs" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slaut">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Action" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slacti">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Adventure 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slad1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Al Jazeera Channel" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slalj">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Animaux" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slanim">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Antena 3" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slan3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="ARTE" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slartef">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BBC Prime" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbcpr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BBC WORLD" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbcw">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BBC1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbc1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BBC2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbc2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BE 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbeprm">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BE 1 + 1h" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbepl1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BE CINE 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbeci1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BE CINE 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbeci2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BE SPORT 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbesp1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="BE SPORT 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbesp2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Best Direct" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbes">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Best Direct +" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sllet">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Bloomberg Television (Asia Pacific)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbla">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Bloomberg Television (France)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slblf">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Bloomberg Television (Italy)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbli">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Bloomberg Television (UK) (BSkyB)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slblu">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal + France" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcpfr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal + Spain" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcpsp">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal 33" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slca33">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal 9" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcan9">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal J" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcanj">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal Sur" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcsur">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="CANAL+ 16/9." DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sl169h">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal+ Blauw" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcn2h">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal+ Geel" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcn3h">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canal+ Rood" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcn1h">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Canvas" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcanv">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cartoon network" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltnt">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cartoons" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcar">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Chasse et pêche" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slCP">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="ChatBox" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcbx">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Classic" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcclas">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Emotion" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccin2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Frisson" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccin3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Premier" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccine">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cine Fx" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcinfx">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cine Polar" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcinp">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cinecinema famiz" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcins">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cinema Auteur" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcina">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Club RTL" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slclrtl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="CNN" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcnn">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Comédie" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcmd">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Deutsche Welle TV (UK)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldwu">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Discovery Channel" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldscn">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Disney Channel" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldsnc">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Disney Channel Scandinavia (Denmark)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldsd">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Disney Channel Scandinavia (Norway)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldcn">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Disney Channel Scandinavia (Sweden)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldss">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="E! Entertainment" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slent">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Encyclopedia" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slency">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Escales" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slescl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="ETB 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sletb1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="ETB 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sletb2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="EUREKA" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sleurk">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="EuroNews Fr." DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slenf">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="EuroSport" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sleurbd">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Eurosport." DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sleurfr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Fashion TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slfas">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Fox Kids" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slfxk">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="France 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slfr2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="France 3" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slfr3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Hallmark" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slhal">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="JIM" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sljimtv">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Jimmy" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sljimmy">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Kanaal Z" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slkaz">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="KANAALTWEE" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slka2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Ketnet" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbrt2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="La 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slla2sp">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="La 2." DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtb2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="La 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slla5">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="La Une" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtb1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="LCI" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sllci">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Liberty Tv (fr)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sllibfr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Liberty Tv (nl)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sllibdu">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Lunn Poly TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltdd">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="M6" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slm6">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Mangas" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slman">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MCM Belgique" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmcm">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Mezzo" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmezz">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MTV Netherland" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmtv">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 3" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 4" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt4">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt5">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 6" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt6">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="MultiVision 7" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmlt7">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Musique Classique" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmscl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="National Geographic" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slngc">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Nederland 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slne1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Nederland 2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slne2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Nederland 3" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slne3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Net 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slnet">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="NT1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slnt1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Odyssee" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slods">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Paris Première" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slppr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Phoenix Chinese News & Entertainment" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcne">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="PIWI" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slpiwi">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Planète Choc" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slforpl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Planete Premium" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slplan">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Playboy TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slplb">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Plug TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slprtl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Prime Action" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmov">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Prime Fezztival" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slfzz">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Prime Movies" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcag">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Prime One" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slfnt">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Prime Sport" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slps1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Prime Sport2" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slps2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="RTL 4" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtl4">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="RTL 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtl5">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="RTL 7" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtl7">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="RTL 9" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtl9">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="RTL-TVI" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltvi">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="RTP International" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtpi">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="SBS6" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slsbs">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Seasons (fr)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slseafr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Série Club" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slsclub">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Spice Platinum" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slspp">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TCM" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltcm">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Tele 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltele5">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Tele Madrid" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltmdr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Teletoon" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltltn">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Teletoon1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltltn1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Terra Nova" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltern">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TF1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltf1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TF6" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltf6">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="The Music Factory" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltmf">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Toute l'histoire" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slhist">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinéculte" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccult">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS CinéFamily" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcfam">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinéstar" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcst1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinétoile" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcie">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinextreme" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcextr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS Home Cinéma" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcst2">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TPS Star" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slstar">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Trace TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltrc">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Travel Channel (UK)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltcu">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TV1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbrt1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TV3 Spain" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltv3sp">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TV5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltv5">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TVE 1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltve1">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TVE International" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltvei">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TVG" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltvg">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="UPC Club" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slupccl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="UPC Extreme Sports" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slupcex">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="V8" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltv10">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Vijf TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sl5tv">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Vitaya" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slviya">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Voyage" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slvoy">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="VT4" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slvt4">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="VTM" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slvtm">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="XXL" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slxxl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Yorin" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slveron">
+	</IMPORT>
+</CHANNELS>

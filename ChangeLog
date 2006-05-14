@@ -1,5 +1,13 @@
-0.6.6 ()
-- xml files represented by Config and Channels class (and its descendants) now respects comments
+0.6.7 ()
+- added Interia plugin which allows to import tv-schedule from tv.interia website, it has similar capabilitis to WP plugin but additionally it sets episode's category (which could be usefull with xmltv export)
+- added MiGuiaTV plugin which allows to import tv-schedule from www.miguiatv.com website
+- added EuroTV plugin which allows to import tv-schedule from www.eurotv.com website
+- WP plugin full episode description - it is really slow as script must request every episode's description individualy
+- fixed second description in vdr and xmltv plugins
+- small bugfixes
+
+0.6.6 (01-05-2006)
+- xml files represented by Config and Channels class (and its descendants) now respects comments (thanks to Krzysztof Zawadyl for notice)
 - added xmltv import
 - Changed import plugins mechanizm. Now get method gets full channels list not just one. Now some plugins may be optimised for speed.
 - added vdr import

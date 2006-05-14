@@ -12,7 +12,7 @@ ConfigXmltv - represents the xmltv plugin configuration
 =head1 SYNOPSIS
 
  use include::ConfigXmltv;
- $config = ConifgXmltv->new('fileName.xml');
+ $config = ConfigXmltv->new('fileName.xml');
 
 =head1 DESCRIPTION
 

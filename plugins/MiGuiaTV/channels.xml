@@ -1,0 +1,160 @@
+<CHANNELS>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TVE1" DESCR="http://www.miguiatv.com/programacion/tve1.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="La2" DESCR="http://www.miguiatv.com/programacion/la2.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Antena3" DESCR="http://www.miguiatv.com/programacion/antena3.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cuatro" DESCR="http://www.miguiatv.com/programacion/cuatro.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Telecinco" DESCR="http://www.miguiatv.com/programacion/telecinco.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="La Sexta" DESCR="http://www.miguiatv.com/programacion/la-sexta.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+" DESCR="http://www.miguiatv.com/programacion/canal-plus.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TeleMadrid" DESCR="http://www.miguiatv.com/programacion/telemadrid.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TV3" DESCR="http://www.miguiatv.com/programacion/tv3.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal 9" DESCR="http://www.miguiatv.com/programacion/canal-9.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TVG" DESCR="http://www.miguiatv.com/programacion/tvg.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="ETB1" DESCR="http://www.miguiatv.com/programacion/etb1.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="ETB2" DESCR="http://www.miguiatv.com/programacion/etb2.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal33" DESCR="http://www.miguiatv.com/programacion/canal33.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Televisión Canaria" DESCR="http://www.miguiatv.com/programacion/television-canaria.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Castilla-La Mancha Televisión" DESCR="http://www.miguiatv.com/programacion/castilla-la-mancha.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal Sur" DESCR="http://www.miguiatv.com/programacion/canal-sur.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+" DESCR="http://www.miguiatv.com/programacion/canal-plus.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ 2" DESCR="http://www.miguiatv.com/programacion/canal-plus-2.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ 30" DESCR="http://www.miguiatv.com/programacion/canal-plus-30.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ Cine 1" DESCR="http://www.miguiatv.com/programacion/canal-plus-cine-1.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ Cine 2" DESCR="http://www.miguiatv.com/programacion/canal-plus-cine-2.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ Cine 3" DESCR="http://www.miguiatv.com/programacion/canal-plus-cine-3.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cinemanía" DESCR="http://www.miguiatv.com/programacion/cinemania.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cinemanía 2" DESCR="http://www.miguiatv.com/programacion/cinemania-2.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cinemanía 30" DESCR="http://www.miguiatv.com/programacion/cinemania-30.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="DCine Español" DESCR="http://www.miguiatv.com/programacion/dcine-espanol.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cinemanía Clásico" DESCR="http://www.miguiatv.com/programacion/cinemania-clasico.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Hollywood" DESCR="http://www.miguiatv.com/programacion/hollywood.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TCM" DESCR="http://www.miguiatv.com/programacion/tcm.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Calle 13" DESCR="http://www.miguiatv.com/programacion/calle-13.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Fox" DESCR="http://www.miguiatv.com/programacion/fox.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="AXN" DESCR="http://www.miguiatv.com/programacion/axn.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Factoría de Ficción" DESCR="http://www.miguiatv.com/programacion/factoria-de-ficcion.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cosmopolitan" DESCR="http://www.miguiatv.com/programacion/cosmopolitan.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Telenovelas" DESCR="http://www.miguiatv.com/programacion/telenovelas.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="People&amp;Arts" DESCR="http://www.miguiatv.com/programacion/people-and-arts.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Paramount Comedy" DESCR="http://www.miguiatv.com/programacion/paramount.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ Deporte 1" DESCR="http://www.miguiatv.com/programacion/canal-plus-deporte-1.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ Deporte 2" DESCR="http://www.miguiatv.com/programacion/canal-plus-deporte-2.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal+ Deporte 3" DESCR="http://www.miguiatv.com/programacion/canal-plus-deporte-3.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Sportmania" DESCR="http://www.miguiatv.com/programacion/sportmania.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Golf+" DESCR="http://www.miguiatv.com/programacion/golf-plus.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Eurosport" DESCR="http://www.miguiatv.com/programacion/eurosport.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal Barça" DESCR="http://www.miguiatv.com/programacion/canal-barca.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Real Madrid TV" DESCR="http://www.miguiatv.com/programacion/real-madrid-tv.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TeleDeporte" DESCR="http://www.miguiatv.com/programacion/teledeporte.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Disney Channel" DESCR="http://www.miguiatv.com/programacion/disney-channel.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Disney Ch. +1" DESCR="http://www.miguiatv.com/programacion/disney-channel-1.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Playhouse Disney" DESCR="http://www.miguiatv.com/programacion/playhouse-disney.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Toon Disney" DESCR="http://www.miguiatv.com/programacion/toon-disney.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Nickelodeon" DESCR="http://www.miguiatv.com/programacion/nickelodeon.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Cartoon Network" DESCR="http://www.miguiatv.com/programacion/cartoon-network.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Boomerang" DESCR="http://www.miguiatv.com/programacion/boomerang.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="40 TV" DESCR="http://www.miguiatv.com/programacion/los40.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="40 Latino" DESCR="http://www.miguiatv.com/programacion/40-latino.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="MTV ESP" DESCR="http://www.miguiatv.com/programacion/mtv.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal Clásico" DESCR="http://www.miguiatv.com/programacion/canal-clasico.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="VH1" DESCR="http://www.miguiatv.com/programacion/vh1.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="National Geographic" DESCR="http://www.miguiatv.com/programacion/national-geographic.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Discovery Channel" DESCR="http://www.miguiatv.com/programacion/discovery-channel.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Viajar" DESCR="http://www.miguiatv.com/programacion/viajar.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Documanía" DESCR="http://www.miguiatv.com/programacion/documania.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Historia" DESCR="http://www.miguiatv.com/programacion/historia.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Canal Cocina" DESCR="http://www.miguiatv.com/programacion/canal-cocina.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Caza y Pesca" DESCR="http://www.miguiatv.com/programacion/caza-y-pesca.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="CNN+" DESCR="http://www.miguiatv.com/programacion/cnn-plus.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Expansión TV" DESCR="http://www.miguiatv.com/programacion/expansion-tv.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Fox News" DESCR="http://www.miguiatv.com/programacion/fox-news.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="CNBC" DESCR="http://www.miguiatv.com/programacion/cnbc.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Andalucía TV" DESCR="http://www.miguiatv.com/programacion/andalucia-tv.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Telemadrid SAT/LaOtra" DESCR="http://www.miguiatv.com/programacion/telemadrid-sat.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="CCValenciana" DESCR="http://www.miguiatv.com/programacion/ccvalenciana.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TVC Internacional" DESCR="http://www.miguiatv.com/programacion/tvc-internacional.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TV Galicia" DESCR="http://www.miguiatv.com/programacion/tv-galicia.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Euskadi TV" DESCR="http://www.miguiatv.com/programacion/euskadi-tv.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Galavisión" DESCR="http://www.miguiatv.com/programacion/galavision.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="TV5" DESCR="http://www.miguiatv.com/programacion/tv5.html">
+	</IMPORT>
+	<IMPORT NAME="MiGuiaTV" CHANNEL="Playboy TV" DESCR="http://www.miguiatv.com/programacion/playboy-tv.html">
+	</IMPORT>
+</CHANNELS>

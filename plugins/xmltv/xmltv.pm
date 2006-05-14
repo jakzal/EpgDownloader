@@ -170,7 +170,7 @@ sub save {
 			$title =~ s/&/&amp;/g;
 			$description =~ s/&/&amp;/g;
 			$description2 =~ s/&/&amp;/g;
-			$description = "\n".$description2 if $description2 !~ /^$/;
+			$description.= "\n".$description2 if $description2 !~ /^$/;
 			
 			#save channel's event node
 			print FILE "\t<programme channel=\"".$channelId."\" start=\"".$start."\" stop=\"".$stop."\">\n";
