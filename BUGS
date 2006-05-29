@@ -2,3 +2,5 @@
 Solution: Clear the plugins path file paths.pm, by putting there "1;"
 
 2. WP plugin ommits the following day when running after midnight.
+
+3. Parsing EuroTV website not always ends with successs (because of UTF-8 encoding).

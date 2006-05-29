@@ -1,8 +1,6 @@
-0.6
+0.7
 - script for automagic channels.xml file generation
 - prepare sample channels.xml file
-
-0.7
 - work a little to improve performance
 
 1.0
