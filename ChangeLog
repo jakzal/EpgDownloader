@@ -1,3 +1,6 @@
+0.7.1 ()
+- fixed url text matching in WP, Interia, MiGuiaTV and EuroTV plugins (thanks to ragno for notice)
+
 0.7.0 (30-05-2006)
 - added Interia plugin which allows to import tv-schedule from tv.interia website, it has similar capabilitis to WP plugin but additionally it sets episode's category (which could be usefull with xmltv export)
 - added MiGuiaTV plugin which allows to import tv-schedule from www.miguiatv.com website

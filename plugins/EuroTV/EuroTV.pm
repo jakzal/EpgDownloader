@@ -65,7 +65,7 @@ sub get {
 		$name =~ s/\(/\\\(/g;
 		$name =~ s/\)/\\\)/g;
 	
-		$browser->follow_link(text_regex => qr/$name/);
+		$browser->follow_link(text_regex => qr/$name$/);
 	
 		#special treatment for '+', '(', ')'
 		$name =~ s/\\\+/+/g;
