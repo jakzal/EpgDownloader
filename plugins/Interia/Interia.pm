@@ -36,7 +36,7 @@ sub new {
 	$self->{'config'} = $config;
 	$self->{'plugin_config'} = ConfigInteria->new('config.xml');
 	
-	$self->{'url'} = 'http://program.interia.pl/program?p=10&akt_time=5'
+	$self->{'url'} = 'http://program.interia.pl/program?p=10&akt_time=5';
 	
 	bless( $self, $class );
 	return $self;
