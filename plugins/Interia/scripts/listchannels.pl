@@ -4,7 +4,7 @@
 use constant OUTPUT_FILE => "../channels.xml";
 use constant PLUGIN_NAME => Interia;
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
-use constant LIST_URL => "http://tv.interia.pl";
+use constant LIST_URL => "http://program.interia.pl";
 
 #include
 use WWW::Mechanize;

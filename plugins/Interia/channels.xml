@@ -1,262 +1,262 @@
 <CHANNELS>
-	<IMPORT NAME="Interia" CHANNEL="TVP 1" DESCR="http://tv.interia.pl/program?ids=44&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 1" DESCR="http://program.interia.pl/program?ids=44&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 2" DESCR="http://tv.interia.pl/program?ids=45&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 2" DESCR="http://program.interia.pl/program?ids=45&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat" DESCR="http://tv.interia.pl/program?ids=49&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat" DESCR="http://program.interia.pl/program?ids=49&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN" DESCR="http://tv.interia.pl/program?ids=162&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN" DESCR="http://program.interia.pl/program?ids=162&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN 7" DESCR="http://tv.interia.pl/program?ids=51&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN 7" DESCR="http://program.interia.pl/program?ids=51&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV 4" DESCR="http://tv.interia.pl/program?ids=15&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TV 4" DESCR="http://program.interia.pl/program?ids=15&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+" DESCR="http://tv.interia.pl/program?ids=48&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="CANAL+" DESCR="http://program.interia.pl/program?ids=48&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="3sat" DESCR="http://tv.interia.pl/program?ids=1&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="3sat" DESCR="http://program.interia.pl/program?ids=1&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Ale Kino!" DESCR="http://tv.interia.pl/program?ids=122&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Ale Kino!" DESCR="http://program.interia.pl/program?ids=122&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="alpha (Deut.)" DESCR="http://tv.interia.pl/program?ids=55&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="alpha (Deut.)" DESCR="http://program.interia.pl/program?ids=55&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Animal Planet" DESCR="http://tv.interia.pl/program?ids=123&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Animal Planet" DESCR="http://program.interia.pl/program?ids=123&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ARD" DESCR="http://tv.interia.pl/program?ids=2&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="ARD" DESCR="http://program.interia.pl/program?ids=2&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Arte" DESCR="http://tv.interia.pl/program?ids=57&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Arte" DESCR="http://program.interia.pl/program?ids=57&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="AXN" DESCR="http://tv.interia.pl/program?ids=234&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="AXN" DESCR="http://program.interia.pl/program?ids=234&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Bayern 3" DESCR="http://tv.interia.pl/program?ids=3&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Bayern 3" DESCR="http://program.interia.pl/program?ids=3&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="BBC Prime" DESCR="http://tv.interia.pl/program?ids=59&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="BBC Prime" DESCR="http://program.interia.pl/program?ids=59&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Berlin 1" DESCR="http://tv.interia.pl/program?ids=4&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Berlin 1" DESCR="http://program.interia.pl/program?ids=4&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+ Film" DESCR="http://tv.interia.pl/program?ids=127&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="CANAL+ Film" DESCR="http://program.interia.pl/program?ids=127&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+ Sport" DESCR="http://tv.interia.pl/program?ids=126&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="CANAL+ Sport" DESCR="http://program.interia.pl/program?ids=126&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Cartoon Network" DESCR="http://tv.interia.pl/program?ids=124&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Cartoon Network" DESCR="http://program.interia.pl/program?ids=124&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Club" DESCR="http://tv.interia.pl/program?ids=190&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Club" DESCR="http://program.interia.pl/program?ids=190&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CNN (Engl.)" DESCR="http://tv.interia.pl/program?ids=66&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="CNN (Engl.)" DESCR="http://program.interia.pl/program?ids=66&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CT 1" DESCR="http://tv.interia.pl/program?ids=184&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="CT 1" DESCR="http://program.interia.pl/program?ids=184&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CT 2" DESCR="http://tv.interia.pl/program?ids=185&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="CT 2" DESCR="http://program.interia.pl/program?ids=185&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery" DESCR="http://tv.interia.pl/program?ids=130&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery" DESCR="http://program.interia.pl/program?ids=130&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery Civilisation" DESCR="http://tv.interia.pl/program?ids=128&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery Civilisation" DESCR="http://program.interia.pl/program?ids=128&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery Sci-Trek" DESCR="http://tv.interia.pl/program?ids=129&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery Sci-Trek" DESCR="http://program.interia.pl/program?ids=129&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery Travel and Living" DESCR="http://tv.interia.pl/program?ids=131&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery Travel and Living" DESCR="http://program.interia.pl/program?ids=131&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="DSF" DESCR="http://tv.interia.pl/program?ids=69&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="DSF" DESCR="http://program.interia.pl/program?ids=69&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Euronews" DESCR="http://tv.interia.pl/program?ids=70&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Euronews" DESCR="http://program.interia.pl/program?ids=70&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Europa Europa" DESCR="http://tv.interia.pl/program?ids=164&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Europa Europa" DESCR="http://program.interia.pl/program?ids=164&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Eurosport" DESCR="http://tv.interia.pl/program?ids=133&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Eurosport" DESCR="http://program.interia.pl/program?ids=133&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Eurosport 2" DESCR="http://tv.interia.pl/program?ids=236&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Eurosport 2" DESCR="http://program.interia.pl/program?ids=236&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Eurosport Deutsch (Deut.)" DESCR="http://tv.interia.pl/program?ids=71&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Eurosport Deutsch (Deut.)" DESCR="http://program.interia.pl/program?ids=71&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Extreme Sports" DESCR="http://tv.interia.pl/program?ids=191&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Extreme Sports" DESCR="http://program.interia.pl/program?ids=191&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Fashion TV" DESCR="http://tv.interia.pl/program?ids=134&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Fashion TV" DESCR="http://program.interia.pl/program?ids=134&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="France 2" DESCR="http://tv.interia.pl/program?ids=56&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="France 2" DESCR="http://program.interia.pl/program?ids=56&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="France 3" DESCR="http://tv.interia.pl/program?ids=73&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="France 3" DESCR="http://program.interia.pl/program?ids=73&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hallmark" DESCR="http://tv.interia.pl/program?ids=138&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Hallmark" DESCR="http://program.interia.pl/program?ids=138&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="HBO" DESCR="http://tv.interia.pl/program?ids=137&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="HBO" DESCR="http://program.interia.pl/program?ids=137&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="HBO2" DESCR="http://tv.interia.pl/program?ids=238&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="HBO2" DESCR="http://program.interia.pl/program?ids=238&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hessen 3" DESCR="http://tv.interia.pl/program?ids=77&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Hessen 3" DESCR="http://program.interia.pl/program?ids=77&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="H.O.T." DESCR="http://tv.interia.pl/program?ids=139&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="H.O.T." DESCR="http://program.interia.pl/program?ids=139&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hyper" DESCR="http://tv.interia.pl/program?ids=136&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Hyper" DESCR="http://program.interia.pl/program?ids=136&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Jetix" DESCR="http://tv.interia.pl/program?ids=135&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Jetix" DESCR="http://program.interia.pl/program?ids=135&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kab. Toya £ód¼" DESCR="http://tv.interia.pl/program?ids=179&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Kab. Toya £ód¼" DESCR="http://program.interia.pl/program?ids=179&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kab. WTK Poznañ" DESCR="http://tv.interia.pl/program?ids=141&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Kab. WTK Poznañ" DESCR="http://program.interia.pl/program?ids=141&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kabel 1" DESCR="http://tv.interia.pl/program?ids=79&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Kabel 1" DESCR="http://program.interia.pl/program?ids=79&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kinderkanal" DESCR="http://tv.interia.pl/program?ids=80&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Kinderkanal" DESCR="http://program.interia.pl/program?ids=80&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kino Polska" DESCR="http://tv.interia.pl/program?ids=233&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Kino Polska" DESCR="http://program.interia.pl/program?ids=233&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="M 6" DESCR="http://tv.interia.pl/program?ids=83&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="M 6" DESCR="http://program.interia.pl/program?ids=83&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MDR (Deut.)" DESCR="http://tv.interia.pl/program?ids=9&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="MDR (Deut.)" DESCR="http://program.interia.pl/program?ids=9&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Minimax" DESCR="http://tv.interia.pl/program?ids=143&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Minimax" DESCR="http://program.interia.pl/program?ids=143&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV" DESCR="http://tv.interia.pl/program?ids=144&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV" DESCR="http://program.interia.pl/program?ids=144&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV Classic" DESCR="http://tv.interia.pl/program?ids=197&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV Classic" DESCR="http://program.interia.pl/program?ids=197&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV Deutsch (Deut.)" DESCR="http://tv.interia.pl/program?ids=84&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV Deutsch (Deut.)" DESCR="http://program.interia.pl/program?ids=84&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="N 24" DESCR="http://tv.interia.pl/program?ids=10&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="N 24" DESCR="http://program.interia.pl/program?ids=10&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="N 3" DESCR="http://tv.interia.pl/program?ids=11&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="N 3" DESCR="http://program.interia.pl/program?ids=11&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="National Geographic" DESCR="http://tv.interia.pl/program?ids=145&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="National Geographic" DESCR="http://program.interia.pl/program?ids=145&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Nova" DESCR="http://tv.interia.pl/program?ids=186&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Nova" DESCR="http://program.interia.pl/program?ids=186&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="n-tv" DESCR="http://tv.interia.pl/program?ids=12&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="n-tv" DESCR="http://program.interia.pl/program?ids=12&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ORF 1 (Deut.)" DESCR="http://tv.interia.pl/program?ids=7&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="ORF 1 (Deut.)" DESCR="http://program.interia.pl/program?ids=7&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ORF 2 (Deut.)" DESCR="http://tv.interia.pl/program?ids=74&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="ORF 2 (Deut.)" DESCR="http://program.interia.pl/program?ids=74&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Phoenix (Deut.)" DESCR="http://tv.interia.pl/program?ids=13&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Phoenix (Deut.)" DESCR="http://program.interia.pl/program?ids=13&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Planete" DESCR="http://tv.interia.pl/program?ids=151&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Planete" DESCR="http://program.interia.pl/program?ids=151&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polonia 1" DESCR="http://tv.interia.pl/program?ids=150&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Polonia 1" DESCR="http://program.interia.pl/program?ids=150&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat 2" DESCR="http://tv.interia.pl/program?ids=152&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat 2" DESCR="http://program.interia.pl/program?ids=152&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat: Sport" DESCR="http://tv.interia.pl/program?ids=177&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat: Sport" DESCR="http://program.interia.pl/program?ids=177&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: 13th Street (Deut.)" DESCR="http://tv.interia.pl/program?ids=100&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: 13th Street (Deut.)" DESCR="http://program.interia.pl/program?ids=100&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Discovery Channel (Deut.)" DESCR="http://tv.interia.pl/program?ids=68&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Discovery Channel (Deut.)" DESCR="http://program.interia.pl/program?ids=68&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Disney Channel (Deut.)" DESCR="http://tv.interia.pl/program?ids=67&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Disney Channel (Deut.)" DESCR="http://program.interia.pl/program?ids=67&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Junior (Deut.)" DESCR="http://tv.interia.pl/program?ids=78&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Junior (Deut.)" DESCR="http://program.interia.pl/program?ids=78&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Krimi & Co (Deut.)" DESCR="http://tv.interia.pl/program?ids=81&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Krimi & Co (Deut.)" DESCR="http://program.interia.pl/program?ids=81&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Sci-Fantasy (Deut.)" DESCR="http://tv.interia.pl/program?ids=96&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Sci-Fantasy (Deut.)" DESCR="http://program.interia.pl/program?ids=96&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Pro 7" DESCR="http://tv.interia.pl/program?ids=14&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Pro 7" DESCR="http://program.interia.pl/program?ids=14&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RA2" DESCR="http://tv.interia.pl/program?ids=94&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="RA2" DESCR="http://program.interia.pl/program?ids=94&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RAI" DESCR="http://tv.interia.pl/program?ids=50&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="RAI" DESCR="http://program.interia.pl/program?ids=50&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Reality TV" DESCR="http://tv.interia.pl/program?ids=155&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Reality TV" DESCR="http://program.interia.pl/program?ids=155&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Romantica" DESCR="http://tv.interia.pl/program?ids=154&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Romantica" DESCR="http://program.interia.pl/program?ids=154&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RTL" DESCR="http://tv.interia.pl/program?ids=20&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="RTL" DESCR="http://program.interia.pl/program?ids=20&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RTL 2" DESCR="http://tv.interia.pl/program?ids=19&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="RTL 2" DESCR="http://program.interia.pl/program?ids=19&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SAT.1" DESCR="http://tv.interia.pl/program?ids=21&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="SAT.1" DESCR="http://program.interia.pl/program?ids=21&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SF 1 (Deut.)" DESCR="http://tv.interia.pl/program?ids=6&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="SF 1 (Deut.)" DESCR="http://program.interia.pl/program?ids=6&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SF 2 (Deut.)" DESCR="http://tv.interia.pl/program?ids=5&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="SF 2 (Deut.)" DESCR="http://program.interia.pl/program?ids=5&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SØdwest 3" DESCR="http://tv.interia.pl/program?ids=26&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="SØdwest 3" DESCR="http://program.interia.pl/program?ids=26&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Star TV (Deut.)" DESCR="http://tv.interia.pl/program?ids=101&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Star TV (Deut.)" DESCR="http://program.interia.pl/program?ids=101&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Super RTL" DESCR="http://tv.interia.pl/program?ids=99&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Super RTL" DESCR="http://program.interia.pl/program?ids=99&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="T24" DESCR="http://tv.interia.pl/program?ids=196&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="T24" DESCR="http://program.interia.pl/program?ids=196&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TeDe" DESCR="http://tv.interia.pl/program?ids=18&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TeDe" DESCR="http://program.interia.pl/program?ids=18&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Tele 5" DESCR="http://tv.interia.pl/program?ids=195&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Tele 5" DESCR="http://program.interia.pl/program?ids=195&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Teleclub (Deut.)" DESCR="http://tv.interia.pl/program?ids=104&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Teleclub (Deut.)" DESCR="http://program.interia.pl/program?ids=104&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TF 1" DESCR="http://tv.interia.pl/program?ids=105&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TF 1" DESCR="http://program.interia.pl/program?ids=105&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TI2" DESCR="http://tv.interia.pl/program?ids=159&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TI2" DESCR="http://program.interia.pl/program?ids=159&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TM3 (Deut.)" DESCR="http://tv.interia.pl/program?ids=106&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TM3 (Deut.)" DESCR="http://program.interia.pl/program?ids=106&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TMT" DESCR="http://tv.interia.pl/program?ids=178&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TMT" DESCR="http://program.interia.pl/program?ids=178&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Travel" DESCR="http://tv.interia.pl/program?ids=160&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Travel" DESCR="http://program.interia.pl/program?ids=160&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TSI" DESCR="http://tv.interia.pl/program?ids=161&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TSI" DESCR="http://program.interia.pl/program?ids=161&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TSR 2" DESCR="http://tv.interia.pl/program?ids=54&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TSR 2" DESCR="http://program.interia.pl/program?ids=54&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TSR (Fran.)" DESCR="http://tv.interia.pl/program?ids=107&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TSR (Fran.)" DESCR="http://program.interia.pl/program?ids=107&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV 5 Europe" DESCR="http://tv.interia.pl/program?ids=53&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TV 5 Europe" DESCR="http://program.interia.pl/program?ids=53&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV 5 France" DESCR="http://tv.interia.pl/program?ids=103&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TV 5 France" DESCR="http://program.interia.pl/program?ids=103&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV Polonia" DESCR="http://tv.interia.pl/program?ids=118&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TV Polonia" DESCR="http://program.interia.pl/program?ids=118&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV Puls" DESCR="http://tv.interia.pl/program?ids=183&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TV Puls" DESCR="http://program.interia.pl/program?ids=183&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVE (Esp.)" DESCR="http://tv.interia.pl/program?ids=110&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVE (Esp.)" DESCR="http://program.interia.pl/program?ids=110&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN 24" DESCR="http://tv.interia.pl/program?ids=188&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN 24" DESCR="http://program.interia.pl/program?ids=188&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN Turbo" DESCR="http://tv.interia.pl/program?ids=239&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN Turbo" DESCR="http://program.interia.pl/program?ids=239&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Lubuska" DESCR="http://tv.interia.pl/program?ids=235&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Lubuska" DESCR="http://program.interia.pl/program?ids=235&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Olsztyn" DESCR="http://tv.interia.pl/program?ids=237&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Olsztyn" DESCR="http://program.interia.pl/program?ids=237&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Kultura" DESCR="http://tv.interia.pl/program?ids=265&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Kultura" DESCR="http://program.interia.pl/program?ids=265&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Bia³ystok" DESCR="http://tv.interia.pl/program?ids=32&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Bia³ystok" DESCR="http://program.interia.pl/program?ids=32&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Bydgoszcz" DESCR="http://tv.interia.pl/program?ids=33&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Bydgoszcz" DESCR="http://program.interia.pl/program?ids=33&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Gdañsk" DESCR="http://tv.interia.pl/program?ids=34&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Gdañsk" DESCR="http://program.interia.pl/program?ids=34&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Katowice" DESCR="http://tv.interia.pl/program?ids=36&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Katowice" DESCR="http://program.interia.pl/program?ids=36&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Kraków" DESCR="http://tv.interia.pl/program?ids=35&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Kraków" DESCR="http://program.interia.pl/program?ids=35&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Lublin" DESCR="http://tv.interia.pl/program?ids=38&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Lublin" DESCR="http://program.interia.pl/program?ids=38&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. £ód¼" DESCR="http://tv.interia.pl/program?ids=37&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. £ód¼" DESCR="http://program.interia.pl/program?ids=37&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Poznañ" DESCR="http://tv.interia.pl/program?ids=39&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Poznañ" DESCR="http://program.interia.pl/program?ids=39&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Rzeszów" DESCR="http://tv.interia.pl/program?ids=40&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Rzeszów" DESCR="http://program.interia.pl/program?ids=40&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Szczecin" DESCR="http://tv.interia.pl/program?ids=41&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Szczecin" DESCR="http://program.interia.pl/program?ids=41&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Warszawa (WOT)" DESCR="http://tv.interia.pl/program?ids=42&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Warszawa (WOT)" DESCR="http://program.interia.pl/program?ids=42&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Wroc³aw" DESCR="http://tv.interia.pl/program?ids=43&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Reg. Wroc³aw" DESCR="http://program.interia.pl/program?ids=43&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP3" DESCR="http://tv.interia.pl/program?ids=120&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP3" DESCR="http://program.interia.pl/program?ids=120&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viasat Explorer" DESCR="http://tv.interia.pl/program?ids=241&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Viasat Explorer" DESCR="http://program.interia.pl/program?ids=241&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viasat History" DESCR="http://tv.interia.pl/program?ids=240&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Viasat History" DESCR="http://program.interia.pl/program?ids=240&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viva 1" DESCR="http://tv.interia.pl/program?ids=114&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Viva 1" DESCR="http://program.interia.pl/program?ids=114&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viva 2" DESCR="http://tv.interia.pl/program?ids=113&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="Viva 2" DESCR="http://program.interia.pl/program?ids=113&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="VIVA Polska" DESCR="http://tv.interia.pl/program?ids=163&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="VIVA Polska" DESCR="http://program.interia.pl/program?ids=163&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="VOX" DESCR="http://tv.interia.pl/program?ids=46&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="VOX" DESCR="http://program.interia.pl/program?ids=46&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="WDR" DESCR="http://tv.interia.pl/program?ids=115&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="WDR" DESCR="http://program.interia.pl/program?ids=115&stacje_full=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ZDF" DESCR="http://tv.interia.pl/program?ids=47&stacje_full=1">
+	<IMPORT NAME="Interia" CHANNEL="ZDF" DESCR="http://program.interia.pl/program?ids=47&stacje_full=1">
 	</IMPORT>
 </CHANNELS>
