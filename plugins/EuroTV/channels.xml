@@ -77,19 +77,23 @@
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="ChatBox" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcbx">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Classic" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcclas">
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA CLASSIC" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcclas">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Emotion" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccin2">
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA CULTE" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccult">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Frisson" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccin3">
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA EMOTION" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccin2">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Cine Cinema Premier" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccine">
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA FAMIZ" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcins">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA FRISSON" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccin3">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA PREMIER" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccine">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="CINE CINEMA STAR" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcst1">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Cine Fx" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcinfx">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Cine Polar" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcinp">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Cinecinema famiz" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcins">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Cinema Auteur" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcina">
 	</IMPORT>
@@ -227,6 +231,16 @@
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Playboy TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slplb">
 	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="PlayHouse Disney Scandinavia (Denmark)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slpdd">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="PlayHouse Disney Scandinavia (English)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slpde">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="PlayHouse Disney Scandinavia (Finland)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slpdl">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="PlayHouse Disney Scandinavia (Norway)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slpdn">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="PlayHouse Disney Scandinavia (Sweden)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slpdw">
+	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Plug TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slprtl">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Prime Action" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slmov">
@@ -283,23 +297,7 @@
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Toute l'histoire" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slhist">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinéclub" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltpcl">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinecomedy" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltpcc">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinéculte" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slccult">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS CinéFamily" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcfam">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinéstar" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcst1">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinétoile" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcie">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Cinextreme" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcextr">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Home Cinéma" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcst2">
-	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="TPS Star" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slstar">
+	<IMPORT NAME="EuroTV" CHANNEL="TPS STAR" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slstar">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Trace TV" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltrc">
 	</IMPORT>
