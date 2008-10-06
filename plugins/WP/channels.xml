@@ -95,7 +95,7 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Discovery Travel & Living" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=196">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Discovery Civilisation" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=186">
+	<IMPORT NAME="WP" CHANNEL="Discovery World" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=186">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="National Geographic" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=360">
 	</IMPORT>
@@ -107,7 +107,7 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Viasat Explorer" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=366">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Travel" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=261">
+	<IMPORT NAME="WP" CHANNEL="Travel Channel" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=261">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="VIVA Polska" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=92">
 	</IMPORT>
@@ -115,7 +115,7 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="MTV Classic" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=213">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Fox Kids" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=74">
+	<IMPORT NAME="WP" CHANNEL="Jetix" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=74">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Cartoon Network" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=361">
 	</IMPORT>
@@ -136,8 +136,6 @@
 	<IMPORT NAME="WP" CHANNEL="Fashion TV" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=90">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Kab. WTK Poznañ" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=209">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TeDe" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=35">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="BBC Prime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=93">
 	</IMPORT>
@@ -213,11 +211,11 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="FAB" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=195">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Euronews" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=197">
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Hessen 3" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=198">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="ORF 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=199">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Hamburg 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=202">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="H.O.T." DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=203">
 	</IMPORT>
@@ -249,11 +247,7 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="RAI 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=232">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Pro 7 (polski)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=234">
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="SAT.1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=237">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Sat 1 (polski)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=240">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Premiere: Sci-Fantasy" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=241">
 	</IMPORT>
@@ -327,13 +321,9 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="CANAL J (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=295">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="MA PLANETE (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=296">
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="TSR2 (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=297">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="XXL (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=298">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TOON DISNEY (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=299">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="PLAYHOUSE DISNEY (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=300">
 	</IMPORT>
@@ -389,33 +379,25 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="RTPI (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=332">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TVE I (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=333">
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="RTSI (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=334">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="CANAL JIMMY (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=335">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="TSR (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=338">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="MUSIQUE CLASSIQUE (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=339">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TCM France (R)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=340">
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="CINE CINEMA PREMIER (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=342">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="CINE CINEMA EMOTION (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=343">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="INFO SPORT (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=344">
-	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="TOUTE L'HISTOIRE (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=346">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="TFOU (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=347">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="PIWI (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=349">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Nova" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=362">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Tele 5" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=363">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Premiere: Heimatkanal" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=370">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="MCM TOP" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=373">
 	</IMPORT>
@@ -425,7 +407,7 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="RTBF (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=377">
 	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="MCM POP (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=378">
+	<IMPORT NAME="WP" CHANNEL="MCM POP" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=378">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="LA CINQUIEME SAT. (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=379">
 	</IMPORT>
@@ -440,16 +422,6 @@
 	<IMPORT NAME="WP" CHANNEL="EinsFestival" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=385">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="RAI 3" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=386">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="National Geographic Italy" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=387">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="MTV Italia" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=388">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Discovery Channel Italia" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=389">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Eurosport Italia" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=390">
-	</IMPORT>
-	<IMPORT NAME="WP" CHANNEL="Studio Universal" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=391">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="ITV" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=392">
 	</IMPORT>
@@ -468,5 +440,39 @@
 	<IMPORT NAME="WP" CHANNEL="LA 7" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=401">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="TCM" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=403">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Bloomberg" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=404">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Sport Klub +" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=405">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVP Sport" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=406">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Sport Klub" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=407">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Polsat Sport Extra" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=408">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Bloomberg" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=409">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="QVC Germany" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=411">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Cartoon Network" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=412">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TV Silesia" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=413">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Polsat Zdrowie i Uroda" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=414">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="BBC Lifestyle" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=415">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="AXN Sci-fi" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=416">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="Mini Mini" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=417">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="AXN Crime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=418">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="TVN CNBC Biznes" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=419">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="BBC Entertainment" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=420">
+	</IMPORT>
+	<IMPORT NAME="WP" CHANNEL="HBO Comedy" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=421">
 	</IMPORT>
 </CHANNELS>
