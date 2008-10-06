@@ -1,6 +1,6 @@
-0.7.1 ()
+0.7.1 (07-11-2008)
+- changed Interia plugin
 - fixed url text matching in WP, Interia, MiGuiaTV and EuroTV plugins (thanks to ragno for notice)
-- changed Interia URL 
 - fresh lists of available channels for each plugin
 
 0.7.0 (30-05-2006)
