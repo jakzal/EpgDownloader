@@ -15,7 +15,7 @@ Interia - EpgDownloader plugin
 
 =head1 DESCRIPTION
 
-This plugin can import tv schedule from http://tv.interia.pl website.
+This plugin can import tv schedule from http://program.interia.pl website.
 
 =head1 COPYRIGHT
 
@@ -36,7 +36,7 @@ sub new {
 	$self->{'config'} = $config;
 	$self->{'plugin_config'} = ConfigInteria->new('config.xml');
 	
-	$self->{'url'} = 'http://program.interia.pl/program?p=10&akt_time=5';
+	$self->{'url'} = 'http://programtv.interia.pl/kanaly/wszystkie,10';
 	
 	bless( $self, $class );
 	return $self;
@@ -58,7 +58,6 @@ sub get {
 		Misc::pluginMessage(PLUGIN_NAME,"Downloading schedule for ".$name," ");
 		
 		my $events = $channels->{$name};
-		
 		$browser->get($url);
 
 		#special treatment for '+', '(', ')'
@@ -81,11 +80,15 @@ sub get {
 			my $dateUnix = str2time($dateString);
 			my $date_url = "";
 
-			$browser->get($base_uri."&akt_date=".$dateString."&akt_time=5") if $i>1;
+      
+      $base_uri =~ s/(sDate=[0-9]{4}-[0-9]{2}-[0-9]{2})/sDate=$dateString/;
+      $base_uri =~ s/(sTimeF=(-|)[0-9]{1,2})/sTimeF=5/;
+      $base_uri =~ s/(sTimeT=(-|)[0-9]{1,2})/sTimeT=4/;
+
+			$browser->get($base_uri) if $i>1;
 
 			my $content = $browser->content();
-
-			if($content !~ s/(.*?)(<tr>(.*?)<(.*?)class=prc(.*?)>(.*))/$2/sm) {
+      if($content !~ s/.*?<table.*?class="channelCont".*?>(.*?)<\/table>/$1/sm) {
 				Misc::pluginMessage("","");
 				Misc::pluginMessage(
 					PLUGIN_NAME,
@@ -93,34 +96,32 @@ sub get {
 				last;
 			}
 
-			while($content =~ s/(.*?)<tr>(.*?)<(.*?)\s(.*?)class=prc(.*?)>(.*?)<\/\3>(.*?)<\/tr>(.*)/$8/sm) {
-				my $hour = $6;
-				my $row = $7;
+			while($content =~ s/.*?<tr class="t[0-9]+">.*?<td class="hour".*?>(.*?)<\/td>.*?<td>(.*?)<\/td>.*?<\/tr>(.*)/$3/sm) {
+				my $hour = $1;
+				my $row = $2;
 
 				last if $hour !~ s/(.*?)([0-9]{1,2}:[0-9]{2})(.*)/$2/sm;
 				
-				my $title = $row;
-				$title =~ s/(.*?)<(.*?)\s(.*?)class=prtyt(.*?)>(.*?)<\/(.*?)>(.*)/$5/sm;
+				$row =~ s/.*?<a href="(.*?)">.*?<strong>(.*?)<\/strong>.*?<\/a>.*?<span class="type">[^a-zA-Z0-9]+([a-zA-Z0-9]+).*?<\/span>(.*)/$4/sm;
 				
-				my $category = $7;
-				my $description = $7;
+        my $fullDescriptionUrl = $1;
+			  my $title = $2;
+				my $category = $3;
+
+        $row =~ s/.*?<div class="desc">(.*?)<\/div>.*/$1/sm;
+				my $description = $row;
 				my $description2 = "";
 				
-				$category = "" unless $category =~ s/(.*?)<(.*?)class=\"prkat\"(.*?)>(.*?)<\/(.*?)>(.*)/$4/sm;
-				$description = "" unless $description =~ s/(.*?)<br>(.*?)<\/(.*?)>(.*)/$2/sm;
-				
-				my $fullDescriptionUrl = $row;
-				$fullDescriptionUrl = "" unless $fullDescriptionUrl =~ s/(.*?)href=\"javascript:okienko\('pr','(.*?)'(.*?)\"(.*)/$2/sm;
-
 				#get full description if available and needed (follows another link so it costs time)
 				if($fullDescription == 1 && $fullDescriptionUrl !~ /^$/) {
 					$browser->get($fullDescriptionUrl);
 					my $tmp = $browser->content();
-					$description = $tmp;
-					$description2 = $tmp;
-					$description =~ s/(.*?)<span class=\"oopis\">(.*?)<\/span>(.*)/$2/sm;
-					$description2 =~ s/(.*?)<span class=\"oinf\">(.*?)<\/span>(.*)/$2/sm;
-					$description2.= "\n".$tmp if $tmp =~ s/(.*)<span class=\"odat\">(.*?)<\/span>(.*)/$2/sm;
+          if($tmp =~ /.*?<p class="articleLead">(.*?)<\/p>.*/sm) {
+            $description.= $1;
+          }
+          if($tmp =~ /.*?<p class="desc">(.*?)<\/p>.*/sm) {
+            $description2 = $1;
+          }
 				} 
 
 				#remove html tags from title
