@@ -110,6 +110,13 @@ sub get {
         $description2 = $2 if $category =~ s/(.*), (.*)/$1/;
         $description  =~ s/.*?<p>(.*?)<\/p>.*/$1/;
 
+        #get full description if available and needed (follows another link so it costs time)
+        if($fullDescription == 1 && $descriptionUrl =~ /\/prog.*/) {
+          $browser->get($descriptionUrl);
+          my $tmp = $browser->content();
+          $description = $1 if $tmp =~ /.*?<div class="desc">(.*?)<\/div>.*/sm;
+        }
+        
         #remove html tags from title
         $title =~ s/<(\/?)(.*?)>//smg;
 
