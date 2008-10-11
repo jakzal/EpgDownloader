@@ -23,7 +23,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>.
 
-Date: march, april 2006
+Date: march, april 2006, october 2008
 
 =cut
 
@@ -36,7 +36,7 @@ sub new {
 	$self->{'config'} = $config;
 	$self->{'plugin_config'} = ConfigWP->new('config.xml');
 	
-	$self->{'url'} = 'http://tv.wp.pl/katn,Lista kana³ów,programy.html';
+	$self->{'url'} = 'http://tv.wp.pl/katn,Lista kanaï¿½ï¿½w,programy.html';
 	
 	bless( $self, $class );
 	return $self;
@@ -105,27 +105,29 @@ sub get {
 				my $description = $3;
 				my $description2 = "";
 				
+        $description =~ s/(.*?)<span(.*?)>(.*?)<\/span>(.*)/$3/sm;
+        $description =~ s/<a href="javascript:okno.*?".*?>.*?<\/a>//smg;
+        $description =~ s/(&nbsp;|&raquo;)//smg;
+				
 				#get full description if available and needed (follows another link so it costs time)
 				if($fullDescription == 1 && $title =~ /(.*?)javascript:okno\(\'(.*?)\'(.*)/) {
 					$browser->get($2);
 					my $tmp = $browser->content();
-					$tmp =~ s/(.*?)<div id="opis">(.*?)<\/div>(.*?)<div id="rez">(.*?)<\/div>(.*)/$2/sm;
-					$description = $tmp;
-					$description2 = $4;
-					$description2 =~ s/(<script(.*?)>(.*?)<\/script>)//smg;
-				} else {
-					$description =~ s/(.*?)<span(.*?)>(.*?)<\/span>(.*)/$3/sm;
-					$description =~ s/(wiêcej|&nbsp;|&raquo;)//smg;
+					$description  = $1 if $tmp =~ /.*?<p class="op">(.*?)<\/p>.*/sm;
+					$description2 = $1 if $tmp =~ /.*?<p class="wystepuja">(.*?)<\/p>.*/sm;
+          $description2.= $1 if $tmp =~ /.*?<span class="czas">(.*?)<\/span>.*/sm;
 				}
-		
+				
 				#remove html tags from title
 				$title =~ s/<(\/?)(.*?)>//smg;
 		
 				#removing trash from description
-				$description =~ s/<br(.*?)>/\n/smgi;
-				$description =~ s/<(\/?)(.*?)>//smg;
+				$description  =~ s/<br(.*?)>/\n/smgi;
+				$description  =~ s/<(\/?)(.*?)>//smg;
+        $description  =~ s/\s+/ /g;
 				$description2 =~ s/<br(.*?)>/\n/smgi;
 				$description2 =~ s/<(\/?)(.*?)>//smg;
+        $description2 =~ s/\s+/ /g;
 		
 				#convert hour to unix timestamp, if it's after midnight, change base date string
 				$dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
