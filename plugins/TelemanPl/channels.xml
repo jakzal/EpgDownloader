@@ -1,0 +1,180 @@
+<CHANNELS>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP 1" DESCR="http://www.teleman.pl/station.html?id=1">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP 2" DESCR="http://www.teleman.pl/station.html?id=2">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Polsat" DESCR="http://www.teleman.pl/station.html?id=3">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN" DESCR="http://www.teleman.pl/station.html?id=4">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TV 4" DESCR="http://www.teleman.pl/station.html?id=6">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN 7" DESCR="http://www.teleman.pl/station.html?id=7">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Tele 5" DESCR="http://www.teleman.pl/station.html?id=72">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Puls" DESCR="http://www.teleman.pl/station.html?id=8">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP Polonia" DESCR="http://www.teleman.pl/station.html?id=10">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP Kultura" DESCR="http://www.teleman.pl/station.html?id=5">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Polsat 2" DESCR="http://www.teleman.pl/station.html?id=11">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Polonia 1" DESCR="http://www.teleman.pl/station.html?id=103">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Ale Kino!" DESCR="http://www.teleman.pl/station.html?id=14">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="AXN" DESCR="http://www.teleman.pl/station.html?id=18">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="AXN Crime" DESCR="http://www.teleman.pl/station.html?id=81">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="AXN Sci-Fi" DESCR="http://www.teleman.pl/station.html?id=82">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="CANAL+" DESCR="http://www.teleman.pl/station.html?id=16">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="CANAL+ Film" DESCR="http://www.teleman.pl/station.html?id=20">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Cinemax" DESCR="http://www.teleman.pl/station.html?id=41">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Cinemax 2" DESCR="http://www.teleman.pl/station.html?id=73">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Comedy Central" DESCR="http://www.teleman.pl/station.html?id=80">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Filmbox" DESCR="http://www.teleman.pl/station.html?id=74">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Filmbox Extra" DESCR="http://www.teleman.pl/station.html?id=116">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Filmbox HD" DESCR="http://www.teleman.pl/station.html?id=75">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Fox Life" DESCR="http://www.teleman.pl/station.html?id=79">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Hallmark" DESCR="http://www.teleman.pl/station.html?id=19">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="HBO" DESCR="http://www.teleman.pl/station.html?id=17">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="HBO 2" DESCR="http://www.teleman.pl/station.html?id=21">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="HBO Comedy" DESCR="http://www.teleman.pl/station.html?id=43">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Kino Polska" DESCR="http://www.teleman.pl/station.html?id=15">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="MGM HD" DESCR="http://www.teleman.pl/station.html?id=85">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Movies 24" DESCR="http://www.teleman.pl/station.html?id=76">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Sci-Fi Channel" DESCR="http://www.teleman.pl/station.html?id=83">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TCM" DESCR="http://www.teleman.pl/station.html?id=38">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TV 1000" DESCR="http://www.teleman.pl/station.html?id=78">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Universal Channel" DESCR="http://www.teleman.pl/station.html?id=77">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Wojna i Pokój" DESCR="http://www.teleman.pl/station.html?id=84">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Zone Europa" DESCR="http://www.teleman.pl/station.html?id=13">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Zone Romantica" DESCR="http://www.teleman.pl/station.html?id=99">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Superstacja" DESCR="http://www.teleman.pl/station.html?id=108">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TV Biznes" DESCR="http://www.teleman.pl/station.html?id=120">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN 24" DESCR="http://www.teleman.pl/station.html?id=12">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP Info" DESCR="http://www.teleman.pl/station.html?id=9">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="CANAL+ Sport" DESCR="http://www.teleman.pl/station.html?id=31">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Eurosport" DESCR="http://www.teleman.pl/station.html?id=29">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Eurosport 2" DESCR="http://www.teleman.pl/station.html?id=32">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="nSport" DESCR="http://www.teleman.pl/station.html?id=89">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Polsat Sport" DESCR="http://www.teleman.pl/station.html?id=71">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Polsat Sport Extra" DESCR="http://www.teleman.pl/station.html?id=45">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="SportKlub" DESCR="http://www.teleman.pl/station.html?id=87">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="SportKlub+" DESCR="http://www.teleman.pl/station.html?id=121">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN Turbo" DESCR="http://www.teleman.pl/station.html?id=30">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP Sport" DESCR="http://www.teleman.pl/station.html?id=86">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Animal Planet" DESCR="http://www.teleman.pl/station.html?id=25">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="BBC Knowledge" DESCR="http://www.teleman.pl/station.html?id=110">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Discovery Channel" DESCR="http://www.teleman.pl/station.html?id=24">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Discovery HD" DESCR="http://www.teleman.pl/station.html?id=97">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Discovery Historia" DESCR="http://www.teleman.pl/station.html?id=96">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Discovery Science" DESCR="http://www.teleman.pl/station.html?id=26">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Discovery Travel &amp;" DESCR="http://www.teleman.pl/station.html?id=27">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Discovery World" DESCR="http://www.teleman.pl/station.html?id=28">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="History Chann. HD" DESCR="http://www.teleman.pl/station.html?id=111">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="History Channel" DESCR="http://www.teleman.pl/station.html?id=101">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="National Geo." DESCR="http://www.teleman.pl/station.html?id=22">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Planete" DESCR="http://www.teleman.pl/station.html?id=23">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVP Historia" DESCR="http://www.teleman.pl/station.html?id=95">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Viasat Explorer" DESCR="http://www.teleman.pl/station.html?id=93">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Viasat History" DESCR="http://www.teleman.pl/station.html?id=94">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Zone Reality" DESCR="http://www.teleman.pl/station.html?id=49">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="BBC Entertain." DESCR="http://www.teleman.pl/station.html?id=40">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="BBC Lifestyle" DESCR="http://www.teleman.pl/station.html?id=33">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="kuchnia.tv" DESCR="http://www.teleman.pl/station.html?id=98">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Mezzo" DESCR="http://www.teleman.pl/station.html?id=44">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="MTV Polska" DESCR="http://www.teleman.pl/station.html?id=37">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="nTalk" DESCR="http://www.teleman.pl/station.html?id=91">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Polsat Cafe" DESCR="http://www.teleman.pl/station.html?id=122">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN Style" DESCR="http://www.teleman.pl/station.html?id=39">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="VH 1 Polska" DESCR="http://www.teleman.pl/station.html?id=109">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="VIVA Polska" DESCR="http://www.teleman.pl/station.html?id=46">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Zone Club" DESCR="http://www.teleman.pl/station.html?id=48">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Edusat" DESCR="http://www.teleman.pl/station.html?id=113">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN Lingua" DESCR="http://www.teleman.pl/station.html?id=117">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Boomerang" DESCR="http://www.teleman.pl/station.html?id=102">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Cartoon Network" DESCR="http://www.teleman.pl/station.html?id=34">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Disney Channel" DESCR="http://www.teleman.pl/station.html?id=42">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Jetix" DESCR="http://www.teleman.pl/station.html?id=35">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Jetix Play" DESCR="http://www.teleman.pl/station.html?id=100">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="Mini Mini" DESCR="http://www.teleman.pl/station.html?id=36">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="ZigZap" DESCR="http://www.teleman.pl/station.html?id=47">
+	</IMPORT>
+</CHANNELS>
