@@ -79,7 +79,7 @@ sub get {
     for ( my $i = 0 ; $i < $days ; $i++ ) {
       $browser->get( $base_uri . "&day=" . $i ) if $i > 0;
 
-      my $dateString = time2str( "%Y-%m-%d", time + ( 60 * 60 * 24 * ( $i - 1 ) ) );
+      my $dateString = time2str( "%Y-%m-%d", time + ( 60 * 60 * 24 * ( $i ) ) );
       my $content    = $browser->content();
       
       if ( $content !~
@@ -127,7 +127,7 @@ sub get {
         $description2 =~ s/<(\/?)(.*?)>//smg;
 
         #convert hour to unix timestamp, if it's after midnight, change base date string
-        $dateString = time2str( "%Y-%m-%d", time + ( 60 * 60 * 24 * ($i) ) )
+        $dateString = time2str( "%Y-%m-%d", time + ( 60 * 60 * 24 * ($i + 1) ) )
           if $hour =~ /0[0-3]{1}:[0-9]{2}/;
         $hour = str2time( $dateString . " " . $hour );
 
