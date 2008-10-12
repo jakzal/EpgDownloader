@@ -1,54 +1,61 @@
 <CHANNELS>
-	<IMPORT NAME="EuroTV" CHANNEL="BBC1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbc1">
-		<EXPORT NAME="xmltv" CHANNEL="BBC 1" />
-	</IMPORT>
+  <IMPORT NAME="EuroTV" CHANNEL="BBC1" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slbbc1">
+    <EXPORT NAME="xmltv" CHANNEL="BBC 1" />
+  </IMPORT>
 
-	<IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
-		<EXPORT NAME="xmltv" CHANNEL="CANAL+" />
-	</IMPORT>
+  <IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
+    <EXPORT NAME="xmltv" CHANNEL="CANAL+" />
+  </IMPORT>
 
-	<IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">
-		<EXPORT NAME="xmltv" CHANNEL="CANAL+ FILM" />
-	</IMPORT>
+  <IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">
+    <EXPORT NAME="xmltv" CHANNEL="CANAL+ FILM" />
+  </IMPORT>
 
-	<IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=1">
-		<EXPORT NAME="xmltv" CHANNEL="TVP 1" />
-	</IMPORT>
+  <IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=1">
+    <EXPORT NAME="xmltv" CHANNEL="TVP 1" />
+  </IMPORT>
 
-	<IMPORT NAME="WP" CHANNEL="TVN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=17">
-		<EXPORT NAME="xmltv" CHANNEL="TVN" />
-	</IMPORT>
+  <IMPORT NAME="WP" CHANNEL="TVN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=17">
+    <EXPORT NAME="xmltv" CHANNEL="TVN" />
+  </IMPORT>
 
-	<IMPORT NAME="WP" CHANNEL="TVP 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=2">
-		<EXPORT NAME="xmltv" CHANNEL="TVP 2" />
-	</IMPORT>
+  <IMPORT NAME="WP" CHANNEL="TVP 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=2">
+    <EXPORT NAME="xmltv" CHANNEL="TVP 2" />
+  </IMPORT>
 
-	<IMPORT NAME="WP" CHANNEL="BBC Prime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=93">
-		<EXPORT NAME="xmltv" CHANNEL="BBC Prime" />
-	</IMPORT>
+  <IMPORT NAME="WP" CHANNEL="BBC Prime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=93">
+    <EXPORT NAME="xmltv" CHANNEL="BBC Prime" />
+  </IMPORT>
 
-	<IMPORT NAME="TvMovieDe" CHANNEL="KI.KA" DESCR="36">
-		<EXPORT NAME="xmltv" CHANNEL="KiKa" />
-	</IMPORT>
+  <IMPORT NAME="TvMovieDe" CHANNEL="KI.KA" DESCR="36">
+    <EXPORT NAME="xmltv" CHANNEL="KiKa" />
+  </IMPORT>
 
-	<IMPORT NAME="TvMovieDe" CHANNEL="NICK" DESCR="37">
-		<EXPORT NAME="xmltv" CHANNEL="Nick" />
-	</IMPORT>
+  <IMPORT NAME="TvMovieDe" CHANNEL="NICK" DESCR="37">
+    <EXPORT NAME="xmltv" CHANNEL="Nick" />
+  </IMPORT>
 
-	<IMPORT NAME="TvMovieDe" CHANNEL="MTV" DESCR="38">
-		<EXPORT NAME="xmltv" CHANNEL="MTV" />
-	</IMPORT>
+  <IMPORT NAME="TvMovieDe" CHANNEL="MTV" DESCR="38">
+    <EXPORT NAME="xmltv" CHANNEL="MTV" />
+  </IMPORT>
 
-	<IMPORT NAME="Interia" CHANNEL="TVP 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-1,44,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
-		<EXPORT NAME="xmltv" CHANNEL="TVP1" />
-	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-2,45,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
-		<EXPORT NAME="xmltv" CHANNEL="TVP2" />
-	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat,49,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
-		<EXPORT NAME="xmltv" CHANNEL="Polsat" />
-	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn,162,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
-		<EXPORT NAME="xmltv" CHANNEL="TVN" />
-	</IMPORT>
+  <IMPORT NAME="Interia" CHANNEL="TVP 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-1,44,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+    <EXPORT NAME="xmltv" CHANNEL="TVP1" />
+  </IMPORT>
+  <IMPORT NAME="Interia" CHANNEL="TVP 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-2,45,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+    <EXPORT NAME="xmltv" CHANNEL="TVP2" />
+  </IMPORT>
+  <IMPORT NAME="Interia" CHANNEL="Polsat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat,49,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+    <EXPORT NAME="xmltv" CHANNEL="Polsat" />
+  </IMPORT>
+  <IMPORT NAME="Interia" CHANNEL="TVN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn,162,10?sDate=2008-10-06&amp;sTimeF=22&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+    <EXPORT NAME="xmltv" CHANNEL="TVN" />
+  </IMPORT>
+
+  <IMPORT NAME="TelemanPl" CHANNEL="HBO" DESCR="http://www.teleman.pl/station.html?id=17">
+    <EXPORT NAME="xmltv" CHANNEL="HBO" />
+  </IMPORT>
+  <IMPORT NAME="TelemanPl" CHANNEL="HBO 2" DESCR="http://www.teleman.pl/station.html?id=21">
+    <EXPORT NAME="xmltv" CHANNEL="HBO 2" />
+  </IMPORT>
 </CHANNELS>
