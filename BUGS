@@ -8,3 +8,5 @@ Solution: Clear the plugins path file paths.pm, by putting there "1;"
 4. UTF-8 is not yet supported. Iconv can be used as temporary solution:
 iconv --from iso-8859-2 --to utf-8 xmltv.xml > xmltv.utf.xml
 
+5. On websites with UTF-8 encoded characters you can get following warning: 'Parsing of undecoded UTF-8 will give garbage when decoding entities at /usr/lib/perl5/HTML/PullParser.pm line 83.'. It's not a bug in EpgDownloader and in most cases you can ignore it.
+
