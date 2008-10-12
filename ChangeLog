@@ -1,3 +1,7 @@
+0.7.2 ()
+- added TelemanPl plugin which allows import tv-schedule from www.teleman.pl website
+- fixed getting long descriptions from tv.wp.pl
+
 0.7.1 (07-11-2008)
 - fixed Interia plugin
 - fixed url text matching in WP, Interia, MiGuiaTV and EuroTV plugins (thanks to ragno for notice)
