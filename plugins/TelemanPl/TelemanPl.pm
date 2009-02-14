@@ -95,7 +95,7 @@ sub get {
       }
 
       while (
-        $content =~ s/.*?<tr><th>(.*?)<\/th><td>(.*?)<\/td><\/tr>(.*)/$3/sm )
+        $content =~ s/.*?<tr><th>.*?([0-9]{1,2}:[0-9]{1,2}).*?<\/th><td>(.*?)<\/td><\/tr>(.*)/$3/sm )
       {
         my $hour           = $1;
         my $description    = $2;
