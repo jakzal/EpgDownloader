@@ -87,7 +87,9 @@ sub get {
 
 			$browser->get($base_uri) if $i>1;
 
-			my $content = $browser->content();
+      #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+			#my $content = $browser->content();
+      my $content = $browser->response()->decoded_content();
       if($content !~ s/.*?<table.*?class="channelCont".*?>(.*?)<\/table>/$1/sm) {
 				Misc::pluginMessage("","");
 				Misc::pluginMessage(

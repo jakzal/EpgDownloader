@@ -55,7 +55,9 @@ sub get {
 		
 	$browser->get($url);
 	
-	my $channelsList = $browser->content();
+  #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+  #my $channelsList = $browser->content();
+  my $channelsList = $browser->response()->decoded_content();
 	
 	if($channelsList !~ s/(.*)<select name="senderid\[\]"(.*?)>(.*?)<\/select>(.*)/$3/sm) {
 		Misc::pluginMessage(PLUGIN_NAME, "ERROR: Couldn't parse website!");
@@ -81,7 +83,9 @@ sub get {
 			
 			$browser->get($base_uri."&date=".$dateString);
 		
-			my $content = $browser->content();
+			#@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+			#my $content = $browser->content();
+			my $content = $browser->response()->decoded_content();
  			$content =~ s/(.*?)Haupttabelle Anfang(.*?)Haupttabelle Ende(.*)/$2/sm;
 			
 			#parse schedule

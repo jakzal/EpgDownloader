@@ -88,7 +88,9 @@ sub get {
 				$browser->get($uri);
 			}
 			
-			my $content = $browser->content();
+      #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+			#my $content = $browser->content();
+      my $content = $browser->response()->decoded_content();
 			
 			if($content =~ /<div id="listing">(.*?)<table>[\s]{0,}<\/table>/sm) {
 				Misc::pluginMessage("","");
@@ -122,7 +124,10 @@ sub get {
 				#get full description if available and needed (follows another link so it takes time)
 				if($fullDescription == 1 && $fullDescriptionUrl !~ /^$/) {
 					$browser->get($fullDescriptionUrl);
-					my $tmp = $browser->content();
+          #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+    			#my $tmp = $browser->content();
+          my $tmp = $browser->response()->decoded_content();
+
 					$description = $tmp;
 					$description2 = $tmp;
 					$description =~ s/(.*?)<div id=\"show\">(.*?)<br \/><br \/>(.*?)<table(.*?)>(.*)/$3/sm;

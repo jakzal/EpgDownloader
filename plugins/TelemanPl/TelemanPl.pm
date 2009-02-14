@@ -80,7 +80,9 @@ sub get {
       $browser->get( $base_uri . "&day=" . $i ) if $i > 0;
 
       my $dateString = time2str( "%Y-%m-%d", time + ( 60 * 60 * 24 * ( $i ) ) );
-      my $content    = $browser->content();
+      #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+      #my $content = $browser->content();
+      my $content = $browser->response()->decoded_content();
       
       if ( $content !~
         s/.*<table id="programmes" cellspacing="0">(.*?)<\/table>(.*)/$1/sm )
@@ -113,7 +115,9 @@ sub get {
         #get full description if available and needed (follows another link so it costs time)
         if($fullDescription == 1 && $descriptionUrl =~ /\/prog.*/) {
           $browser->get($descriptionUrl);
-          my $tmp = $browser->content();
+          #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+          #my $tmp = $browser->content();
+          my $tmp = $browser->response()->decoded_content();
           $description = $1 if $tmp =~ /.*?<div class="desc">(.*?)<\/div>.*/sm;
         }
         

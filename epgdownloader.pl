@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #EpgDownloader is a converter between various Electronic Program Guides.
-#Copyright (C) 2005-2006 Jakub Zalas
+#Copyright (C) 2005-2009 Jakub Zalas
 #
 #This program is free software; you can redistribute it and/or modify it under 
 #the terms of the GNU General Public License as published by the Free Software 
@@ -37,7 +37,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>
 
-Date: june 2005, january-march 2006
+Date: june 2005, january-march 2006, february 2009
 
 =cut
 
@@ -52,6 +52,8 @@ my $startTime = time;
 
 #force to flush after every write or print
 $|=1;
+
+binmode(STDOUT, ":utf8");
 
 #read config file
 Misc::message("MAIN","Reading config file");

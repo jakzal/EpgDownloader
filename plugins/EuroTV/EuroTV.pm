@@ -81,7 +81,9 @@ sub get {
 			my $uri = $i."a";
 			$browser->follow_link(url_regex => qr/$uri/);
 			
-			my $content = $browser->content();
+      #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+			#my $content = $browser->content();
+      my $content = $browser->response()->decoded_content();
 			
 			if($content !~ s/(.*?)<TD(.*?)>(.*?)([0-9]{2}\:[0-5]{1}[0-9]{1})(.*?)<\/td>(.*)/$4$5/sm) {
 				Misc::pluginMessage("","");

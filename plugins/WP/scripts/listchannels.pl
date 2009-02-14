@@ -3,7 +3,7 @@
 #config
 use constant OUTPUT_FILE => "../channels.xml";
 use constant PLUGIN_NAME => WP;
-use constant LIST_URL => "http://tv.wp.pl/katn,Lista kana³ów,programy.html";
+use constant LIST_URL => "http://tv.wp.pl/katn,Lista kanaï¿½ï¿½w,programy.html";
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
 use constant TV_GUIDE_URL => "http://tv.wp.pl";
 
@@ -42,22 +42,25 @@ my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 	
 $browser->get(LIST_URL);
 
-my $content1 = $browser->content();
+#@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+#my $content1 = $browser->content();
+my $content1 = $browser->response()->decoded_content();
 my $content2 = "";
 
-if($content1 !~ s/(.*)<table(.*?)>(.*?)Kana³y polskojêzyczne<\/td><\/tr>(.*?)<\/table>(.*)/$4/sm) {
+if($content1 !~ s/(.*)<table(.*?)>(.*?)Kana.y polskoj.zyczne<\/td><\/tr>(.*?)<\/table>(.*)/$4/sm) {
 	print "Unable to find channels list.\n";
 	exit;
 }
 
 $content2 = $5;
 
-if($content2 !~ s/(.*)<table(.*?)>(.*?)Pozosta³e kana³y<\/td><\/tr>(.*?)<\/table>(.*)/$4/sm) {
+if($content2 !~ s/(.*)<table(.*?)>(.*?)Pozosta.e kana.y<\/td><\/tr>(.*?)<\/table>(.*)/$4/sm) {
 	print "Unable to find channels list.\n";
 	exit;
 }
 
 open(FILE,">".OUTPUT_FILE);
+binmode(FILE, ":utf8");
 
 print FILE "<CHANNELS>\n";
 

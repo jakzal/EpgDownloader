@@ -83,7 +83,9 @@ sub get {
 			
 			$browser->get($base_uri."&T[date]=".$dateString."&T[time]=0") if $i>1;
 		
-			my $content = $browser->content();
+      #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+			#my $content = $browser->content();
+      my $content = $browser->response()->decoded_content();
 			if($content !~ s/(.*)<table(.*?)>(.*?)Program na(.*?)<\/table>(.*)/$4/sm) {
 				Misc::pluginMessage("","");
 				Misc::pluginMessage(
@@ -112,7 +114,9 @@ sub get {
 				#get full description if available and needed (follows another link so it costs time)
 				if($fullDescription == 1 && $title =~ /(.*?)javascript:okno\(\'(.*?)\'(.*)/) {
 					$browser->get($2);
-					my $tmp = $browser->content();
+          #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+					#my $tmp = $browser->content();
+          my $tmp = $browser->response()->decoded_content();
 					$description  = $1 if $tmp =~ /.*?<p class="op">(.*?)<\/p>.*/sm;
 					$description2 = $1 if $tmp =~ /.*?<p class="wystepuja">(.*?)<\/p>.*/sm;
           $description2.= $1 if $tmp =~ /.*?<span class="czas">(.*?)<\/span>.*/sm;

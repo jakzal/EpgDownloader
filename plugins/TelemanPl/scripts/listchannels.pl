@@ -42,7 +42,9 @@ my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 	
 $browser->get(LIST_URL);
 
-my $content = $browser->content();
+#@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+#my $content = $browser->content();
+my $content = $browser->response()->decoded_content();
 
 if($content !~ s/.*<div class="box box-stations">(.*?)/$1/sm) {
 	print "Unable to find channels list.\n";
@@ -50,6 +52,7 @@ if($content !~ s/.*<div class="box box-stations">(.*?)/$1/sm) {
 }
 
 open(FILE,">".OUTPUT_FILE);
+binmode(FILE, ":utf8");
 
 print FILE "<CHANNELS>\n";
 

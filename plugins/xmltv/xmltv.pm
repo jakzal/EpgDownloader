@@ -57,6 +57,7 @@ sub get {
 				PLUGIN_NAME,
 				"Cant't open '$fileName' file: $!")
 			&& return $channels;
+    binmode(FILE, ":utf8");
 	
 		my $prevLimiter = $/;
 		$/ = undef;
@@ -139,9 +140,10 @@ sub save {
 				PLUGIN_NAME, 
 				"Could not open the file $fileName! \n $!") 
 			&& return;
+  binmode(FILE, ":utf8");
 	
 	#save header and main node
-	print FILE "<?xml version=\"1.0\" encoding=\"".$self->{'plugin_config'}->get('HEADER_ENCODING')."\"?>\n";
+	print FILE "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 	print FILE "<tv date=\"".$time."\" generator-info-name=\"".GENERATOR_INFO_NAME."\" generator-info-url=\"".GENERATOR_INFO_URL."\">\n";
 
 	my $channelCount=0;
