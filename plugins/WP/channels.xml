@@ -367,8 +367,10 @@
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="Tele 5" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=363">
 	</IMPORT>
+	<!--
 	<IMPORT NAME="WP" CHANNEL="Tele Zuri *" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=243">
 	</IMPORT>
+	-->
 	<IMPORT NAME="WP" CHANNEL="TELETOON (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=323">
 	</IMPORT>
 	<IMPORT NAME="WP" CHANNEL="TEVA (franc.)" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=292">
