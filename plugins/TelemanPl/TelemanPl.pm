@@ -66,13 +66,9 @@ sub get {
     $name =~ s/\+/\\\+/g;
     $name =~ s/\(/\\\(/g;
     $name =~ s/\)/\\\)/g;
+    $name = HTML::Entities::decode($name);
 
     $browser->follow_link( text_regex => qr/$name$/ );
-
-    #special treatment for '+', '(', ')'
-    $name =~ s/\\\+/+/g;
-    $name =~ s/\\\(/\(/g;
-    $name =~ s/\\\)/\)/g;
 
     my $base_uri = $browser->uri();
 
