@@ -2,6 +2,7 @@
 - Saving all files in UTF-8 encoding (thanks to Jacek (wagabunda) for hints)
 - Fixed parsing time of events in TelemanPl plugin when even is currently running.
 - Updated script getting list of channels for WP
+- Fixed setting time for next day event in TvMovieDe (thanks to Marco Müller for fix)
 - Added UPC plugin (created by Marcin Jagoda, http://jagoda.be)
 - Added Cyfra plugin (created by Jacek (wagabunda))
 - Cyfra plugin created new dependency on DateTime

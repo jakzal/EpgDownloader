@@ -102,6 +102,7 @@ sub get {
 					
 					$description = "" if($description !~ s/(.*?)\((.*?)\)(.*)/$2/);
 					$category = "" if($category !~ s/(.*?\))(.*?)([-0-9]{1,})(.*)/$2/);
+			    $dateString = time2str("%Y-%m-%d",time+(60*60*24*($i+1))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
 					
 					$description =~ s/^\s//; $description =~ s/\s$//;
 					$category =~ s/^\s//; $category =~ s/\s$//;
