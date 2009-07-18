@@ -43,18 +43,10 @@ my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 $browser->get(LIST_URL);
 
 #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
-#my $content1 = $browser->content();
-my $content1 = $browser->response()->decoded_content();
-my $content2 = "";
+#my $content = $browser->content();
+my $content = $browser->response()->decoded_content();
 
-if($content1 !~ s/(.*)<table(.*?)>(.*?)Kana.y polskoj.zyczne<\/td><\/tr>(.*?)<\/table>(.*)/$4/sm) {
-	print "Unable to find channels list.\n";
-	exit;
-}
-
-$content2 = $5;
-
-if($content2 !~ s/(.*)<table(.*?)>(.*?)Pozosta.e kana.y<\/td><\/tr>(.*?)<\/table>(.*)/$4/sm) {
+if($content !~ s/(.*)<table(.*?)>(.*?)Wszystkie kana.y(.*?)<\/td><\/tr>(.*?)<\/table>(.*)/$5/sm) {
 	print "Unable to find channels list.\n";
 	exit;
 }
@@ -64,18 +56,7 @@ binmode(FILE, ":utf8");
 
 print FILE "<CHANNELS>\n";
 
-while($content1 =~ s/(.*?)<a class=\"progName\" href=\"(.*?)\"><img (.*?)>(.*?)<\/a>(.*)/$5/sm) {
-	my $url = TV_GUIDE_URL.$2;
-	my $channel = $4;
-	
-	$channel =~ s/^[\s]//;
-	$channel =~ s/[\s]$//;
-	
-	print FILE "\t<IMPORT NAME=\"".PLUGIN_NAME."\" CHANNEL=\"".$channel."\" DESCR=\"".$url."\">\n";
-	print FILE "\t</IMPORT>\n";
-}
-
-while($content2 =~ s/(.*?)<a class=\"progName\" href=\"(.*?)\"><img (.*?)>(.*?)<\/a>(.*)/$5/sm) {
+while($content =~ s/(.*?)<a class=\"progName\" href=\"(.*?)\"><img (.*?)>(.*?)<\/a>(.*)/$5/sm) {
 	my $url = TV_GUIDE_URL.$2;
 	my $channel = $4;
 	
