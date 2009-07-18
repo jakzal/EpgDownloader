@@ -57,8 +57,6 @@
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Canal + France" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcpfr">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Canal + Spain" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcpsp">
-	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Canal 33" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slca33">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Canal 9" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcan9">
@@ -104,6 +102,8 @@
 	<IMPORT NAME="EuroTV" CHANNEL="CNN" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcnn">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Comédie" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcmd">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="Cuatro" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slcua">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Deutsche Welle TV (UK)" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sldwu">
 	</IMPORT>
@@ -180,6 +180,8 @@
 	<IMPORT NAME="EuroTV" CHANNEL="La 2." DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtb2">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="La 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slla5">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="La sexta" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slsext">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="La Une" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=slrtb1">
 	</IMPORT>
@@ -293,9 +295,9 @@
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="TCM" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltcm">
 	</IMPORT>
-	<IMPORT NAME="EuroTV" CHANNEL="Tele 5" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltele5">
-	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Tele Madrid" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltmdr">
+	</IMPORT>
+	<IMPORT NAME="EuroTV" CHANNEL="TeleCinco" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltele5">
 	</IMPORT>
 	<IMPORT NAME="EuroTV" CHANNEL="Teletoon" DESCR="http://www.eurotv.com/scripts/EutvProg_reroute.cfm?p=sltltn">
 	</IMPORT>

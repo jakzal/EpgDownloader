@@ -4,6 +4,7 @@
 - Updated script getting list of channels for WP
 - Fixed setting time for next day event in TvMovieDe (thanks to Marco Müller for fix)
 - Decoded channel name before requesting schedule for it in TelemanPL plugin
+- Regenerated channels list for EuroTV plugin
 - Added UPC plugin (created by Marcin Jagoda, http://jagoda.be)
 - Added Cyfra plugin (created by Jacek (wagabunda))
 - Cyfra plugin created new dependency on DateTime
