@@ -110,6 +110,10 @@ sub get {
 				$description =~ s/<(\/?)(.*?)>//smg;
 				$description =~ s/^[\s\n]{1,}//; 
 				$description =~ s/[\s]{1,}$//;
+
+				#Entities where already encoded
+				$title = HTML::Entities::decode($title);
+				$description = HTML::Entities::decode($description);
 				
 				#convert hour to unix timestamp, if it's after midnight, change base date string
 				$dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-4]{1}:[0-9]{2}/;
