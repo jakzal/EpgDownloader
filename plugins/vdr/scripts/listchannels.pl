@@ -36,7 +36,10 @@ Date: march 2006
 #main
 
 open(CHANNELS_FILE, "<".CHANNELS_CONF);
+binmode(CHANNELS_FILE, ":utf8");
+
 open(O_FILE, ">".OUTPUT_FILE);
+binmode(O_FILE, ":utf8");
 
 print O_FILE "<CHANNELS>\n";
 while(<CHANNELS_FILE>) {

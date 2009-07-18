@@ -154,24 +154,25 @@ sub save {
 		$channelCount++;
 		my $channelId = $channel;
 		$channelId = $channelCount."_".$channelId if $self->{'plugin_config'}->get('UNIQUE_CHANNEL_PREFIX') eq "1";
+		$channelId = HTML::Entities::encode($channelId);
 		
 		#save channel node
 		print FILE "\t<channel id=\"".$channelId."\">\n";
-		print FILE "\t\t<display-name>".$channel."</display-name>\n";
+		print FILE "\t\t<display-name>".HTML::Entities::encode($channel)."</display-name>\n";
 		print FILE "\t</channel>\n";
 		
 		for(my $i=0; $i <= $#{$channelEvents}; $i++) {
 			my $event = $events->{$channel}->[$i];
-			my $title = $event->get('title');
-			my $description = $event->get('description');
-			my $description2 = $event->get('description2');
+			my $title = HTML::Entities::encode($event->get('title'));
+			my $description = HTML::Entities::encode($event->get('description'));
+			my $description2 = HTML::Entities::encode($event->get('description2'));
 			my $start = time2str("%Y%m%d%H%M00",$event->get('start'))." ".$timezone;
 			my $stop = time2str("%Y%m%d%H%M00",$event->get('stop'))." ".$timezone;
-			my $category = $event->get('category');
+			my $category = HTML::Entities::encode($event->get('category'));
 			
-			$title =~ s/&/&amp;/g;
-			$description =~ s/&/&amp;/g;
-			$description2 =~ s/&/&amp;/g;
+#			$title =~ s/&/&amp;/g;
+#			$description =~ s/&/&amp;/g;
+#			$description2 =~ s/&/&amp;/g;
 			$description.= "\n".$description2 if $description2 !~ /^$/;
 			
 			#save channel's event node

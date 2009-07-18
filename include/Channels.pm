@@ -50,7 +50,8 @@ sub new {
 	$self->{'config'} = $config;
 
 	#read file content
-	open( CHANNELS_FILE, "<$fileName" ) or die "Cant't open '$fileName' file: $!";
+	open(CHANNELS_FILE, "<$fileName") or die "Cant't open '$fileName' file: $!";
+  binmode(CHANNELS_FILE, ":utf8");
 	my $prevLimiter = $/;
 	$/ = undef;
 	my $content = <CHANNELS_FILE>;

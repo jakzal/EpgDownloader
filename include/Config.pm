@@ -48,7 +48,8 @@ sub new {
 	$self = $self->defaults();
 
 	#read file content
-	open( CONFIG_FILE, "<$fileName" ) or die "Cant't open config file: $!";
+	open(CONFIG_FILE, "<$fileName") or die "Cant't open config file: $!";
+  binmode(CONFIG_FILE, ":utf8");
 	my $prevLimiter = $/;
 	$/ = undef;
 	my $content = <CONFIG_FILE>;

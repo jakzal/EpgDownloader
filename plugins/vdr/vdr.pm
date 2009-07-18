@@ -48,6 +48,7 @@ sub get {
 				PLUGIN_NAME,
 				"Cant't open '$fileName' file: $!")
 			&& return $channels;
+  binmode(FILE, ":utf8");
 	
 	my $read = 0;
 	my $name = "";
@@ -117,6 +118,7 @@ sub save {
 				PLUGIN_NAME, 
 				"Could not open the file $fileName! \n $!") 
 			&& return;
+  binmode(FILE, ":utf8");
 	
 	foreach my $channel (keys(%{$events})) {
 		my $channelEvents = $events->{$channel};
@@ -165,6 +167,7 @@ sub getChannelString {
 	my $channelsConf = $self->{'plugin_config'}->get('CHANNELS_CONF');
 	
 	open(CHANNELS_FILE, "<$channelsConf");
+  binmode(CHANNELS_FILE, ":utf8");
 	my $prevLimiter = $/;
 	$/ = undef;
 	my $content = <CHANNELS_FILE>;

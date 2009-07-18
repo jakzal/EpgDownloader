@@ -106,10 +106,10 @@ sub get {
 					$description =~ s/^\s//; $description =~ s/\s$//;
 					$category =~ s/^\s//; $category =~ s/\s$//;
 					
-					#'&' are already in proper format
-					$title =~ s/&amp;/&/g;
-					$description =~ s/&amp;/&/g;
-					$category =~ s/&amp;/&/g;
+					#Entities where already encoded
+					$title = HTML::Entities::decode($title);
+					$description = HTML::Entities::decode($description);
+					$category = HTML::Entities::decode($category);
 					
 					#convert hour to unix timestamp, if it's after midnight, change base date string
 					$dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;

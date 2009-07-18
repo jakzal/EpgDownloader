@@ -56,7 +56,8 @@ sub new {
 	#TODO: BUG: this only works if new plugin was installed, if one was removed it crashes
 	my $overwrite = 0;
 	
-	open PLUGINS, "<paths.pm";
+	open(PLUGINS, "<paths.pm");
+  binmode(PLUGINS, ":utf8");
 	my $prevLimiter = $/; $/ = undef; 
 	my $oldPluginsIncludes = <PLUGINS>; $/ = $prevLimiter;
 	close PLUGINS;
@@ -73,7 +74,8 @@ sub new {
 	}
 	
 	if($overwrite==1) {
-		open PLUGINS, ">paths.pm";
+		open(PLUGINS, ">paths.pm");
+    binmode(PLUGINS, ":utf8");
 		print PLUGINS $pluginsIncludes."\n1;\n";
 		close PLUGINS;
 		Misc::message("PLUGINS","Reloaded plugin includes... Run me once more.");
