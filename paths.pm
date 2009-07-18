@@ -3,6 +3,7 @@
 
 use plugins::UPC::UPC;
 use plugins::EuroTV::EuroTV;
+use plugins::Cyfra::Cyfra;
 use plugins::MiGuiaTV::MiGuiaTV;
 use plugins::xmltv::xmltv;
 use plugins::WP::WP;

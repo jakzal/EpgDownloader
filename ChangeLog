@@ -3,6 +3,8 @@
 - Fixed parsing time of events in TelemanPl plugin when even is currently running.
 - Updated script getting list of channels for WP
 - Added UPC plugin (created by Marcin Jagoda, http://jagoda.be)
+- Added Cyfra plugin (created by Jacek (wagabunda))
+- Cyfra plugin created new dependency on DateTime
 
 0.7.2 (12-11-2008)
 - added TelemanPl plugin which allows import tv-schedule from www.teleman.pl website
