@@ -1,0 +1,228 @@
+<CHANNELS>
+	<IMPORT NAME="UPC" CHANNEL="TVP1" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVP1">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVP2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVP2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV4" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV4">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN7" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN7">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="BBC Entertainment" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/BBC+Entertainment">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="BBC Lifestyle" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/BBC+Lifestyle">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="E! Entertainment" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/E%21+Entertainment">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat Cafe" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat+Cafe">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN Style" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN+Style">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN Turbo" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN+Turbo">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV Puls" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV+Puls">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Tele5" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Tele5">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Fashion TV" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Fashion+TV">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Kuchnia TV" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Kuchnia+TV">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Wedding TV" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Wedding+TV">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Zone Club" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Zone+Club">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV Polonia" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV+Polonia">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat News" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat+News">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN24" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN24">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV Biznes" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV+Biznes">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN CNBC Biznes" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN+CNBC+Biznes">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN+HD">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVN Meteo" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVN+Meteo">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVP Info" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVP+Info">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Superstacja" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Superstacja">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Euronews" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Euronews">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="BBC World News" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/BBC+World+News">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Bloomberg" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Bloomberg">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="CNN" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/CNN">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV Silesia" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV+Silesia">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV Silesia HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV+Silesia+HD">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Religia TV" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Religia+TV">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="National Geographic" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Nat+Geo">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="National Geographic HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Nat+Geo+HD">
+	</IMPORT>
+	<!--
+	<IMPORT NAME="UPC" CHANNEL="National Geographic Wild" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Nat+Geo+Wild">
+	</IMPORT>
+	-->
+	<IMPORT NAME="UPC" CHANNEL="Discovery Channel" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Discovery">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Discovery Science" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Discovery+Science">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Discovery World" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Discovery+World">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Discovery Travel & Living" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Discovery+T+%26+L">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Animal Planet" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Animal+Planet">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Planete" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Planete">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Travel Channel" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Travel+Channel">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TVP Kultura" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TVP+Kultura">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="History Channel" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/History+Channel">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="History Channel HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/History+Channel+HD">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Viasat Explorer" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Viasat+Explorer">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Zone Reality" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Zone+Reality">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="BBC Knowledge" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/BBC+Knowledge">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Canal+" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Canal-plus">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Canal+ Film" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Canal-plus+Film">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Canal+ Film HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Canal-plus+Film+HD">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Canal+ Sport" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Canal-plus+Sport">
+	</IMPORT>
+  <!--
+	<IMPORT NAME="UPC" CHANNEL="Canal+ Sport HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Canal-plus+Sport+HD">
+	</IMPORT>
+	-->
+	<IMPORT NAME="UPC" CHANNEL="Canal+ Sport 2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Canal-plus+Sport+2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="HBO" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/HBO">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="HBO HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/HBO+HD">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="HBO2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/HBO2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="HBO Comedy" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/HBO+Comedy">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Cinemax" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Cinemax">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Cinemax2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Cinemax2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="AXN" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/AXN">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="AXN Crime" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/AXN+Crime">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="AXN Sci-Fi" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/AXN+Sci-Fi">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Hallmark" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Hallmark">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Ale Kino!" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Ale+Kino%21">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Kino Polska" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Kino+Polska">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Comedy Central" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Comedy+Central">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Universal Channel" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Universal+Channel">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TCM" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TCM">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="FOXlife" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/FOXlife">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV1000" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV1000">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Zone Romantica" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Zone+Romantica">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Zone Europa" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Zone+Europa">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat Sport" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat+Sport">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat Sport HD" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat+Sport+HD+">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat Sport Extra" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat+Sport+Extra">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polsat Play" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polsat+Play">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Eurosport" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Eurosport">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Eurosport 2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Eurosport+2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="SportKlub" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/SportKlub">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="ESPN America" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/ESPN+America">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="ESPN Classic Sport" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/ESPN+Classic+Sport">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Extreme Sports" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Extreme+Sports">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Motors TV" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Motors+TV">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="MiniMini" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/MiniMini">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="JimJam" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/JimJam">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Nickelodeon" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Nickelodeon">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Cartoon Network" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Cartoon+Network">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Jetix" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Jetix">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Jetix Play" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Jetix+Play">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Da Vinci Learning" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Da+Vinci+Learning">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Boomerang" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Boomerang">
+	</IMPORT>
+	<!--
+	<IMPORT NAME="UPC" CHANNEL="ZigZap/Hyper" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/ZigZap%5CHyper">
+	</IMPORT>
+	-->
+	<IMPORT NAME="UPC" CHANNEL="MTV Polska" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/MTV+Polska">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="MTV2" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/MTV2">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="MTV Hits" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/MTV+Hits">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="MTV Dance" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/MTV+Dance">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Viva Polska" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Viva+Polska">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="VH1 Polska" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/VH1+Polska">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="4fun.tv" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/4fun.tv">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Mezzo" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Mezzo">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="RTR Planeta" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/RTR+Planeta">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Deutsche Welle" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Deutsche+Welle">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="TV5" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/TV5">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="France 24" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/France+24">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="iTV" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/iTV">
+	</IMPORT>
+	<IMPORT NAME="UPC" CHANNEL="Polonia1" DESCR="http://przewodnik-tv.upclive.pl/TV/Guide/Channel/Polonia1">
+	</IMPORT>
+</CHANNELS>

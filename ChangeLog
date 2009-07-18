@@ -1,6 +1,8 @@
 0.8.0 ()
 - Saving all files in UTF-8 encoding (thanks to Jacek (wagabunda) for hints)
 - Fixed parsing time of events in TelemanPl plugin when even is currently running.
+- Updated script getting list of channels for WP
+- Added UPC plugin (created by Marcin Jagoda, http://jagoda.be)
 
 0.7.2 (12-11-2008)
 - added TelemanPl plugin which allows import tv-schedule from www.teleman.pl website

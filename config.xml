@@ -20,6 +20,11 @@
     <OPTION NAME="FULL_DESCRIPTION" VALUE="0" DESCR="Set to 1 to get full episode description (very slow)" />
   </SECTION>
   
+  <SECTION NAME="UPC">
+    <OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import UPC schedule for" />
+    <OPTION NAME="FULL_DESCRIPTION" VALUE="0" DESCR="Set to 1 to get full episode description (very slow)" />
+  </SECTION>
+  
   <SECTION NAME="TvMovieDe">
     <OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import TvMovieDe schedule for" />
   </SECTION>
