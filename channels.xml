@@ -23,10 +23,6 @@
     <EXPORT NAME="xmltv" CHANNEL="TVP 2" />
   </IMPORT>
 
-  <IMPORT NAME="WP" CHANNEL="BBC Prime" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=93">
-    <EXPORT NAME="xmltv" CHANNEL="BBC Prime" />
-  </IMPORT>
-
   <IMPORT NAME="TvMovieDe" CHANNEL="KI.KA" DESCR="36">
     <EXPORT NAME="xmltv" CHANNEL="KiKa" />
   </IMPORT>

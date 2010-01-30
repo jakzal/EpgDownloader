@@ -1,4 +1,4 @@
-0.8.0 ()
+0.8.0 (31-01-2010)
 - Saving all files in UTF-8 encoding (thanks to Jacek (wagabunda) for hints)
 - Fixed parsing time of events in TelemanPl plugin when even is currently running.
 - Updated script getting list of channels for WP
