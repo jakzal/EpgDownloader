@@ -65,8 +65,15 @@ sub get {
 		$name =~ s/\+/\\\+/g;
 		$name =~ s/\(/\\\(/g;
 		$name =~ s/\)/\\\)/g;
+
+    my $channelRegex = qr/$name$/;
+    
+    if (!$browser->find_link(text_regex => $channelRegex)) {
+      Misc::pluginMessage(PLUGIN_NAME,"Could not find schedule for ".$name);
+      next;
+    }
 	
-		$browser->follow_link(text_regex => qr/$name$/);
+		$browser->follow_link(text_regex => $channelRegex);
 	
 		#special treatment for '+', '(', ')'
 		$name =~ s/\\\+/+/g;
