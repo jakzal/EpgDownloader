@@ -3,7 +3,6 @@
 #config
 use constant OUTPUT_FILE => "../channels.xml";
 use constant PLUGIN_NAME => WP;
-use constant LIST_URL => "http://tv.wp.pl/katn,Lista kana��w,programy.html";
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
 use constant TV_GUIDE_URL => "http://tv.wp.pl";
 
@@ -40,13 +39,13 @@ Date: march 2006
 
 my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 	
-$browser->get(LIST_URL);
+$browser->get(TV_GUIDE_URL);
 
 #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
 #my $content = $browser->content();
 my $content = $browser->response()->decoded_content();
 
-if($content !~ s/(.*)<table(.*?)>(.*?)Wszystkie kana.y(.*?)<\/td><\/tr>(.*?)<\/table>(.*)/$5/sm) {
+if($content !~ s/.*<div class="wybierz">.*?<select[^>]+>(.*?)<\/select>.*/$1/sm) {
 	print "Unable to find channels list.\n";
 	exit;
 }
@@ -56,9 +55,12 @@ binmode(FILE, ":utf8");
 
 print FILE "<CHANNELS>\n";
 
-while($content =~ s/(.*?)<a class=\"progName\" href=\"(.*?)\"><img (.*?)>(.*?)<\/a>(.*)/$5/sm) {
-	my $url = TV_GUIDE_URL.$2;
-	my $channel = $4;
+while($content =~ s/.*?<option (value|id)="(.*?)" (value|id)="(.*?)">(.*?)<\/option>(.*)/$6/sm) {
+	next if ("$1" ne 'id' and "$3" ne 'id') or ("$1" ne 'value' and "$3" ne 'value');
+	my $id = ("$1" eq 'id' ? $2 : $4);
+	my $value = ("$3" eq 'value' ? $4 : $2);
+	my $url = TV_GUIDE_URL.'/name,'.$id.',stid,'.$value.',time,0,program.html';
+	my $channel = $5;
 	
 	$channel =~ s/^[\s]//;
 	$channel =~ s/[\s]$//;

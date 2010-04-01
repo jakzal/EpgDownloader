@@ -3,23 +3,23 @@
     <EXPORT NAME="xmltv" CHANNEL="BBC 1" />
   </IMPORT>
 
-  <IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=13">
+	<IMPORT NAME="WP" CHANNEL="CANAL+" DESCR="http://tv.wp.pl/name,B_CANAL,stid,13,time,0,program.html">
     <EXPORT NAME="xmltv" CHANNEL="CANAL+" />
   </IMPORT>
 
-  <IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=179">
+	<IMPORT NAME="WP" CHANNEL="CANAL+ Film" DESCR="http://tv.wp.pl/name,B_CANAL-Film,stid,179,time,0,program.html">
     <EXPORT NAME="xmltv" CHANNEL="CANAL+ FILM" />
   </IMPORT>
 
-  <IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=1">
+	<IMPORT NAME="WP" CHANNEL="TVP 1" DESCR="http://tv.wp.pl/name,B_TVP-1,stid,1,time,0,program.html">
     <EXPORT NAME="xmltv" CHANNEL="TVP 1" />
   </IMPORT>
 
-  <IMPORT NAME="WP" CHANNEL="TVN" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=17">
+	<IMPORT NAME="WP" CHANNEL="TVN" DESCR="http://tv.wp.pl/name,A_TVN,stid,17,time,0,program.html">
     <EXPORT NAME="xmltv" CHANNEL="TVN" />
   </IMPORT>
 
-  <IMPORT NAME="WP" CHANNEL="TVP 2" DESCR="http://tv.wp.pl/program.html?T%5Bstation%5D=2">
+	<IMPORT NAME="WP" CHANNEL="TVP 2" DESCR="http://tv.wp.pl/name,A_TVP-2,stid,2,time,0,program.html">
     <EXPORT NAME="xmltv" CHANNEL="TVP 2" />
   </IMPORT>
 
