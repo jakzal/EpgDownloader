@@ -1,3 +1,4 @@
+- fixed WP plugin issues caused by changed website structure
 - fixed WP plugin's channel list grabber and regenerated the list
 
 0.8.0 (31-01-2010)
