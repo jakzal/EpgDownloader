@@ -29,18 +29,17 @@ Date: march, april 2006, october 2008, april 2010
 =cut
 
 sub new {
-	my $class = shift;
-	my $config = shift;
-	
-	my $self = {};
+  my $class = shift;
+  my $config = shift;
 
-	$self->{'config'} = $config;
-	$self->{'plugin_config'} = ConfigWP->new('config.xml');
-	
-	$self->{'url'} = 'http://tv.wp.pl';
-	
-	bless( $self, $class );
-	return $self;
+  my $self = {};
+  $self->{'config'}        = $config;
+  $self->{'plugin_config'} = ConfigWP->new('config.xml');
+  $self->{'url'}           = 'http://tv.wp.pl';
+
+  bless( $self, $class );
+
+  return $self;
 }
 
 #gets channel names list and returns events list
@@ -70,13 +69,12 @@ sub getChannelEvents {
   my $name = shift;
 
   my $events = (); 
-
-  my $days = $self->{'plugin_config'}->get('DAYS');
+  my $days   = $self->{'plugin_config'}->get('DAYS');
 
   for(my $i=1; $i <= $days; $i++) {
     my $dayEvents = $self->getChannelEventsForDay($name, $i);
     if ($dayEvents) {
-      push @{$events}, @{$dayEvents} if $dayEvents;
+      push @{$events}, @{$dayEvents};
     } else {
       last;
     }
@@ -177,7 +175,7 @@ sub getChannels {
 sub parseChannelsFromWebsite {
   my $self = shift;
 
-	my $channels = {}; 
+  my $channels = {}; 
   my $browser  = WWW::Mechanize->new( 'agent' => BROWSER );
 
   $browser->get($self->{'url'});
@@ -188,7 +186,7 @@ sub parseChannelsFromWebsite {
     my $id    = ("$1" eq 'id' ? $2 : $4);
     my $value = ("$3" eq 'value' ? $4 : $2);
     my $name  = $5;
-    my $url   = $self->{'url'}.'/name,'.$id.',stid,'.$value.',time,0,program.html';
+    my $url   = $self->{'url'} . '/name,' . $id . ',stid,' . $value . ',time,0,program.html';
 
     $channels->{$name} = $url;
   }
@@ -199,6 +197,8 @@ sub parseChannelsFromWebsite {
 sub findChannelUriByName {
   my $self = shift;
   my $name = shift;
+
+  $name = encode('utf8', $name);
 
   my $channels = $self->getChannels();
 
