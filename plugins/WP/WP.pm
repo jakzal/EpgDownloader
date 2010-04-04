@@ -66,18 +66,23 @@ sub save {
 }
 
 sub getChannelEvents {
-	my $self = shift;
-	my $name = shift;
+  my $self = shift;
+  my $name = shift;
 
-	my $events = (); 
+  my $events = (); 
 
   my $days = $self->{'plugin_config'}->get('DAYS');
 
   for(my $i=1; $i <= $days; $i++) {
-    push @{$events}, @{$self->getChannelEventsForDay($name, $i)};
+    my $dayEvents = $self->getChannelEventsForDay($name, $i);
+    if ($dayEvents) {
+      push @{$events}, @{$dayEvents} if $dayEvents;
+    } else {
+      last;
+    }
   }
 
-	return $events;
+  return $events;
 }
 
 sub getChannelEventsForDay {
@@ -101,13 +106,10 @@ sub getChannelEventsForDay {
 
   my $content = $browser->content();
   $content = encode('utf8', $content);
-  if($content !~ /(.*)<div class="program">(.*)/sm) {
-    $self->log("", "");
-    $self->log(PLUGIN_NAME, "ERROR: Schedule for channel '$name' on '$dateString' not found!", " ");
-    return $events;
-  }
 
-  while($content =~ s/.*?<div class="program">.*?<div class="programL">.*?<strong>(.*?)<\/strong>.*?<span>\((.*?)\)<\/span>.*?<div class="programR">.*?<h4><a title="(.*?)" href="(.*?)" onclick="return opis\('(.*?)', .*?\);">(.*?)<\/a>.*?<\/h4>.*?<p class="opis">(.*?)<\/p>.*?<p class="ekipa">(.*?)<\/p>(.*)/$9/sm) {
+  while($content =~ m/.*?<div class="program/sm) {
+    # somehow this is faster than the same expression in while loop
+    $content =~ s/.*?<div class="program.*?">.*?<div class="programL">.*?<strong>(.*?)<\/strong>.*?<span>\((.*?)\)<\/span>.*?<div class="programR">.*?<h4><a title="(.*?)" href="(.*?)" onclick="return opis\('(.*?)', .*?\);">(.*?)<\/a>.*?<\/h4>.*?<p class="opis">(.*?)<\/p>.*?<p class="ekipa">(.*?)<\/p>(.*)/$9/sm;
     my $hour    = $1;
     my $length  = $2;
     my $title   = $3;
