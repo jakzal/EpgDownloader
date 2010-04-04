@@ -13,7 +13,7 @@
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Tele 5" DESCR="http://www.teleman.pl/station.html?id=72">
 	</IMPORT>
-	<IMPORT NAME="TelemanPl" CHANNEL="Puls" DESCR="http://www.teleman.pl/station.html?id=8">
+	<IMPORT NAME="TelemanPl" CHANNEL="TV Puls" DESCR="http://www.teleman.pl/station.html?id=8">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="TVP Polonia" DESCR="http://www.teleman.pl/station.html?id=10">
 	</IMPORT>
@@ -83,9 +83,14 @@
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="TVN 24" DESCR="http://www.teleman.pl/station.html?id=12">
 	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="TVN CNBC Biznes
+" DESCR="http://www.teleman.pl/station.html?id=58">
+	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="TVP Info" DESCR="http://www.teleman.pl/station.html?id=9">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="CANAL+ Sport" DESCR="http://www.teleman.pl/station.html?id=31">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="ESPN" DESCR="http://www.teleman.pl/station.html?id=52">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Eurosport" DESCR="http://www.teleman.pl/station.html?id=29">
 	</IMPORT>
@@ -121,11 +126,13 @@
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Discovery World" DESCR="http://www.teleman.pl/station.html?id=28">
 	</IMPORT>
-	<IMPORT NAME="TelemanPl" CHANNEL="History Chann. HD" DESCR="http://www.teleman.pl/station.html?id=111">
+	<IMPORT NAME="TelemanPl" CHANNEL="History" DESCR="http://www.teleman.pl/station.html?id=101">
 	</IMPORT>
-	<IMPORT NAME="TelemanPl" CHANNEL="History Channel" DESCR="http://www.teleman.pl/station.html?id=101">
+	<IMPORT NAME="TelemanPl" CHANNEL="History HD" DESCR="http://www.teleman.pl/station.html?id=111">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="National Geo." DESCR="http://www.teleman.pl/station.html?id=22">
+	</IMPORT>
+	<IMPORT NAME="TelemanPl" CHANNEL="National Geo. Wild" DESCR="http://www.teleman.pl/station.html?id=56">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Planete" DESCR="http://www.teleman.pl/station.html?id=23">
 	</IMPORT>
@@ -161,7 +168,8 @@
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Edusat" DESCR="http://www.teleman.pl/station.html?id=113">
 	</IMPORT>
-	<IMPORT NAME="TelemanPl" CHANNEL="TVN Lingua" DESCR="http://www.teleman.pl/station.html?id=117">
+	<IMPORT NAME="TelemanPl" CHANNEL="BBC Cbeebies
+" DESCR="http://www.teleman.pl/station.html?id=55">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Boomerang" DESCR="http://www.teleman.pl/station.html?id=102">
 	</IMPORT>
@@ -169,7 +177,7 @@
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Disney Channel" DESCR="http://www.teleman.pl/station.html?id=42">
 	</IMPORT>
-	<IMPORT NAME="TelemanPl" CHANNEL="Jetix" DESCR="http://www.teleman.pl/station.html?id=35">
+	<IMPORT NAME="TelemanPl" CHANNEL="Disney XD" DESCR="http://www.teleman.pl/station.html?id=35">
 	</IMPORT>
 	<IMPORT NAME="TelemanPl" CHANNEL="Jetix Play" DESCR="http://www.teleman.pl/station.html?id=100">
 	</IMPORT>

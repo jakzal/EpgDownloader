@@ -1,5 +1,6 @@
 - fixed WP plugin issues caused by changed website structure
 - fixed WP plugin's channel list grabber and regenerated the list
+- refreshed channel lists for EuroTV, Interia, TelemanPl and TvMovieDe plugins
 
 0.8.0 (31-01-2010)
 - Saving all files in UTF-8 encoding (thanks to Jacek (wagabunda) for hints)

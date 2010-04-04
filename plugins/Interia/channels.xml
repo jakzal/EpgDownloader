@@ -1,334 +1,390 @@
 <CHANNELS>
-	<IMPORT NAME="Interia" CHANNEL="TVP 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-1,44,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-1,17024926,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-2,45,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-2,17025069,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat,49,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat,17031047,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn,162,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn,17022794,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV 4" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-4,15,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TV 4" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-4,17031161,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV Polonia" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-polonia,118,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TV Polonia" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-polonia,17025362,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP INFO" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-info,120,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP INFO" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-info,17022428,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="PULS" DESCR="http://programtv.interia.pl/kanaly/wszystkie/puls,183,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="PULS" DESCR="http://programtv.interia.pl/kanaly/wszystkie/puls,17031257,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="4 Fun TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/4-fun-tv,269,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="4 Fun TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/4-fun-tv,17030071,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Ale Kino!" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ale-kino,122,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Ale Kino!" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ale-kino,17029188,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Animal Planet" DESCR="http://programtv.interia.pl/kanaly/wszystkie/animal-planet,123,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Animal Planet" DESCR="http://programtv.interia.pl/kanaly/wszystkie/animal-planet,17029240,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="AXN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/axn,234,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="AXN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/axn,17037003,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="AXN Crime" DESCR="http://programtv.interia.pl/kanaly/wszystkie/axn-crime,270,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="AXN Crime" DESCR="http://programtv.interia.pl/kanaly/wszystkie/axn-crime,17037541,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="AXN Sci-fi" DESCR="http://programtv.interia.pl/kanaly/wszystkie/axn-sci-fi,271,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="AXN Sci-fi" DESCR="http://programtv.interia.pl/kanaly/wszystkie/axn-sci-fi,17030169,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="BBC Prime" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bbc-prime,59,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="BBC Entertainment" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bbc-entertainment,17036892,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Boomerang" DESCR="http://programtv.interia.pl/kanaly/wszystkie/boomerang,285,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="BBC Knowledge" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bbc-knowledge,17035459,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal,48,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="BBC Lifestyle" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bbc-lifestyle,17035567,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+ Film" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal-film,127,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Bloomberg (Engl.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bloomberg-engl,17027550,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+ Sport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal-sport,126,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Boomerang" DESCR="http://programtv.interia.pl/kanaly/wszystkie/boomerang,17037613,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CANAL+ Sport 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal-sport-2,284,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CANAL+" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal,17038234,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Cartoon Network" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cartoon-network,124,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CANAL+ Film" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal-film,17038373,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Cinemax" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cinemax,273,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Canal+ Sport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal-sport,17038315,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Cinemax 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cinemax-2,274,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CANAL+ Sport 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/canal-sport-2,17038449,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery,130,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Cartoon Network" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cartoon-network,17037780,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery Science" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery-science,129,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CBeebies" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cbeebies,17031356,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery Travel and Living" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery-travel-and-living,131,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Cinemax" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cinemax,17037994,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Discovery World" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery-world,128,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Cinemax 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cinemax-2,17038053,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Edusat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/edusat,267,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Comedy Central" DESCR="http://programtv.interia.pl/kanaly/wszystkie/comedy-central,17038113,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Eurosport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/eurosport,133,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery,17037336,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Eurosport 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/eurosport-2,236,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery Science" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery-science,17037212,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Extreme Sports" DESCR="http://programtv.interia.pl/kanaly/wszystkie/extreme-sports,191,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery Travel and Living" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery-travel-and-living,17037412,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hallmark" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hallmark,138,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Discovery World" DESCR="http://programtv.interia.pl/kanaly/wszystkie/discovery-world,17037094,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="HBO" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hbo,137,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Disney Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/disney-channel,17034424,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="HBO2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hbo2,238,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Edusat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/edusat,17035968,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hyper" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hyper,136,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Eurosport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/eurosport,17036253,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ITVN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/itvn,283,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Eurosport 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/eurosport-2,17036136,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Jetix" DESCR="http://programtv.interia.pl/kanaly/wszystkie/jetix,135,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Extreme Sports" DESCR="http://programtv.interia.pl/kanaly/wszystkie/extreme-sports,17026409,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Jetix Play" DESCR="http://programtv.interia.pl/kanaly/wszystkie/jetix-play,286,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Fashion TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/fashion-tv,17036344,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kab. Toya Łódź" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kab-toya-lodz,179,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="FOXlife" DESCR="http://programtv.interia.pl/kanaly/wszystkie/foxlife,17034577,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kab. WTK Poznań" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kab-wtk-poznan,141,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Hallmark" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hallmark,17035897,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kino Polska" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kino-polska,233,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="HBO" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hbo,17035690,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kuchnia.TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kuchniatv,290,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="HBO2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hbo2,17035754,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv,144,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Hyper" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hyper,17036851,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="National Geographic" DESCR="http://programtv.interia.pl/kanaly/wszystkie/national-geographic,145,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ITVN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/itvn,17034021,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Planete" DESCR="http://programtv.interia.pl/kanaly/wszystkie/planete,151,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Jetix" DESCR="http://programtv.interia.pl/kanaly/wszystkie/jetix,17036699,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polonia 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polonia-1,150,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Jetix Play" DESCR="http://programtv.interia.pl/kanaly/wszystkie/jetix-play,17034188,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat-2,152,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kab. Toya Łódź" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kab-toya-lodz,17030601,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat Sport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat-sport,177,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kab. WTK Poznań" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kab-wtk-poznan,17031833,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Polsat Sport Extra" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat-sport-extra,282,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kids Co" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kids-co,17034681,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Romantica" DESCR="http://programtv.interia.pl/kanaly/wszystkie/romantica,154,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kino Polska" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kino-polska,17032129,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Sport Klub" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sport-klub,291,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kuchnia.TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kuchniatv,17032233,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TeDe" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tede,18,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Mini Mini" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mini-mini,17032415,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Tele 5" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tele-5,195,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv,17018837,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Travel Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/travel-channel,160,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="NAT GEO WILD" DESCR="http://programtv.interia.pl/kanaly/wszystkie/nat-geo-wild,17030371,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV Biznes" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-biznes,268,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="National Geographic" DESCR="http://programtv.interia.pl/kanaly/wszystkie/national-geographic,17030270,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN 24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-24,188,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="National Geographic Channel HD" DESCR="http://programtv.interia.pl/kanaly/wszystkie/national-geographic-channel-hd,17030472,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN 7" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-7,51,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Nickelodeon" DESCR="http://programtv.interia.pl/kanaly/wszystkie/nickelodeon,17038497,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN Meteo" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-meteo,276,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="OrangeSport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/orangesport,17035822,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN Style" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-style,277,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="OrangeSportInfo" DESCR="http://programtv.interia.pl/kanaly/wszystkie/orangesportinfo,17160424,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVN Turbo" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-turbo,239,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Planete" DESCR="http://programtv.interia.pl/kanaly/wszystkie/planete,17030846,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Białystok" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-bialystok,32,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Polonia 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polonia-1,17030730,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Bydgoszcz" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-bydgoszcz,33,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat-2,17030946,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Gdańsk" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-gdansk,34,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat Sport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat-sport,17020321,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Katowice" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-katowice,36,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Polsat Sport Extra" DESCR="http://programtv.interia.pl/kanaly/wszystkie/polsat-sport-extra,17030545,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Kraków" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-krakow,35,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Romantica" DESCR="http://programtv.interia.pl/kanaly/wszystkie/romantica,17031738,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Lublin" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-lublin,38,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Sport Klub" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sport-klub,17027930,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Lubuska" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-lubuska,235,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Sport Klub +" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sport-klub,17027846,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Łódź" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-lodz,37,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Superstacja" DESCR="http://programtv.interia.pl/kanaly/wszystkie/superstacja,17026836,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Olsztyn" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-olsztyn,237,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TCM 24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tcm-24,17027304,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Poznań" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-poznan,39,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Tele 5" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tele-5,17027476,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Rzeszów" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-rzeszow,40,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Telewizja Silesia" DESCR="http://programtv.interia.pl/kanaly/wszystkie/telewizja-silesia,17039047,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Szczecin" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-szczecin,41,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Travel Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/travel-channel,17033120,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Warszawa (WOT)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-warszawa-wot,42,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TV Biznes" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-biznes,17033559,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP 3 Wrocław" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-wroclaw,43,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN 24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-24,17033332,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVP Kultura" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-kultura,265,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN 7" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-7,17029987,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="VH-1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/vh-1,197,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN Meteo" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-meteo,17022902,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viasat Explorer" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viasat-explorer,241,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN Style" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-style,17024686,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viasat History" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viasat-history,240,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVN Turbo" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvn-turbo,17025550,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="VIVA Polska" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viva-polska,163,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Białystok" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-bialystok,17027690,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ZIG-ZAP" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zig-zap,143,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Bydgoszcz" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-bydgoszcz,17027745,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ZONE CLUB" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zone-club,190,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Gdańsk" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-gdansk,17027795,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ZONE EUROPA" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zone-europa,164,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Katowice" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-katowice,17028081,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ZONE REALITY" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zone-reality,155,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Kraków" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-krakow,17028016,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="13EME RUE" DESCR="http://programtv.interia.pl/kanaly/wszystkie/13eme-rue,257,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Lublin" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-lublin,17028217,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="3sat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/3sat,1,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Lubuska" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-lubuska,17022100,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="alpha" DESCR="http://programtv.interia.pl/kanaly/wszystkie/alpha,55,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Łódź" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-lodz,17028148,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ARD" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ard,2,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Olsztyn" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-olsztyn,17024868,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Arte" DESCR="http://programtv.interia.pl/kanaly/wszystkie/arte,57,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Poznań" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-poznan,17021039,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ATV (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/atv-deut,58,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Rzeszów" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-rzeszow,17021098,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Bayern 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bayern-3,3,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Szczecin" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-szczecin,17033070,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="BBC World" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bbc-world,272,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Warszawa (WOT)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-warszawa-wot,17018656,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Berlin 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/berlin-1,4,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP 3 Wrocław" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-3-wroclaw,17033269,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Bloomberg (Engl.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bloomberg-engl,168,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Historia" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-historia,17025176,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CNN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cnn,66,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Kultura" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-kultura,17021368,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Comedy Central" DESCR="http://programtv.interia.pl/kanaly/wszystkie/comedy-central,9267925,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="TVP Sport" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tvp-sport,17038766,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CT 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ct-1,184,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="VH-1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/vh-1,17032805,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="CT 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ct-2,185,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Viasat Explorer" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viasat-explorer,17025875,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Deutsche Welle TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/deutsche-welle-tv,280,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Viasat History" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viasat-history,17025974,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="DSF" DESCR="http://programtv.interia.pl/kanaly/wszystkie/dsf,69,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="VIVA Polska" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viva-polska,17016084,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Eurosport Deutsch" DESCR="http://programtv.interia.pl/kanaly/wszystkie/eurosport-deutsch,71,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Wedding TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/wedding-tv,17035329,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="FAB" DESCR="http://programtv.interia.pl/kanaly/wszystkie/fab,248,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ZIG-ZAP" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zig-zap,17032669,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Fashion TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/fashion-tv,134,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ZONE CLUB" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zone-club,17026268,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="France 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/france-2,56,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ZONE EUROPA" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zone-europa,17033054,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="France 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/france-3,73,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ZONE REALITY" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zone-reality,17029847,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hamburg 1 (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hamburg-1-deut,8,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="13EME RUE" DESCR="http://programtv.interia.pl/kanaly/wszystkie/13eme-rue,17026184,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Hessen 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hessen-3,77,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="3sat" DESCR="http://programtv.interia.pl/kanaly/wszystkie/3sat,17016278,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="H.O.T." DESCR="http://programtv.interia.pl/kanaly/wszystkie/hot,139,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="alpha" DESCR="http://programtv.interia.pl/kanaly/wszystkie/alpha,17021138,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Italia 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/italia-1,215,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ARD" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ard,17018959,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kabel 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kabel-1,79,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Arte" DESCR="http://programtv.interia.pl/kanaly/wszystkie/arte,17028377,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Kinderkanal" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kinderkanal,80,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ATV (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/atv-deut,17016180,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="LA 7" DESCR="http://programtv.interia.pl/kanaly/wszystkie/la-7,217,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Bayern 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bayern-3,17038823,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="M 6" DESCR="http://programtv.interia.pl/kanaly/wszystkie/m-6,83,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="BBC World" DESCR="http://programtv.interia.pl/kanaly/wszystkie/bbc-world,17019911,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MDR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mdr,9,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Berlin 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/berlin-1,17020472,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv-2,278,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CNBC Europe" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cnbc-europe,17016396,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV Base" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv-base,281,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CNN" DESCR="http://programtv.interia.pl/kanaly/wszystkie/cnn,17019749,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="MTV Deutsch" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv-deutsch,84,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="COM" DESCR="http://programtv.interia.pl/kanaly/wszystkie/com,17039241,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="N 24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/n-24,10,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CT1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ct1,17019219,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="N 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/n-3,11,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="CT2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ct2,17019478,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Nova" DESCR="http://programtv.interia.pl/kanaly/wszystkie/nova,186,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Deutsche Welle TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/deutsche-welle-tv,17020643,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="n-tv" DESCR="http://programtv.interia.pl/kanaly/wszystkie/n-tv,12,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="DSF" DESCR="http://programtv.interia.pl/kanaly/wszystkie/dsf,17016473,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ORF 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/orf-1,7,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Euronews" DESCR="http://programtv.interia.pl/kanaly/wszystkie/euronews,17128700,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ORF 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/orf-2,74,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Eurosport Deutsch" DESCR="http://programtv.interia.pl/kanaly/wszystkie/eurosport-deutsch,17039187,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Phoenix" DESCR="http://programtv.interia.pl/kanaly/wszystkie/phoenix,13,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="France 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/france-2,17035155,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: 13th Street" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-13th-street,100,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="France 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/france-3,17020871,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Beate Uhse" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-beate-uhse,245,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Hamburg 1 (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hamburg-1-deut,17016608,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Discovery Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-discovery-channel,68,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Hessen 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/hessen-3,17018002,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Disney Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-disney-channel,67,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Holland 1 (Holl.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/holland-1-holl,17035049,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Heimatkanal (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-heimatkanal-deut,76,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Holland 2 (Holl.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/holland-2-holl,17039677,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Krimi & Co" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-krimi--co,81,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Holland 3 (Holl.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/holland-3-holl,17039478,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Premiere: Sci-Fantasy" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-sci-fantasy,96,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="H.O.T." DESCR="http://programtv.interia.pl/kanaly/wszystkie/hot,17016763,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Pro 7" DESCR="http://programtv.interia.pl/kanaly/wszystkie/pro-7,14,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Italia 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/italia-1,17016828,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RAI" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rai,50,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kabel 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kabel-1,17029707,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RAI2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rai2,94,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Kinderkanal" DESCR="http://programtv.interia.pl/kanaly/wszystkie/kinderkanal,17018146,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RAI3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rai3,205,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="LA 7" DESCR="http://programtv.interia.pl/kanaly/wszystkie/la-7,17025689,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RETE4" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rete4,216,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="LOR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/lor,17025793,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RTL" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rtl,20,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="M 6" DESCR="http://programtv.interia.pl/kanaly/wszystkie/m-6,17038665,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="RTL 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rtl-2,19,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="MDR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mdr,17027248,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SAT.1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sat1,21,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv-2,17129600,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SF 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sf-1,6,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV Base" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv-base,17021315,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="SF 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sf-2,5,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="MTV Deutsch" DESCR="http://programtv.interia.pl/kanaly/wszystkie/mtv-deutsch,17017123,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Sport Klub +" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sport-klub,292,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="N 24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/n-24,17024458,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Star TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/star-tv,101,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="N 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/n-3,17034357,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Super RTL" DESCR="http://programtv.interia.pl/kanaly/wszystkie/super-rtl,99,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="NOVA" DESCR="http://programtv.interia.pl/kanaly/wszystkie/nova,17019647,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Super Stacja" DESCR="http://programtv.interia.pl/kanaly/wszystkie/super-stacja,12771045,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="n-tv" DESCR="http://programtv.interia.pl/kanaly/wszystkie/n-tv,17020105,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Südwest 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sudwest-3,26,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ORF 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/orf-1,17015760,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Swizz" DESCR="http://programtv.interia.pl/kanaly/wszystkie/swizz,97,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="ORF 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/orf-2,17015929,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="T24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/t24,196,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Phoenix" DESCR="http://programtv.interia.pl/kanaly/wszystkie/phoenix,17022154,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TC Cinema" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tc-cinema,258,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: 13th Street" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-13th-street,17038945,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TC Star" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tc-star,260,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Beate Uhse" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-beate-uhse,17039006,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TCM 24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tcm-24,10088896,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Blue Movie 1 (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-blue-movie-1-deut,17020366,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Tele  5" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tele-5,261,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Blue Movie 2 (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-blue-movie-2-deut,17131540,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TF 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tf-1,105,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Blue Movie 3 (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-blue-movie-3-deut,17159033,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TheaterKanal" DESCR="http://programtv.interia.pl/kanaly/wszystkie/theaterkanal,116,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Cine Action (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-cine-action-deut,17020415,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TI2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ti2,159,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Classica (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-classica-deut,17020836,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TM3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tm3,106,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Discovery Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-discovery-channel,17021646,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TSI" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tsi,161,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Disney Channel" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-disney-channel,17021466,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TSR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tsr,107,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Goldstar TV (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-goldstar-tv-deut,17019130,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TSR 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tsr-2,54,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Heimatkanal (Deut.)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-heimatkanal-deut,17019398,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV 5 Europe" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-5-europe,53,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Junior" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-junior,17018396,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TV Berlin" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-berlin,109,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Krimi & Co" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-krimi--co,17025279,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TVE" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tve,110,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Premiere: Sci-Fantasy" DESCR="http://programtv.interia.pl/kanaly/wszystkie/premiere-sci-fantasy,17026081,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="TW 1 (Wetter)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tw-1-wetter,263,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="Pro 7" DESCR="http://programtv.interia.pl/kanaly/wszystkie/pro-7,17017226,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="Viva 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viva-1,114,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="RAI" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rai,17027126,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="VOX" DESCR="http://programtv.interia.pl/kanaly/wszystkie/vox,46,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="RAI2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rai2,17026548,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="WDR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/wdr,115,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="RAI3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rai3,17026702,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
-	<IMPORT NAME="Interia" CHANNEL="ZDF" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zdf,47,10?sDate=2009-02-14&amp;sTimeF=20&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	<IMPORT NAME="Interia" CHANNEL="RETE4" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rete4,17016984,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="RTL" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rtl,17039799,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="RTL 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/rtl-2,17017359,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="SAT.1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sat1,17039317,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="SF 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sf-1,17033872,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="SF 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sf-2,17032941,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="Star TV" DESCR="http://programtv.interia.pl/kanaly/wszystkie/star-tv,17018758,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="Super RTL" DESCR="http://programtv.interia.pl/kanaly/wszystkie/super-rtl,17017450,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="Südwest 3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/sudwest-3,17021786,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="T24" DESCR="http://programtv.interia.pl/kanaly/wszystkie/t24,17028771,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TC Cinema" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tc-cinema,17032884,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TC Star" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tc-star,17029656,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="Tele  5" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tele-5,17022028,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TF 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tf-1,17029368,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TheaterKanal" DESCR="http://programtv.interia.pl/kanaly/wszystkie/theaterkanal,17018319,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TI2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/ti2,17029518,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TM3" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tm3,17017605,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TSI" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tsi,17022280,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TSR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tsr,17028522,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TSR 2" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tsr-2,17028268,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TV 5 Europe" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-5-europe,17029003,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TV Berlin" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tv-berlin,17017665,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TVE" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tve,17028650,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="TW 1 (Wetter)" DESCR="http://programtv.interia.pl/kanaly/wszystkie/tw-1-wetter,17027361,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="VHCL" DESCR="http://programtv.interia.pl/kanaly/wszystkie/vhcl,17185399,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="Viva 1" DESCR="http://programtv.interia.pl/kanaly/wszystkie/viva-1,17017796,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="VOX" DESCR="http://programtv.interia.pl/kanaly/wszystkie/vox,17017898,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="WDR" DESCR="http://programtv.interia.pl/kanaly/wszystkie/wdr,17034916,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
+	</IMPORT>
+	<IMPORT NAME="Interia" CHANNEL="ZDF" DESCR="http://programtv.interia.pl/kanaly/wszystkie/zdf,17018533,10?sDate=2010-04-04&amp;sTimeF=10&amp;sTimeT=4&amp;sTimeT=4&amp;cn=&amp;p=1">
 	</IMPORT>
 </CHANNELS>
