@@ -48,95 +48,13 @@ sub get {
   my $self = shift;
   my $channels = shift;
 
-  my $days = $self->{'plugin_config'}->get('DAYS');
-  my $fullDescription = $self->{'plugin_config'}->get('FULL_DESCRIPTION');
-  my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
-
   foreach my $name (keys(%{$channels})) {
-    $self->log(PLUGIN_NAME, "Downloading schedule for ".$name, " ");
+    $self->log(PLUGIN_NAME, "Downloading schedule for " . $name, " ");
+    $channels->{$name} = $self->getChannelEvents($name);
+    $self->log("", "");
+  }
 
-    my $events = $channels->{$name};
-
-    for(my $i=1; $i <= $days; $i++) {
-			my $dateString  = time2str("%Y-%m-%d",time+(60*60*24*($i-1)));
-			my $dateUnix    = str2time($dateString);
-			my $date_url    = "";
-      my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
-
-      if (!$channel_uri) {
-        $self->log(PLUGIN_NAME, "Could not find schedule for ".$name);
-        next;
-      }
-			
-			$browser->get($channel_uri);
-		
-      #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
-			#my $content = $browser->content();
-      my $content = $browser->response()->decoded_content();
-			$content = encode('utf8', $content);
-			if($content !~ /(.*)<div class="program">(.*)/sm) {
-				$self->log("", "");
-				$self->log(PLUGIN_NAME, "ERROR: Schedule for channel '$name' on '$dateString' not found!", " ");
-				last;
-			}
-
-			while($content =~ s/.*?<div class="program">.*?<div class="programL">.*?<strong>(.*?)<\/strong>.*?<span>\((.*?)\)<\/span>.*?<div class="programR">.*?<h4><a title="(.*?)" href="(.*?)" onclick="return opis\('(.*?)', .*?\);">(.*?)<\/a>.*?<\/h4>.*?<p class="opis">(.*?)<\/p>.*?<p class="ekipa">(.*?)<\/p>(.*)/$9/sm) {
-				my $hour    = $1;
-				my $length  = $2;
-				my $title   = $3;
-				my $longUrl = $5;
-				my $description  = $length.", ".$7;
-				my $description2 = $8;
-
-				last if $hour !~ /([0-9]{1,2}:[0-9]{2})/;
-				
-				#get full description if available and needed (follows another link so it costs time)
-				if($fullDescription == 1 && $longUrl !~ //) {
-					$browser->get($longUrl);
-          #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
-					#my $tmp = $browser->content();
-          my $tmp = $browser->response()->decoded_content();
-					$description  = $1.", ".$2 if $tmp =~ /.*?<div class="opis">(.*?)<\/div>.*?<p>(.*?)<\/p>/sm;
-					$description2 = $1 if $tmp =~ /.*?<p class="ekipa">(.*?)<\/p>.*/sm;
-				}
-				
-				#removing trash from description
-				$description  =~ s/&nbsp;/ /smg;
-				$description  =~ s/<br(.*?)>/\n/smgi;
-				$description  =~ s/<(\/?)(.*?)>//smg;
-        $description  =~ s/\s+/ /g;
-				$description2 =~ s/&nbsp;/ /smg;
-				$description2 =~ s/<br(.*?)>/\n/smgi;
-				$description2 =~ s/<(\/?)(.*?)>//smg;
-        $description2 =~ s/\s+/ /g;
-		
-				#convert hour to unix timestamp, if it's after midnight, change base date string
-				$dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
-				$hour = str2time($dateString." ".$hour);
-	
-				#create event
-				my $event = Event->new();
-				$event->set('start',$hour);
-				$event->set('stop',$hour+1);
-				$event->set('title',$title);
-				$event->set('description',$description);
-				$event->set('description2',$description2);
-	
-				#set the previous event stop timestamp
-				my $previous = $#{$events};
-				$events->[$previous]->set('stop',$event->{'start'}) if $previous > -1;
-			
-				#put event to the events array
-				push @{$events}, $event;
-			}
-	
-			$self->log("", "#", " ");
-		}
-
-		$self->log("", "");
-	}
-	
-	return $channels;
+  return $channels;
 }
 
 #gets channels list with each one's events and exports it
@@ -145,6 +63,93 @@ sub save {
   my $events = shift;
 
   $self->log(PLUGIN_NAME, "This plugin doesn't support export.");
+}
+
+sub getChannelEvents {
+	my $self = shift;
+	my $name = shift;
+
+	my $events = (); 
+
+  my $days = $self->{'plugin_config'}->get('DAYS');
+  my $fullDescription = $self->{'plugin_config'}->get('FULL_DESCRIPTION');
+  my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
+
+  for(my $i=1; $i <= $days; $i++) {
+    my $dateString  = time2str("%Y-%m-%d",time+(60*60*24*($i-1)));
+    my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
+
+    if (!$channel_uri) {
+      $self->log(PLUGIN_NAME, "Could not find schedule for ".$name);
+      next;
+    }
+
+    $browser->get($channel_uri);
+
+    #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+    #my $content = $browser->content();
+    my $content = $browser->response()->decoded_content();
+    $content = encode('utf8', $content);
+    if($content !~ /(.*)<div class="program">(.*)/sm) {
+      $self->log("", "");
+      $self->log(PLUGIN_NAME, "ERROR: Schedule for channel '$name' on '$dateString' not found!", " ");
+      last;
+    }
+
+    while($content =~ s/.*?<div class="program">.*?<div class="programL">.*?<strong>(.*?)<\/strong>.*?<span>\((.*?)\)<\/span>.*?<div class="programR">.*?<h4><a title="(.*?)" href="(.*?)" onclick="return opis\('(.*?)', .*?\);">(.*?)<\/a>.*?<\/h4>.*?<p class="opis">(.*?)<\/p>.*?<p class="ekipa">(.*?)<\/p>(.*)/$9/sm) {
+      my $hour    = $1;
+      my $length  = $2;
+      my $title   = $3;
+      my $longUrl = $5;
+      my $description  = $length.", ".$7;
+      my $description2 = $8;
+
+      last if $hour !~ /([0-9]{1,2}:[0-9]{2})/;
+
+      #get full description if available and needed (follows another link so it costs time)
+      if($fullDescription == 1 && $longUrl !~ //) {
+        $browser->get($longUrl);
+        #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
+        #my $tmp = $browser->content();
+        my $tmp = $browser->response()->decoded_content();
+        $description  = $1.", ".$2 if $tmp =~ /.*?<div class="opis">(.*?)<\/div>.*?<p>(.*?)<\/p>/sm;
+        $description2 = $1 if $tmp =~ /.*?<p class="ekipa">(.*?)<\/p>.*/sm;
+      }
+
+      #removing trash from description
+      $description  =~ s/&nbsp;/ /smg;
+      $description  =~ s/<br(.*?)>/\n/smgi;
+      $description  =~ s/<(\/?)(.*?)>//smg;
+      $description  =~ s/\s+/ /g;
+      $description2 =~ s/&nbsp;/ /smg;
+      $description2 =~ s/<br(.*?)>/\n/smgi;
+      $description2 =~ s/<(\/?)(.*?)>//smg;
+      $description2 =~ s/\s+/ /g;
+
+      #convert hour to unix timestamp, if it's after midnight, change base date string
+      $dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
+      $hour = str2time($dateString." ".$hour);
+
+      #create event
+      my $event = Event->new();
+      $event->set('start',$hour);
+      $event->set('stop',$hour+1);
+      $event->set('title',$title);
+      $event->set('description',$description);
+      $event->set('description2',$description2);
+
+      #set the previous event stop timestamp
+      my $previous = $#{$events};
+      $events->[$previous]->set('stop',$event->{'start'}) if $previous > -1;
+
+      #put event to the events array
+      push @{$events}, $event;
+    }
+
+    $self->log("", "#", " ");
+  }
+
+	return $events;
 }
 
 sub getChannels {
