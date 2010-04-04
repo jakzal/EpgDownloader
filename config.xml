@@ -8,6 +8,7 @@
   <SECTION NAME="WP">
     <OPTION NAME="DAYS" VALUE="7" DESCR="number of days to import WP schedule for" />
     <OPTION NAME="FULL_DESCRIPTION" VALUE="0" DESCR="Set to 1 to get full episode description (very slow)" />
+    <OPTION NAME="THREADS" VALUE="5" DESCR="Number of threads to run" />
   </SECTION>
 
   <SECTION NAME="Interia">

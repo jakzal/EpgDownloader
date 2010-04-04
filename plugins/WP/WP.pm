@@ -58,7 +58,7 @@ sub get {
     $self->{'threads'}->{$name} = threads->create('getChannelEvents', $self, $name);
     $self->log("", "");
 
-    if (keys(%{$self->{'threads'}}) > 4) {
+    if (keys(%{$self->{'threads'}}) >= $self->{'plugin_config'}->{'THREADS'}) {
       while (my ($channelName, $thread) = each(%{$self->{'threads'}})) {
         $channels->{$channelName} = $thread->join();
         delete $self->{'threads'}->{$channelName};
