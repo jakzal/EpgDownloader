@@ -106,9 +106,7 @@ sub getChannelEvents {
       #get full description if available and needed (follows another link so it costs time)
       if($self->{'plugin_config'}->get('FULL_DESCRIPTION') == 1 && $longUrl !~ //) {
         $browser->get($longUrl);
-        #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
-        #my $tmp = $browser->content();
-        my $tmp = $browser->response()->decoded_content();
+        my $tmp = $browser->content();
         $description  = $1.", ".$2 if $tmp =~ /.*?<div class="opis">(.*?)<\/div>.*?<p>(.*?)<\/p>/sm;
         $description2 = $1 if $tmp =~ /.*?<p class="ekipa">(.*?)<\/p>.*/sm;
       }
