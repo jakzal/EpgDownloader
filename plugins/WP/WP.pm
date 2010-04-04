@@ -45,53 +45,28 @@ sub new {
 
 #gets channel names list and returns events list
 sub get {
-	my $self = shift;
-	my $channels = shift;
-	
-	my $url = $self->{'url'};
-	my $days = $self->{'plugin_config'}->get('DAYS');
-	my $fullDescription = $self->{'plugin_config'}->get('FULL_DESCRIPTION');
-	my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
+  my $self = shift;
+  my $channels = shift;
 
-	$browser->get($url);
+  my $days = $self->{'plugin_config'}->get('DAYS');
+  my $fullDescription = $self->{'plugin_config'}->get('FULL_DESCRIPTION');
+  my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 
-	my $list_content = $browser->content();
-	
-	foreach my $name (keys(%{$channels})) {
-		Misc::pluginMessage(PLUGIN_NAME,"Downloading schedule for ".$name," ");
-		
-		my $events = $channels->{$name};
-	
-		#special treatment for '+', '(', ')'
-		$name =~ s/\+/\\\+/g;
-		$name =~ s/\(/\\\(/g;
-		$name =~ s/\)/\\\)/g;
+  foreach my $name (keys(%{$channels})) {
+    Misc::pluginMessage(PLUGIN_NAME,"Downloading schedule for ".$name," ");
 
-    my $channelRegex = qr/$name$/;
+    my $events = $channels->{$name};
 
-    $list_content =~ /.*?<option (value|id)="([^"]+)" (value|id)="([^"]+)">$name<\/option>(.*)/sm;
+    for(my $i=1; $i <= $days; $i++) {
+			my $dateString  = time2str("%Y-%m-%d",time+(60*60*24*($i-1)));
+			my $dateUnix    = str2time($dateString);
+			my $date_url    = "";
+      my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
 
-	  if (("$1" ne 'id' and "$3" ne 'id') or ("$1" ne 'value' and "$3" ne 'value')) {
-      Misc::pluginMessage(PLUGIN_NAME,"Could not find schedule for ".$name);
-      next;
-    }
-
-		my $id = ("$1" eq 'id' ? $2 : $4);
-		my $value = ("$3" eq 'value' ? $4 : $2);
-		my $channel_uri = $url.'/name,'.$id.',stid,'.$value.',time,0,program.html';
-
-		#special treatment for '+', '(', ')'
-		$name =~ s/\\\+/+/g;
-		$name =~ s/\\\(/\(/g;
-		$name =~ s/\\\)/\)/g;
-		
-		for(my $i=1; $i <= $days; $i++) {
-		
-			my $dateString = time2str("%Y-%m-%d",time+(60*60*24*($i-1)));
-			my $dateUnix = str2time($dateString);
-			my $date_url = "";
-
-			$channel_uri =~ s/name,/date,$dateString,name,/;
+      if (!$channel_uri) {
+        Misc::pluginMessage(PLUGIN_NAME,"Could not find schedule for ".$name);
+        next;
+      }
 			
 			$browser->get($channel_uri);
 		
@@ -172,6 +147,58 @@ sub save {
 	my $events = shift;
 	
 	Misc::pluginMessage(PLUGIN_NAME,"This plugin doesn't support export.");
+}
+
+sub getChannels {
+  my $self = shift;
+
+  if (!$self->{'channels'}) {
+    $self->{'channels'} = $self->parseChannelsFromWebsite();
+  }
+
+  return $self->{'channels'};
+}
+
+sub parseChannelsFromWebsite {
+  my $self = shift;
+
+	my $channels = {}; 
+  my $browser  = WWW::Mechanize->new( 'agent' => BROWSER );
+
+  $browser->get($self->{'url'});
+
+  my $content = encode('utf8', $browser->content());
+
+  while ($content =~ s/.*?<option (value|id)="([^"]+)" (value|id)="([^"]+)">(.*?)<\/option>(.*)/$6/sm) {
+    my $id    = ("$1" eq 'id' ? $2 : $4);
+    my $value = ("$3" eq 'value' ? $4 : $2);
+    my $name  = $5;
+    my $url   = $self->{'url'}.'/name,'.$id.',stid,'.$value.',time,0,program.html';
+
+    $channels->{$name} = $url;
+  }
+
+  return $channels;
+}
+
+sub findChannelUriByName {
+  my $self = shift;
+  my $name = shift;
+
+  my $channels = $self->getChannels();
+
+  return $channels->{$name} || '';
+}
+
+sub findChannelUriByNameAndDate {
+  my $self = shift;
+  my $name = shift;
+  my $date = shift;
+
+  my $channel_uri = $self->findChannelUriByName($name);
+  $channel_uri =~ s/name,/date,$date,name,/;
+
+  return $channel_uri;
 }
 
 1;
