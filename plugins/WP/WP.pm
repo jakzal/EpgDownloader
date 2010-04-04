@@ -72,7 +72,6 @@ sub getChannelEvents {
 	my $events = (); 
 
   my $days = $self->{'plugin_config'}->get('DAYS');
-  my $fullDescription = $self->{'plugin_config'}->get('FULL_DESCRIPTION');
   my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 
   for(my $i=1; $i <= $days; $i++) {
@@ -107,7 +106,7 @@ sub getChannelEvents {
       last if $hour !~ /([0-9]{1,2}:[0-9]{2})/;
 
       #get full description if available and needed (follows another link so it costs time)
-      if($fullDescription == 1 && $longUrl !~ //) {
+      if($self->{'plugin_config'}->get('FULL_DESCRIPTION') == 1 && $longUrl !~ //) {
         $browser->get($longUrl);
         #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
         #my $tmp = $browser->content();
@@ -116,27 +115,17 @@ sub getChannelEvents {
         $description2 = $1 if $tmp =~ /.*?<p class="ekipa">(.*?)<\/p>.*/sm;
       }
 
-      #removing trash from description
-      $description  =~ s/&nbsp;/ /smg;
-      $description  =~ s/<br(.*?)>/\n/smgi;
-      $description  =~ s/<(\/?)(.*?)>//smg;
-      $description  =~ s/\s+/ /g;
-      $description2 =~ s/&nbsp;/ /smg;
-      $description2 =~ s/<br(.*?)>/\n/smgi;
-      $description2 =~ s/<(\/?)(.*?)>//smg;
-      $description2 =~ s/\s+/ /g;
-
       #convert hour to unix timestamp, if it's after midnight, change base date string
       $dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
       $hour = str2time($dateString." ".$hour);
 
       #create event
       my $event = Event->new();
-      $event->set('start',$hour);
-      $event->set('stop',$hour+1);
-      $event->set('title',$title);
-      $event->set('description',$description);
-      $event->set('description2',$description2);
+      $event->set('start', $hour);
+      $event->set('stop', $hour+1);
+      $event->set('title', $title);
+      $event->set('description', $self->clean($description));
+      $event->set('description2', $self->clean($description2));
 
       #set the previous event stop timestamp
       my $previous = $#{$events};
@@ -150,6 +139,18 @@ sub getChannelEvents {
   }
 
 	return $events;
+}
+
+sub clean {
+  my $self = shift;
+  my $text = shift;
+
+  $text =~ s/&nbsp;/ /smg;
+  $text =~ s/<br(.*?)>/\n/smgi;
+  $text =~ s/<(\/?)(.*?)>//smg;
+  $text =~ s/\s+/ /g;
+
+  return $text;
 }
 
 sub getChannels {
