@@ -37,6 +37,8 @@ sub new {
   $self->{'config'}        = $config;
   $self->{'plugin_config'} = ConfigWP->new('config.xml');
   $self->{'url'}           = 'http://tv.wp.pl';
+  $self->{'channels'}      = {};
+  $self->{'threads'}       = {};
 
   bless( $self, $class );
 
@@ -48,29 +50,28 @@ sub get {
   my $self = shift;
   my $channels = shift;
 
-  my @threads = ();
-  my $i = 0;
-
   # fetch the channel list before threads are started
   $self->getChannels();
 
   foreach my $name (keys(%{$channels})) {
     $self->log(PLUGIN_NAME, "Downloading schedule for " . $name, " ");
-    push(@threads, threads->create('getChannelEvents', $self, $name));
+    $self->{'threads'}->{$name} = threads->create('getChannelEvents', $self, $name);
     $self->log("", "");
-    $i++;
 
-    if ($i > 4) {
-      while (my $thread = shift(@threads)) {
-        $channels->{$name} = $thread->join();
-        $i = 0;
+    if (keys(%{$self->{'threads'}}) > 4) {
+      while (my ($channelName, $thread) = each(%{$self->{'threads'}})) {
+        $channels->{$channelName} = $thread->join();
+        delete $self->{'threads'}->{$channelName};
       }
+      $self->log("", "");
     }
   }
 
-  while (my $thread = shift(@threads)) {
-    $thread->join;
+  while ((my $channelName, my $thread) = each(%{$self->{'threads'}})) {
+    $channels->{$channelName} = $thread->join();
+    delete $self->{'threads'}->{$channelName};
   }
+  $self->log("", "");
 
   return $channels;
 }
@@ -184,7 +185,7 @@ sub clean {
 sub getChannels {
   my $self = shift;
 
-  if (!$self->{'channels'}) {
+  if (keys %{$self->{'channels'}} < 1) {
     $self->{'channels'} = $self->parseChannelsFromWebsite();
   }
 
