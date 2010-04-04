@@ -75,19 +75,17 @@ sub getChannelEvents {
   my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 
   for(my $i=1; $i <= $days; $i++) {
-    my $dateString  = time2str("%Y-%m-%d",time+(60*60*24*($i-1)));
+    my $dateString  = time2str("%Y-%m-%d", time+(60*60*24*($i-1)));
     my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
 
     if (!$channel_uri) {
-      $self->log(PLUGIN_NAME, "Could not find schedule for ".$name);
+      $self->log(PLUGIN_NAME, "Could not find schedule for " . $name);
       next;
     }
 
     $browser->get($channel_uri);
 
-    #@todo From version 1.50 of WWW-Mechanize content is decoded by default. For now we have to handle it this way.
-    #my $content = $browser->content();
-    my $content = $browser->response()->decoded_content();
+    my $content = $browser->content();
     $content = encode('utf8', $content);
     if($content !~ /(.*)<div class="program">(.*)/sm) {
       $self->log("", "");
