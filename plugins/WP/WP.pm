@@ -24,7 +24,7 @@ This software is released under the GNU GPL version 2.
 
 Author: Jakub Zalas <jakub@zalas.net>.
 
-Date: march, april 2006, october 2008
+Date: march, april 2006, october 2008, april 2010
 
 =cut
 
@@ -53,7 +53,7 @@ sub get {
   my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 
   foreach my $name (keys(%{$channels})) {
-    Misc::pluginMessage(PLUGIN_NAME,"Downloading schedule for ".$name," ");
+    $self->log(PLUGIN_NAME, "Downloading schedule for ".$name, " ");
 
     my $events = $channels->{$name};
 
@@ -64,7 +64,7 @@ sub get {
       my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
 
       if (!$channel_uri) {
-        Misc::pluginMessage(PLUGIN_NAME,"Could not find schedule for ".$name);
+        $self->log(PLUGIN_NAME, "Could not find schedule for ".$name);
         next;
       }
 			
@@ -75,10 +75,8 @@ sub get {
       my $content = $browser->response()->decoded_content();
 			$content = encode('utf8', $content);
 			if($content !~ /(.*)<div class="program">(.*)/sm) {
-				Misc::pluginMessage("","");
-				Misc::pluginMessage(
-					PLUGIN_NAME,
-					"ERROR: Schedule for channel '$name' on '$dateString' not found!"," ");
+				$self->log("", "");
+				$self->log(PLUGIN_NAME, "ERROR: Schedule for channel '$name' on '$dateString' not found!", " ");
 				last;
 			}
 
@@ -132,10 +130,10 @@ sub get {
 				push @{$events}, $event;
 			}
 	
-			Misc::pluginMessage("","#"," ");
+			$self->log("", "#", " ");
 		}
 
-		Misc::pluginMessage("","");
+		$self->log("", "");
 	}
 	
 	return $channels;
@@ -143,10 +141,10 @@ sub get {
 
 #gets channels list with each one's events and exports it
 sub save {
-	my $self = shift;
-	my $events = shift;
-	
-	Misc::pluginMessage(PLUGIN_NAME,"This plugin doesn't support export.");
+  my $self = shift;
+  my $events = shift;
+
+  $self->log(PLUGIN_NAME, "This plugin doesn't support export.");
 }
 
 sub getChannels {
@@ -199,6 +197,15 @@ sub findChannelUriByNameAndDate {
   $channel_uri =~ s/name,/date,$date,name,/;
 
   return $channel_uri;
+}
+
+sub log {
+  my $self = shift;
+  my $sender = shift;
+  my $message = shift;
+  my $newLine = shift || "\n";
+
+  Misc::pluginMessage($sender, $message, $newLine);
 }
 
 1;
