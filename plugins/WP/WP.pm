@@ -1,6 +1,7 @@
 package WP;
 use constant PLUGIN_NAME => WP;
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
+use threads;
 use Encode;
 use WWW::Mechanize;
 use Date::Format;
@@ -47,10 +48,28 @@ sub get {
   my $self = shift;
   my $channels = shift;
 
+  my @threads = ();
+  my $i = 0;
+
+  # fetch the channel list before threads are started
+  $self->getChannels();
+
   foreach my $name (keys(%{$channels})) {
     $self->log(PLUGIN_NAME, "Downloading schedule for " . $name, " ");
-    $channels->{$name} = $self->getChannelEvents($name);
+    push(@threads, threads->create('getChannelEvents', $self, $name));
     $self->log("", "");
+    $i++;
+
+    if ($i > 4) {
+      while (my $thread = shift(@threads)) {
+        $channels->{$name} = $thread->join();
+        $i = 0;
+      }
+    }
+  }
+
+  while (my $thread = shift(@threads)) {
+    $thread->join;
   }
 
   return $channels;
