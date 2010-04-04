@@ -72,69 +72,82 @@ sub getChannelEvents {
 	my $events = (); 
 
   my $days = $self->{'plugin_config'}->get('DAYS');
-  my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
 
   for(my $i=1; $i <= $days; $i++) {
-    my $dateString  = time2str("%Y-%m-%d", time+(60*60*24*($i-1)));
-    my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
-
-    if (!$channel_uri) {
-      $self->log(PLUGIN_NAME, "Could not find schedule for " . $name);
-      next;
-    }
-
-    $browser->get($channel_uri);
-
-    my $content = $browser->content();
-    $content = encode('utf8', $content);
-    if($content !~ /(.*)<div class="program">(.*)/sm) {
-      $self->log("", "");
-      $self->log(PLUGIN_NAME, "ERROR: Schedule for channel '$name' on '$dateString' not found!", " ");
-      last;
-    }
-
-    while($content =~ s/.*?<div class="program">.*?<div class="programL">.*?<strong>(.*?)<\/strong>.*?<span>\((.*?)\)<\/span>.*?<div class="programR">.*?<h4><a title="(.*?)" href="(.*?)" onclick="return opis\('(.*?)', .*?\);">(.*?)<\/a>.*?<\/h4>.*?<p class="opis">(.*?)<\/p>.*?<p class="ekipa">(.*?)<\/p>(.*)/$9/sm) {
-      my $hour    = $1;
-      my $length  = $2;
-      my $title   = $3;
-      my $longUrl = $5;
-      my $description  = $length.", ".$7;
-      my $description2 = $8;
-
-      last if $hour !~ /([0-9]{1,2}:[0-9]{2})/;
-
-      #get full description if available and needed (follows another link so it costs time)
-      if($self->{'plugin_config'}->get('FULL_DESCRIPTION') == 1 && $longUrl !~ //) {
-        $browser->get($longUrl);
-        my $tmp = $browser->content();
-        $description  = $1.", ".$2 if $tmp =~ /.*?<div class="opis">(.*?)<\/div>.*?<p>(.*?)<\/p>/sm;
-        $description2 = $1 if $tmp =~ /.*?<p class="ekipa">(.*?)<\/p>.*/sm;
-      }
-
-      #convert hour to unix timestamp, if it's after midnight, change base date string
-      $dateString = time2str("%Y-%m-%d",time+(60*60*24*($i))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
-      $hour = str2time($dateString." ".$hour);
-
-      #create event
-      my $event = Event->new();
-      $event->set('start', $hour);
-      $event->set('stop', $hour+1);
-      $event->set('title', $title);
-      $event->set('description', $self->clean($description));
-      $event->set('description2', $self->clean($description2));
-
-      #set the previous event stop timestamp
-      my $previous = $#{$events};
-      $events->[$previous]->set('stop',$event->{'start'}) if $previous > -1;
-
-      #put event to the events array
-      push @{$events}, $event;
-    }
-
-    $self->log("", "#", " ");
+    push @{$events}, @{$self->getChannelEventsForDay($name, $i)};
   }
 
 	return $events;
+}
+
+sub getChannelEventsForDay {
+  my $self = shift;
+  my $name = shift;
+  my $day  = shift;
+
+  my $events = (); 
+  my $browser = WWW::Mechanize->new( 'agent' => BROWSER );
+
+  my $dateString  = time2str("%Y-%m-%d", time+(60*60*24*($day-1)));
+  my $channel_uri = $self->findChannelUriByNameAndDate($name, $dateString);
+
+  if (!$channel_uri) {
+    $self->log(PLUGIN_NAME, "Could not find schedule for " . $name);
+
+    return $events;
+  }
+
+  $browser->get($channel_uri);
+
+  my $content = $browser->content();
+  $content = encode('utf8', $content);
+  if($content !~ /(.*)<div class="program">(.*)/sm) {
+    $self->log("", "");
+    $self->log(PLUGIN_NAME, "ERROR: Schedule for channel '$name' on '$dateString' not found!", " ");
+    return $events;
+  }
+
+  while($content =~ s/.*?<div class="program">.*?<div class="programL">.*?<strong>(.*?)<\/strong>.*?<span>\((.*?)\)<\/span>.*?<div class="programR">.*?<h4><a title="(.*?)" href="(.*?)" onclick="return opis\('(.*?)', .*?\);">(.*?)<\/a>.*?<\/h4>.*?<p class="opis">(.*?)<\/p>.*?<p class="ekipa">(.*?)<\/p>(.*)/$9/sm) {
+    my $hour    = $1;
+    my $length  = $2;
+    my $title   = $3;
+    my $longUrl = $5;
+    my $description  = $length.", ".$7;
+    my $description2 = $8;
+
+    return $events if $hour !~ /([0-9]{1,2}:[0-9]{2})/;
+
+    #get full description if available and needed (follows another link so it costs time)
+    if($self->{'plugin_config'}->get('FULL_DESCRIPTION') == 1 && $longUrl !~ //) {
+      $browser->get($longUrl);
+      my $tmp = $browser->content();
+      $description  = $1.", ".$2 if $tmp =~ /.*?<div class="opis">(.*?)<\/div>.*?<p>(.*?)<\/p>/sm;
+      $description2 = $1 if $tmp =~ /.*?<p class="ekipa">(.*?)<\/p>.*/sm;
+    }
+
+    #convert hour to unix timestamp, if it's after midnight, change base date string
+    $dateString = time2str("%Y-%m-%d",time+(60*60*24*($day))) if $hour =~ /0[0-3]{1}:[0-9]{2}/;
+    $hour = str2time($dateString." ".$hour);
+
+    #create event
+    my $event = Event->new();
+    $event->set('start', $hour);
+    $event->set('stop', $hour+1);
+    $event->set('title', $title);
+    $event->set('description', $self->clean($description));
+    $event->set('description2', $self->clean($description2));
+
+    #set the previous event stop timestamp
+    my $previous = $#{$events};
+    $events->[$previous]->set('stop',$event->{'start'}) if $previous > -1;
+
+    #put event to the events array
+    push @{$events}, $event;
+  }
+
+  $self->log("", "#", " ");
+
+  return $events;
 }
 
 sub clean {
