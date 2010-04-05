@@ -1,6 +1,7 @@
 package Interia;
 use constant PLUGIN_NAME => Interia;
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
+use threads;
 use Encode;
 use WWW::Mechanize;
 use Date::Format;
@@ -37,6 +38,7 @@ sub new {
   $self->{'plugin_config'} = ConfigInteria->new('config.xml');
   $self->{'url'}           = 'http://programtv.interia.pl';
   $self->{'channels'}      = {};
+  $self->{'threads'}       = {};
 
   bless( $self, $class );
   return $self;
@@ -47,11 +49,28 @@ sub get {
   my $self = shift;
   my $channels = shift;
 
+  # fetch the channel list before threads are started
+  $self->getChannels();
+
   foreach my $name (keys(%{$channels})) {
     $self->log(PLUGIN_NAME, "Downloading schedule for " . $name, " ");
-    $channels->{$name} = $self->getChannelEvents($name);
+    $self->{'threads'}->{$name} = threads->create('getChannelEvents', $self, $name);
     $self->log("", "");
+
+    if (keys(%{$self->{'threads'}}) >= $self->{'plugin_config'}->{'THREADS'}) {
+      while (my ($channelName, $thread) = each(%{$self->{'threads'}})) {
+        $channels->{$channelName} = $thread->join();
+        delete $self->{'threads'}->{$channelName};
+      }
+      $self->log("", "");
+    }
   }
+
+  while ((my $channelName, my $thread) = each(%{$self->{'threads'}})) {
+    $channels->{$channelName} = $thread->join();
+    delete $self->{'threads'}->{$channelName};
+  }
+  $self->log("", "");
 
   return $channels;
 }

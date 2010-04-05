@@ -29,20 +29,21 @@ Date: may 2006
 =cut
 
 sub new {
-	my $class = shift;
-	my $fileName = shift;
-	
-	my $self = $class->SUPER::new($fileName,'Interia');
+  my $class = shift;
+  my $fileName = shift;
 
-	bless( $self, $class );
-	return $self;
+  my $self = $class->SUPER::new($fileName,'Interia');
+
+  bless( $self, $class );
+  return $self;
 }
 
 sub defaults {
-	return {
-		'DAYS'			=> '1',
-		'FULL_DESCRIPTION' 	=> '0'
-	};
+  return {
+    'DAYS'             => '1',
+    'FULL_DESCRIPTION' => '0',
+    'THREADS'          => '5'
+  };
 }
 
 
