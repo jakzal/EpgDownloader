@@ -144,7 +144,7 @@ sub getChannelEventsForDay {
 
   $browser->get($channel_uri);
 
-  my $content = $browser->content();
+  my $content = encode('utf8', $browser->content());
   if($content !~ s/.*?<table.*?class="channelCont".*?>(.*?)<\/table>/$1/sm) {
     $self->log("","");
     $self->log(
@@ -172,7 +172,7 @@ sub getChannelEventsForDay {
     #get full description if available and needed (follows another link so it costs time)
     if($self->{'plugin_config'}->{'FULL_DESCRIPTION'}== 1 && $fullDescriptionUrl !~ /^$/) {
       $browser->get($fullDescriptionUrl);
-      my $tmp = $browser->content();
+      my $tmp = encode('utf8', $browser->content());
       if($tmp =~ /.*?<p class="articleLead">(.*?)<\/p>.*/sm) {
         $description.= $1;
       }
