@@ -36,6 +36,7 @@ sub new {
   $self->{'config'}        = $config;
   $self->{'plugin_config'} = ConfigWP->new('config.xml');
   $self->{'url'}           = 'http://tv.wp.pl';
+  $self->{'channels'}      = {};
 
   bless( $self, $class );
 
@@ -165,7 +166,7 @@ sub clean {
 sub getChannels {
   my $self = shift;
 
-  if (!$self->{'channels'}) {
+  if (keys %{$self->{'channels'}} < 1) {
     $self->{'channels'} = $self->parseChannelsFromWebsite();
   }
 
