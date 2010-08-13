@@ -3,9 +3,9 @@
 #config
 use constant OUTPUT_FILE => "../channels.xml";
 use constant PLUGIN_NAME => Cyfra;
-use constant LIST_URL => "http://www.cyfraplus.pl/program/abo/?";
+use constant LIST_URL => "http://www.cyfraplus.pl/program/?";
 use constant BROWSER => 'Opera/7.54 (X11; Linux i686; U)';
-use constant TV_GUIDE_URL => "http://www.cyfraplus.pl/program/abo/?";
+use constant TV_GUIDE_URL => "http://www.cyfraplus.pl/program/?";
 
 #include
 use WWW::Mechanize;
@@ -42,11 +42,10 @@ my $res = $m->get(LIST_URL);
 my $export = 1;
 
 my $content = $res->decoded_content();
-$content =~ /<select[^>]*?name\=can\[\][^>]*?>(.*?)<\/select.*>/si;
+$content =~ /<select[^>]*?name\="?can\[\]"?[^>]*?>(.*?)<\/select.*>/si;
 $content = $1;
 open(FILE, ">".OUTPUT_FILE) or die 'file problem';
 binmode FILE, ":utf8";
-
 print FILE "<CHANNELS>\n";
 while ($content =~ s/<option[^>]*?>([^<]+)(.*)/$2/si) {
 	  print FILE "\t<IMPORT NAME=\"".PLUGIN_NAME."\" CHANNEL=\"$1\">\n";
